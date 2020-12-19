@@ -1,0 +1,10 @@
+A,B,Fixed,p-tukey,T,r
+Air,Underwater: Bubble,Glass,0.211,1.95,0.298
+Air,Underwater: Wet,Glass,0.001,10.985,0.846
+Underwater: Bubble,Underwater: Wet,Glass,0.001,5.857,0.774
+Air,Underwater: Bubble,PFOTS,0.9,0.017,0.002
+Air,Underwater: Wet,PFOTS,0.854,0.767,0.085
+Underwater: Bubble,Underwater: Wet,PFOTS,0.9,0.561,0.083
+Glass,PFOTS,Air,0.16,1.405,0.151
+Glass,PFOTS,Underwater: Bubble,0.348,-0.939,-0.192
+Glass,PFOTS,Underwater: Wet,0.001,-8.258,-0.776

@@ -1,0 +1,9 @@
+05 November
+My input is attached, including discussion, experimtal methods and references. There is also a measurement of different parts of the legs, implying the lipid mixture doesn't change between them, but it's irrelevant to the manuscript.
+
+Suggested molecules I sent you separately in a picture. You should ask in AK Muellen for the details of the device.
+
+I started going through your text. I used the source file in overleaf, which is a bit easier to work with than Lyx. I'll send soon the input.
+Generally, I think the strongest point of the manuscript is the fantastic experimental setup and unique experiments with the beetle, and it should come first. The model is nice but similar things have been published before and it should come after the experimental results. It's up to you, of course. 
+
+Fielddesorption   mass   spectra   were   obtained   on   a   VG   Instruments   ZAB   2-SE-FPD   spectrometer.
