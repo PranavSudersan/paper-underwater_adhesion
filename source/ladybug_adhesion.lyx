@@ -157,11 +157,11 @@ butt@mpip-mainz.mpg.de
 \begin_layout Abstract
 Insects like beetles can stick to various surfaces using hairy pads mediated
  by an oily adhesive fluid.
- The pads can even attach underwater, presumably due to an air bubble trapped
- around the pad.
- There is, however, a lack of understanding of the exact role of the bubble
- in underwater adhesion.
- To quantify this, we perform
+ It was previously shown, the pads can even attach underwater, presumably
+ due to an air bubble trapped around the pad.
+ However, the bubble's relative contribution to adhesion via capillary force
+ remains unclear.
+ To investigate the exact role of bubble, in this study, we perform
 \emph on
  in-vivo
 \emph default
@@ -205,14 +205,23 @@ smooth pads
 \begin_inset Quotes erd
 \end_inset
 
- found in ants, stick insects 
+ found in ants
 \begin_inset CommandInset citation
 LatexCommand cite
-key "RN201,RN182"
+key "RN201"
 literal "false"
 
 \end_inset
 
+, stick insects 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN182"
+literal "false"
+
+\end_inset
+
+, etc.
  and 2) 
 \begin_inset Quotes eld
 \end_inset
@@ -221,19 +230,26 @@ hairy pads
 \begin_inset Quotes erd
 \end_inset
 
- seen in flies and geckos 
+ seen in flies 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "RN155,RN202"
+key "RN155"
 literal "false"
 
 \end_inset
 
-.
- The hairy pads' design has many advantages.
- They show: 1) compliance to rough surfaces due to their lower effective
- modulus, 2) angle dependent adhesion due to asymmetric hair geometry and
- 3) self-cleaning capability 
+, geckos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN202"
+literal "false"
+
+\end_inset
+
+ and others.
+ The hairy pads show: 1) compliance to rough surfaces due to their lower
+ effective modulus, 2) angle dependent adhesion due to asymmetric hair geometry
+ and 3) self-cleaning capability 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN20"
@@ -241,7 +257,7 @@ literal "false"
 
 \end_inset
 
-.
+, which makes it suitable to adhere to most surfaces reversibly.
  Many of these insects pads also secrete an adhesive fluid as seen in flies
  and ants 
 \begin_inset CommandInset citation
@@ -307,10 +323,10 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Most terrestrial beetles such as the dock beetle or ladybug have hairy pads
- consisting of a dense array of hair like structures called setae.
- The setae tips have a distribution of geometries such as discoidal, spatula
- or pointed shaped depending on the pad, sex and species
+Terrestrial beetles such as the dock beetle or ladybug have hairy pads consistin
+g of a dense array of hair like structures called setae.
+ The setae tips can be discoidal, spatula or pointed shaped, which are distribut
+ed throughout the pad depending on sex or species
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN19"
@@ -319,7 +335,7 @@ literal "false"
 \end_inset
 
 .
- Single seta force measurements reveal that discoidal shaped seta shows
+ Single seta force measurements revealed that discoidal shaped seta shows
  larger pull-off force than spatula and pointed setae
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -329,7 +345,7 @@ literal "false"
 \end_inset
 
 , illustrating the role of hair geometry in adhesion.
- The tip of each seta secretes approximately 1 femtoliter oily adhesive
+ The tip of each seta secretes approximately one femtoliter oily adhesive
  fluid 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -357,7 +373,8 @@ literal "false"
 \end_inset
 
 .
- A recent study 
+ A recent study by Gernay et.
+ al.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN77"
@@ -376,19 +393,11 @@ wet adhesion
 \end_inset
 
  of beetles.
- 
 \end_layout
 
 \begin_layout Standard
-While most of the studies on insect adhesion have focused on 
-\begin_inset Quotes eld
-\end_inset
-
-terrestrial
-\begin_inset Quotes erd
-\end_inset
-
- conditions in air, animal attachment underwater has been relatively unexplored.
+While most of the studies on insect adhesion are done under natural conditions
+ in air, insect attachment underwater has been relatively unexplored.
  Typically, underwater adhesion is complicated to achieve due to the difficulty
  in displacing the water layer and enable good contact 
 \begin_inset CommandInset citation
@@ -399,11 +408,25 @@ literal "false"
 \end_inset
 
 .
- Regardless, geckos show the remarkable behavior, where its shear adhesion
- force on hydrophobic substrates are similar in both air and underwater
- conditions.
- Interestingly, its adhesion on a fluorinated substrate is larger underwater
- than in air
+ Regardless, a study on leaf beetles 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN87"
+literal "false"
+
+\end_inset
+
+ has revealed that beetles can attach well to surfaces underwater.
+ Its hairy pad traps an air bubble underwater, which dewets the surface
+ on contact.
+ It has been hypothesized that a combination of capillary forces due the
+ air bubble and hair contact within the dewetted area results in attachment.
+ However, a detailed investigation of the bubble's contribution and necessity
+ to adhere to different surfaces is lacking.
+ Geckos are also known to adhere underwater, where its shear adhesion force
+ on hydrophobic substrates are similar in both air and underwater conditions.
+ Interestingly, its adhesion on a fluorinated substrate is even larger underwate
+r than in air
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN15"
@@ -413,7 +436,8 @@ literal "false"
 
 .
  This has been partially explained by a thermodynamic work of adhesion model,
- assuming full displacement of water leading to dry contact of hairs
+ assuming full displacement of water at the interface, leading to dry contact
+ of hairs with the surface
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN199"
@@ -422,34 +446,18 @@ literal "false"
 \end_inset
 
 .
- A study on leaf beetles 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "RN87"
-literal "false"
-
-\end_inset
-
- has also revealed that beetles can attach well to surfaces underwater.
- Its hairy pad traps an air bubble underwater, which dewets the surface
- on contact.
- It has been hypothesized that a combination of capillary forces due the
- air bubble and hair contact within the dewetted area results in attachment.
- However, a detailed investigation of this phenomenon is lacking.
- 
 \end_layout
 
 \begin_layout Standard
-The goal of this paper is to provide a generalized picture of insect adhesion
- in both air and underwater conditions to substrates of different wettability.
- We focus on insects with hairy pads relying on an adhesive fluid for attachment.
+The goal of this paper is to provide a generalized picture of adhesion in
+ insects using hairy pads secreting a fluid for attachment.
  First, we perform adhesion measurements of a single constrained pad of
- a live ladybug beetle in air and underwater conditions.
- The experiments are performed on smooth hydrophilic and hydrophobic glass
- surfaces with a microscopic observation of the contact process.
+ a live ladybug beetle in air and underwater conditions on smooth hydrophilic
+ and hydrophobic glass surfaces, with a microscopic observation of the contact
+ process.
  Second, we develop a simple theoretical model considering capillary forces
  to predict the net adhesion force of a hairy pad under different conditions.
- Finally, we discuss key insights gained from our model and experiments
+ Finally, we discuss key insights gained from our experiments and model
  as well as possible implications in understanding adhesion in other animals.
 \end_layout
 
@@ -459,42 +467,112 @@ Experimental
 
 \begin_layout Standard
 Normal adhesion force measurements on a restrained leg of a live ladybug
- beetle are performed.
+ beetle were performed.
  We characterize adhesion by the pull-off force during detachment.
- Measurements are done against smooth glass and fluorinated surface to represent
- hydrophilic and hydrophobic substrates respectively.
- In underwater conditions, measurements are done both in the presence and
- absence of trapped bubble to investigate the bubble's role in underwater
- adhesion.
- The three possible contact types are thus labeled as: 1) 
-\begin_inset Quotes eld
+ Measurements were done against smooth glass and fluorinated surfaces to
+ represent hydrophilic and hydrophobic substrates respectively.
+ When no water is present, we labeled the contact type as "
+\emph on
+In-Air
+\emph default
+".
+ For the underwater conditions, measurements were done both in the presence
+ and absence of a trapped bubble ("
+\emph on
+Underwater: bubble
+\emph default
+" and "
+\emph on
+Underwater: no bubble
+\emph default
+", respectively) to investigate the bubble's role in underwater adhesion.
+ Adhesion force for each of the labeled contact types are compared for both
+ substrates.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: change labels in plots
+\end_layout
+
 \end_inset
 
-Air
-\begin_inset Quotes erd
-\end_inset
 
-, 2) 
-\begin_inset Quotes eld
-\end_inset
-
-Underwater: Wet
-\begin_inset Quotes erd
-\end_inset
-
- and 3) 
-\begin_inset Quotes eld
-\end_inset
-
-Underwater: Bubble
-\begin_inset Quotes erd
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Subsection
 Material and Methods
+\end_layout
+
+\begin_layout Subsubsection
+Specimen preparation
+\end_layout
+
+\begin_layout Standard
+Seven-spotted adult ladybug beetles (
+\emph on
+Coccinella septempuctata
+\emph default
+) purchased from Katz Biotech (Baruth, Germany) were used for adhesion tests.
+ The beetles were housed in a plastic box filled with leaves, twigs and
+ stones under at room temperature and 60-80% relative humidity with daily
+ access to sunlight.
+ The beetles were fed with raisins, honey and water
+\emph on
+ ad libitum
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Experiments were done on male beetles.
+ Each leg of the beetle has a pair of hairy pads covered with mostly discoidal
+ shaped setae, capable of strong adhesion.
+ For the test, we only allow the distal-end pad to make contact.
+ The beetle's leg was constrained similar to the method described by Bullock
+ et al 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN19"
+literal "false"
+
+\end_inset
+
+.
+ A steel ball fixed with a piece of thick solder wire serves as a rota-table
+ holder to fix the beetle and align its leg (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Setup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ The beetle was first anesthetized using CO
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ sublimating from a piece of dry ice and glued to the steel ball on its
+ back.
+ Its front left leg was carefully fixed to the solder wire using Blue-Tac.
+ Its claws were fixed using epoxy glue to prevent any wiggling.
+ The leg was aligned such that only the distal pad of its leg can make contact.
+ A small piece of non-sticky Teflon tape helped to keep its other legs tucked
+ close to the body to minimize interference during the measurements.
+\end_layout
+
+\begin_layout Standard
+After measurements, the beetle was freed by carefully removing the epoxy
+ glue and Blue-Tac without harming it using a pair of tweezers and set free.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1004,66 +1082,6 @@ Harmonia axyridis
 \end_layout
 
 \begin_layout Subsubsection
-Specimen preparation
-\end_layout
-
-\begin_layout Standard
-Seven-spotted adult ladybug beetles (
-\emph on
-Coccinella septempuctata
-\emph default
-) purchased from Katz Biotech (Baruth, Germany) were used for adhesion tests.
- The beetles were housed in a plastic box filled with leaves, twigs and
- stones under at room temperature and 60-80% relative humidity with daily
- access to sunlight.
- The beetles were fed with raisins, honey and water
-\emph on
- ad libitum
-\emph default
-.
- 
-\end_layout
-
-\begin_layout Standard
-Experiments were done on male beetles since their adhesive pads possess
- discoidal shaped setae capable of strong adhesion.
- For the test, the beetle's leg was constrained similar to the method described
- by Bullock et al 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "RN19"
-literal "false"
-
-\end_inset
-
-.
- A steel ball fixed with a piece of thick solder wire was used as a holder
- to fix and constrain the beetle and its leg (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Setup"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
- The beetle was first anesthetized using dry ice and glued to the steel
- ball on its back.
- Its front left leg was carefully fixed to the solder wire using Blue-Tac.
- Its claw was fixed using epoxy glue to prevent any wiggling.
- The leg was aligned such that only the distal pad of its leg can make contact.
- Teflon tape was used like a blanket to wrap around the rest of its body
- to prevent interference by its other legs.
-\end_layout
-
-\begin_layout Standard
-After measurements, the beetle was freed by carefully removing the epoxy
- glue and Blue-Tac without harming it using a pair of tweezers and set free.
-\end_layout
-
-\begin_layout Subsubsection
 Adhesion test
 \end_layout
 
@@ -1081,23 +1099,25 @@ noprefix "false"
 
 ).
  A fiber optic displacement sensor (Philtec D20, PHILTEC, Inc.
- USA) together with a steel bending beam constitutes the vertical force
- sensor.
+ USA) together with a steel bending beam (spring constant = 0.1 N/m
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+check value!
+\end_layout
+
+\end_inset
+
+) constitutes the vertical force sensor.
  Beam deflection was calibrated using 4 different known weights to get the
  corresponding force.
  A plastic 3D printed substrate holder was glued to the end of the bending
  beam.
  The holder was designed to allow switching from one substrate to another
  without removing any glue.
- Its 
-\begin_inset Quotes eld
-\end_inset
-
-tank
-\begin_inset Quotes erd
-\end_inset
-
- like design also allows it to be filled with water for underwater tests.
+ It also had transparent side walls which allowed us to fill it with water
+ for the underwater experiments.
  The sensor was mounted on a stage consisting of a X-piezo used for precise
  lateral movements, XYZ motors for coarse movements and goniometer for adjusting
  substrate alignment with the optics.
@@ -1109,6 +1129,8 @@ tank
  stereo-microscope with 1x objective (Wild Heerbrugg) fit with cameras are
  used to record the sample contact with the substrate from bottom and side
  views respectively.
+ Pad contact area was visualized in total reflection mode by the bottom
+ view camera.
  The data acquisition from the force sensor and cameras together with an
  appropriate piezo motion steps are synchronized using a custom LABVIEW
  program.
@@ -1145,18 +1167,10 @@ literal "false"
 
 .
  An additional 10 μm compression step (approach) was done to ensure all
- hairs are loaded and make good contact with the surface.
- A 1 second 
-\begin_inset Quotes eld
-\end_inset
-
-Pause
-\begin_inset Quotes erd
-\end_inset
-
- step was done to minimize any viscoelastic effects before finally retracting
- the leg away from the substrate.
- All approach, retract and sliding motion was done at a speed of 62.5 μm/s.
+ hairs are loaded in compression and make good contact with the surface.
+ A short pause (1 s) was introduced to minimize any viscoelastic effects
+ before finally retracting the leg away from the substrate.
+ All approach, retract and lateral slide was done at a speed of 62.5 μm/s.
  Bottom view video recordings were used for contact area extraction while
  the side view imaging is used only to visually aid orienting the pad with
  the substrate before a test.
@@ -1170,12 +1184,12 @@ noprefix "false"
 
 \end_inset
 
- shows a typical measurement data where recorded force is plotted as a function
- of time along with the observed pad contact area extracted via image processing.
+ shows a typical measurement recording, where force and contact area are
+ plotted as a function of time.
 \end_layout
 
 \begin_layout Standard
-For underwater experiments, 1 ml deionized water was poured into the substrate
+For underwater experiments, 1 ml deionized water was pipetted into the substrate
  holder.
  In order to achieve an underwater 
 \begin_inset Quotes eld
@@ -1190,11 +1204,12 @@ wet
 \end_layout
 
 \begin_layout Standard
-10 contact measurements were done on the same spot of the surface to equilibriat
-e the pad system.
- 5 measurements were subsequently performed on a fresh spot of the substrate
- for each type of contact and were used for data analysis.
- Experiments were repeated with 5 distinct beetles for each type of contact.
+Before experiment, the pad was repeatedly brought into contact with the
+ surface 10 times to equilibriate the pad system.
+ 5 force measurements were subsequently performed on a fresh spot of the
+ substrate and averaged for data analysis.
+ Experiments were repeated with 5 individual beetles for each type of contact
+ and substrate.
  In total, 30 beetles were tested.
  
 \begin_inset Note Note
@@ -1240,6 +1255,16 @@ a) Adhesion test setup b) Representative force data and contact area of
  distal pad for a typical measurement.
  Shaded regions represent distinct motion steps.
  Minimum peak value during final retract step is taken as adhesion force.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+make plot bigger
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1830,7 +1855,7 @@ name "tab:Molecular-distribution-of"
 \end_layout
 
 \begin_layout Subsubsection
-Adhesion test
+Adhesion measurements
 \end_layout
 
 \begin_layout Standard
@@ -1846,8 +1871,17 @@ noprefix "false"
 \end_inset
 
 ).
- In air, there is only a small difference in the median adhesion force on
- glass and PFOTS.
+ In air, there is only a small difference
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+stats? and also give average values
+\end_layout
+
+\end_inset
+
+ in the median adhesion force on glass and PFOTS.
  The small difference can be attributed to the higher receding contact angle
  of oil in PFOTS when compared to glass (Table 
 \begin_inset CommandInset ref
