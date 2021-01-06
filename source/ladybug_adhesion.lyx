@@ -1099,17 +1099,8 @@ noprefix "false"
 
 ).
  A fiber optic displacement sensor (Philtec D20, PHILTEC, Inc.
- USA) together with a steel bending beam (spring constant = 0.1 N/m
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-check value!
-\end_layout
-
-\end_inset
-
-) constitutes the vertical force sensor.
+ USA) together with a steel bending beam (spring constant = 68.1 N/m) constitutes
+ the vertical force sensor.
  Beam deflection was calibrated using 4 different known weights to get the
  corresponding force.
  A plastic 3D printed substrate holder was glued to the end of the bending
@@ -1240,8 +1231,8 @@ name "fig:Setup"
 
 \end_inset
 
-a) Adhesion test setup b) Representative force data and contact area of
- distal pad for a typical measurement.
+ Adhesion test setup.
+ Representative force data and contact area of distal pad is also shown.
  Shaded regions represent distinct motion steps.
  Minimum peak value during final retract step is taken as adhesion force.
 \begin_inset Note Note
@@ -2526,7 +2517,11 @@ Single leg adhesion force measurements of ladybug beetle on glass and PFOTS
 \begin_inset Quotes eld
 \end_inset
 
-Bubble
+
+\emph on
+bubble
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -2534,7 +2529,11 @@ Bubble
 \begin_inset Quotes eld
 \end_inset
 
-Wet
+
+\emph on
+no bubble
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -2542,12 +2541,15 @@ Wet
 \begin_inset Quotes eld
 \end_inset
 
-Bad Contact
+
+\emph on
+bad contact
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
 .
- Insets show bottom view images of the corresponding contact types.
  Stars represent theoretical predictions of adhesion force calculated from
  Capillary Bridge Model, where hair diameter = 4 μm, pad diameter = 200
  μm, hair height = 40 μm, N
@@ -2746,7 +2748,8 @@ p
 
 \end_inset
 
- acting as support for an array rigid cylindrical hairs with diameters D
+ acting as support for an array N rigid cylindrical hairs with diameters
+ D
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -2760,29 +2763,19 @@ h
  with the substrate.
  This hairy pad makes contact with a substrate in three ways: a) 
 \emph on
-Air
+In air
 \emph default
 , where the adhesive fluid bridges are surrounded by air; b) 
 \emph on
-Underwater: Wet
+Underwater: no bubble
 \emph default
 , where the adhesive fluid bridges are fully surrounded by water; c)
 \emph on
- Underwater: Bubble
+ Underwater: bubble
 \emph default
 , where part of the adhesive fluid bridges are inside the bubble while others
  are outside in water.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-include bottom view images here
-\end_layout
-
-\end_inset
-
-
+ The corresponding contact images of the beetle's pad are shown on the right.
 \end_layout
 
 \end_inset
@@ -3086,7 +3079,7 @@ water
 \end_layout
 
 \begin_layout Standard
-Here, θ
+Here, 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -3095,7 +3088,7 @@ fw
 
 \end_inset
 
-and θ
+and 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -3105,7 +3098,7 @@ fa
 \end_inset
 
 are the contact angles of the adhesive fluid with the substrate in water
- and air respectively, θ
+ and air respectively, 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -3175,7 +3168,11 @@ f
 \end_inset
 
 .
- 
+ Non dimensional bubble volume, 
+\begin_inset Formula $\hat{V}_{b}=V_{b}/s_{f}^{3}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3192,7 +3189,7 @@ noprefix "false"
 
 .
  We consider representative hydrophilic and hydrophobic substrates with
- θ
+ 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -3201,7 +3198,7 @@ fa
 
 \end_inset
 
-and θ
+and 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -3827,16 +3824,8 @@ ce curve plotted as a function of contact angle with the substrate, shown
  in red (circles).
  Laplace and surface tension contributions to the net total adhesion force
  are shown in yellow (cross) and green (squares) respectively.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-put simulation snapshots
-\end_layout
-
-\end_inset
-
-
+ Simulation snapshots of liquid meniscus corresponding to angles 6° and
+ 150° are depicted.
 \end_layout
 
 \end_inset
@@ -4161,7 +4150,7 @@ h
 
 \end_inset
 
-) and bubble size parameter ( ϕ
+) and bubble volume (V
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -4171,6 +4160,16 @@ b
 \end_inset
 
 ) are kept fixed.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+express Vb as Vb hat everywhere
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4415,7 +4414,7 @@ h
 \begin_inset Quotes eld
 \end_inset
 
-Underwater: Bubble
+Underwater: bubble
 \begin_inset Quotes erd
 \end_inset
 
@@ -4537,13 +4536,8 @@ Capillary Bridge Model: Effect of bubble volume
 \end_layout
 
 \begin_layout Standard
-The effect of varying bubble volume (V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+The effect of varying bubble volume (non-dimensionalized as
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
 ) on the net adhesion force of the underwater 
@@ -4578,13 +4572,8 @@ noprefix "false"
 
 , we know that on the hydrophilic substrate, fluid bridges outside the bubble
  has negligible contribution due to its positive curvature.
- Thus, decreasing V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ Thus, decreasing 
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
  decreases adhesion force due to the larger proportion of hairs outside
@@ -4620,36 +4609,20 @@ name "fig:Effect-of-bubble"
 \end_inset
 
 Normalized adhesion force of a hairy pad system as a function of bubble
- size parameter ( ϕ
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ volume (
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
 ) for 
 \begin_inset Quotes eld
 \end_inset
 
-Underwater: Bubble
+Underwater: bubble
 \begin_inset Quotes erd
 \end_inset
 
- contact type (red).
+ contact type.
  Negative value represents attractive force.
- Higher ϕ
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
-\end_inset
-
- value implies a smaller bubble size.
- Bubble's contribution to the net adhesion is shown in blue.
  Here, pad to hair size ratio (D
 \begin_inset script subscript
 
@@ -4671,16 +4644,6 @@ h
 ) is kept fixed.
  Adhesion forces are calculated from minima of the respective force-distance
  curves.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-define non dimensional Vb hat
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -4692,35 +4655,20 @@ define non dimensional Vb hat
 
 Bubble's capillary contribution to the net adhesion force is small regardless
  of its size.
- We see that a smaller V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ We see that a smaller 
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
  results in increased attraction by the bubble in both types of substrates.
- For larger values of V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ For larger values of 
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
 , force trend for the whole pad mostly follows that of the bubble, because
  the bubble in this case is big enough to entrap all hairs inside it.
  Thus, the force contribution due to the fluid bridges remains unchanged
- while the bubble's contribution increases slightly as V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ while the bubble's contribution increases slightly as 
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
  increases.
@@ -4924,7 +4872,7 @@ name "fig:Oil-contact-images"
 \end_inset
 
 Simulation snapshots of oil capillary meniscus in contact with glass and
- PFOTS in air and underwater conditions
+ PFOTS in air and underwater conditions.
 \end_layout
 
 \end_inset
@@ -5230,7 +5178,7 @@ literal "false"
  chemistry in controlling insect adhesion.
  Future work will explore how roughness can impact the net capillary force
  as predicted by our model.
- Our study can have potential applications in the design of bioinspired
+ Our study can have potential applications in the design of bio-inspired
  materials to achieve adhesion via capillary bridges.
  Bubble can be possibly be used to control underwater adhesion by changing
  the relative proportion of the arrays inside and outside the bubble.
@@ -5260,8 +5208,8 @@ Our study illustrates that ladybug relies primarily on its oily adhesive
  Insect adhesion is correlated directly to the shape of the adhesive fluid
  on a given substrate and medium, which is a result of the small fluid volume
  and its contact angle with the substrate.
- A similar argument can also consistently explain previously reported measuremen
-ts in geckos 
+ A similar argument also explains previously reported measurements in geckos
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN15"
@@ -5269,7 +5217,7 @@ literal "false"
 
 \end_inset
 
-, which highlights the possibility of capillary contributions to gecko adhesion
+, which highlights the possibility of capillary contributions to gecko adhesion.
 \end_layout
 
 \begin_layout Section
@@ -5366,9 +5314,9 @@ literal "false"
  V is defined as the initial condition with an interfacial tension γ with
  the surrounding medium.
  Interfacial tension of the capillary bridge with the substrate is given
- by γcosθ, where θ is the corresponding contact angle inside the bridge.
- For the case of a bubble meniscus, θ is defined w.r.t.
- the surrounding water since θ can also then characterize the substrate
+ by γcos𝜃, where 𝜃 is the corresponding contact angle inside the bridge.
+ For the case of a bubble meniscus, 𝜃 is defined w.r.t.
+ the surrounding water since 𝜃 can also then characterize the substrate
  wettability.
  The capillary bridge spans a gap distance d between the top face and the
  substrate.
@@ -5438,7 +5386,7 @@ bottom
 \begin_layout Standard
 The gap distance d is varied by fixed steps and the capillary force is calculate
 d each time to obtain force-distance curves for a particular choice of D
- and θ.
+ and 𝜃.
  
 \end_layout
 
@@ -5536,7 +5484,7 @@ h
 \begin_inset Quotes eld
 \end_inset
 
-Underwater: Bubble
+Underwater: bubble
 \begin_inset Quotes erd
 \end_inset
 
