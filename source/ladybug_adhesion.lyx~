@@ -130,7 +130,7 @@ Bat-El Pinchasik
 \end_layout
 
 \begin_layout Affiliation
-Tel Aviv University, Tel Aviv-Yafo, Israel
+School of Mechanical Engineering, Tel Aviv University, Tel Aviv-Yafo, Israel
 \end_layout
 
 \begin_layout Author
@@ -492,7 +492,7 @@ Underwater: no bubble
 status open
 
 \begin_layout Plain Layout
-TODO: change labels in plots
+check labels throughout text
 \end_layout
 
 \end_inset
@@ -1211,17 +1211,6 @@ Before experiment, the pad was repeatedly brought into contact with the
  Experiments were repeated with 5 individual beetles for each type of contact
  and substrate.
  In total, 30 beetles were tested.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-check if averaging data is a good idea
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1255,6 +1244,16 @@ a) Adhesion test setup b) Representative force data and contact area of
  distal pad for a typical measurement.
  Shaded regions represent distinct motion steps.
  Minimum peak value during final retract step is taken as adhesion force.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+make plot bigger
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1315,12 +1314,11 @@ For measurements in air, pull-off force is defined as the minimum negative
 \end_layout
 
 \begin_layout Standard
-Data sets are compared for statistical deviations using pairwise Tukey t-test
- and their corresponding effect sizes are compared using Pearson correlation
- coefficients.
- Shapiro-Wilk test was done for each data sets to verify normal distribution
- of its residuals and Levene's test was done to check equality of the respective
- variances, thus validating the assumptions involved in the Tukey test.
+Data sets are compared for statistical differences using pairwise t-test
+ and their corresponding p-value and CLES effect sizes are reported.
+ Shapiro-Wilk test was done for each data set to verify a normal distribution
+ of its residuals and Levene's test was done to check for variance homogeneity,
+ to validate the t-test assumptions.
 \end_layout
 
 \begin_layout Subsection
@@ -1860,37 +1858,7 @@ noprefix "false"
 
 \end_inset
 
-).
- In air, there is only a small difference
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-stats? and also give average values
-\end_layout
-
-\end_inset
-
- in the median adhesion force on glass and PFOTS.
- The small difference can be attributed to the higher receding contact angle
- of oil in PFOTS when compared to glass (Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Contact-Angles"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
- In underwater, a larger difference is seen in the forces between glass
- and PFOTS for a wet contact.
- On glass, very small adhesion is recorded, while on PFOTS, the adhesion
- is close to that in air.
- For a bubble contact, both glass and PFOTS show similar adhesion.
- Statistical significance values for comparison of the different contact
- types (Table 
+ and Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Statistical-analysis"
@@ -1900,7 +1868,20 @@ noprefix "false"
 
 \end_inset
 
-) support the above conclusions.
+).
+ In air, there is no significant difference in the adhesion force between
+ glass and PFOTS substrate (p = 0.959).
+ Underwater however, adhesion on a PFOTS surface is significantly larger
+ than on glass, for either with (p = 0.011) or without (p < 0.001) a trapped
+ bubble.
+ On PFOTS, there is no significant difference in the adhesion force in air
+ or underwater conditions.
+ But on glass, adhesion in air is significantly larger than underwater in
+ the presence (p = 0.002) or absence (p < 0.011) of the bubble.
+ At the same, we see that the presence of bubble results in a higher adhesion
+ force than with no bubble (CLES = 0.84), although the difference is not
+ statistically significant (p = 0.07).
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1924,6 +1905,15 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+Fixed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 A
 \end_layout
 
@@ -1942,25 +1932,16 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
-Fixed
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-tukey
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p-value
 \end_layout
 
 \end_inset
@@ -1969,7 +1950,7 @@ T
 \begin_inset Text
 
 \begin_layout Plain Layout
-r
+CLES
 \end_layout
 
 \end_inset
@@ -1980,184 +1961,7 @@ r
 \begin_inset Text
 
 \begin_layout Plain Layout
-Air
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Bubble
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Glass
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.211
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.298
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Air
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Wet
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Glass
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.001
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10.985
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.846
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Bubble
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Wet
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Glass
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.001
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.857
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.774
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Air
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Bubble
+In air
 \end_layout
 
 \end_inset
@@ -2175,7 +1979,7 @@ PFOTS
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.9
+Glass
 \end_layout
 
 \end_inset
@@ -2184,12 +1988,348 @@ PFOTS
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.017
+-0.053
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.959
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.48
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PFOTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Glass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.292
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.96
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: no bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PFOTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Glass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.044
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+< 0.001
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PFOTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+In air
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.133
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.897
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.48
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PFOTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+In air
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: no bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.224
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.828
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.48
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PFOTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: no bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.37
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.721
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.44
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Glass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+In air
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.688
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2198,114 +2338,11 @@ PFOTS
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Air
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Wet
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PFOTS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.854
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.767
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.085
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Bubble
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Wet
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PFOTS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.561
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.083
+1.0
 \end_layout
 
 \end_inset
@@ -2325,7 +2362,7 @@ Glass
 \begin_inset Text
 
 \begin_layout Plain Layout
-PFOTS
+In air
 \end_layout
 
 \end_inset
@@ -2334,7 +2371,7 @@ PFOTS
 \begin_inset Text
 
 \begin_layout Plain Layout
-Air
+Underwater: no bubble
 \end_layout
 
 \end_inset
@@ -2343,7 +2380,7 @@ Air
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.16
+11.341
 \end_layout
 
 \end_inset
@@ -2352,7 +2389,7 @@ Air
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.405
+< 0.001
 \end_layout
 
 \end_inset
@@ -2361,63 +2398,7 @@ Air
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.151
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Glass
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PFOTS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Bubble
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.348
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.939
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.192
+1.0
 \end_layout
 
 \end_inset
@@ -2437,7 +2418,7 @@ Glass
 \begin_inset Text
 
 \begin_layout Plain Layout
-PFOTS
+Underwater: bubble
 \end_layout
 
 \end_inset
@@ -2446,7 +2427,7 @@ PFOTS
 \begin_inset Text
 
 \begin_layout Plain Layout
-Underwater: Wet
+Underwater: no bubble
 \end_layout
 
 \end_inset
@@ -2455,7 +2436,7 @@ Underwater: Wet
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.001
+2.086
 \end_layout
 
 \end_inset
@@ -2464,7 +2445,7 @@ Underwater: Wet
 \begin_inset Text
 
 \begin_layout Plain Layout
--8.258
+0.07
 \end_layout
 
 \end_inset
@@ -2473,7 +2454,7 @@ Underwater: Wet
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.776
+0.84
 \end_layout
 
 \end_inset
@@ -2490,10 +2471,12 @@ Underwater: Wet
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Statistical analysis of adhesion force.
- p-value and T are obtained from pair-wise Tukey test between A and B while
- keeping the third parameter fixed.
- r values represent the corresponding Pearson correlation coefficient
+Pairwise statistical comparison of adhesion force for each contact type
+ and substrate.
+ T statistic, p-value and Common Language Effect Size (CLES) are obtained
+ from post-hoc pair-wise t-test between A and B while keeping the third
+ parameter fixed.
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Statistical-analysis"
@@ -2501,17 +2484,6 @@ name "tab:Statistical-analysis"
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Update this.
- Include ANOVA results as well
 \end_layout
 
 \end_inset
@@ -2701,13 +2673,13 @@ f
  The fluid is assumed to be pinned to the circumference of the hair and
  forms a capillary bridge of height d with the substrate.
  In order to model the contact in both air and underwater conditions, we
- consider three types of contacts:
+ consider three types of contacts as seen in our experiments with the beetle:
 \end_layout
 
 \begin_layout Enumerate
 
 \emph on
-Air contact
+In air
 \emph default
  - All hairs and fluid bridges are surrounded by air
 \end_layout
@@ -2715,7 +2687,7 @@ Air contact
 \begin_layout Enumerate
 
 \emph on
-Underwater: Wet contact
+Underwater: no bubble
 \emph default
  - All hairs and fluid bridges are surrounded by water
 \end_layout
@@ -2723,7 +2695,7 @@ Underwater: Wet contact
 \begin_layout Enumerate
 
 \emph on
-Underwater: Bubble contact
+Underwater: bubble
 \emph default
  - A bubble of volume V
 \begin_inset script subscript
@@ -2801,6 +2773,16 @@ Underwater: Wet
 , where part of the adhesive fluid bridges are inside the bubble while others
  are outside in water.
  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+include bottom view images here
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3005,7 +2987,7 @@ out
 
 \end_inset
 
-are the number of hairs inside and outside the bubble respectively.
+ are the number of hairs inside and outside the bubble respectively.
  f
 \begin_inset script subscript
 
@@ -3849,7 +3831,7 @@ ce curve plotted as a function of contact angle with the substrate, shown
 status open
 
 \begin_layout Plain Layout
-use sf instead of s in all plots
+put simulation snapshots
 \end_layout
 
 \end_inset
@@ -4188,33 +4170,7 @@ b
 
 \end_inset
 
-) are kept fixed
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-replace headings with 
-\begin_inset Quotes eld
-\end_inset
-
-hydrophilic
-\begin_inset Quotes erd
-\end_inset
-
-/
-\begin_inset Quotes erd
-\end_inset
-
-hydrophobic
-\begin_inset Quotes erd
-\end_inset
-
- in all plots
-\end_layout
-
-\end_inset
-
-
+) are kept fixed.
 \end_layout
 
 \end_inset
@@ -4719,7 +4675,7 @@ h
 status open
 
 \begin_layout Plain Layout
-Change 'underwater: bubble' to whole pad
+define non dimensional Vb hat
 \end_layout
 
 \end_inset
@@ -4805,18 +4761,6 @@ wet
  In either case, the bubble by itself hardly contributes to the net force.
  Despite its large size, the bubble fails to overcome the combined contribution
  of the much smaller fluid bridges to the total force.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-change contact angle to hydrophilic and hydrophobic.
- change label of underwater:bubble contact to total force and bubble contributio
-n.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -5509,7 +5453,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename FigureS1-Effect of fluid volume.svg
+	filename FigureS1-Effect_of_fluid_volume.svg
 
 \end_inset
 
