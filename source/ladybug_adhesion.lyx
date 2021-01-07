@@ -130,7 +130,7 @@ Bat-El Pinchasik
 \end_layout
 
 \begin_layout Affiliation
-Tel Aviv University, Tel Aviv-Yafo, Israel
+School of Mechanical Engineering, Tel Aviv University, Tel Aviv-Yafo, Israel
 \end_layout
 
 \begin_layout Author
@@ -157,11 +157,11 @@ butt@mpip-mainz.mpg.de
 \begin_layout Abstract
 Insects like beetles can stick to various surfaces using hairy pads mediated
  by an oily adhesive fluid.
- The pads can even attach underwater, presumably due to an air bubble trapped
- around the pad.
- There is, however, a lack of understanding of the exact role of the bubble
- in underwater adhesion.
- To quantify this, we perform
+ It was previously shown, the pads can even attach underwater, presumably
+ due to an air bubble trapped around the pad.
+ However, the bubble's relative contribution to adhesion via capillary force
+ remains unclear.
+ To investigate the exact role of bubble, in this study, we perform
 \emph on
  in-vivo
 \emph default
@@ -205,14 +205,23 @@ smooth pads
 \begin_inset Quotes erd
 \end_inset
 
- found in ants, stick insects 
+ found in ants
 \begin_inset CommandInset citation
 LatexCommand cite
-key "RN201,RN182"
+key "RN201"
 literal "false"
 
 \end_inset
 
+, stick insects 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN182"
+literal "false"
+
+\end_inset
+
+, etc.
  and 2) 
 \begin_inset Quotes eld
 \end_inset
@@ -221,19 +230,26 @@ hairy pads
 \begin_inset Quotes erd
 \end_inset
 
- seen in flies and geckos 
+ seen in flies 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "RN155,RN202"
+key "RN155"
 literal "false"
 
 \end_inset
 
-.
- The hairy pads' design has many advantages.
- They show: 1) compliance to rough surfaces due to their lower effective
- modulus, 2) angle dependent adhesion due to asymmetric hair geometry and
- 3) self-cleaning capability 
+, geckos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN202"
+literal "false"
+
+\end_inset
+
+ and others.
+ The hairy pads show: 1) compliance to rough surfaces due to their lower
+ effective modulus, 2) angle dependent adhesion due to asymmetric hair geometry
+ and 3) self-cleaning capability 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN20"
@@ -241,7 +257,7 @@ literal "false"
 
 \end_inset
 
-.
+, which makes it suitable to adhere to most surfaces reversibly.
  Many of these insects pads also secrete an adhesive fluid as seen in flies
  and ants 
 \begin_inset CommandInset citation
@@ -307,10 +323,10 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Most terrestrial beetles such as the dock beetle or ladybug have hairy pads
- consisting of a dense array of hair like structures called setae.
- The setae tips have a distribution of geometries such as discoidal, spatula
- or pointed shaped depending on the pad, sex and species
+Terrestrial beetles such as the dock beetle or ladybug have hairy pads consistin
+g of a dense array of hair like structures called setae.
+ The setae tips can be discoidal, spatula or pointed shaped, which are distribut
+ed throughout the pad depending on sex or species
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN19"
@@ -319,7 +335,7 @@ literal "false"
 \end_inset
 
 .
- Single seta force measurements reveal that discoidal shaped seta shows
+ Single seta force measurements revealed that discoidal shaped seta shows
  larger pull-off force than spatula and pointed setae
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -329,7 +345,7 @@ literal "false"
 \end_inset
 
 , illustrating the role of hair geometry in adhesion.
- The tip of each seta secretes approximately 1 femtoliter oily adhesive
+ The tip of each seta secretes approximately one femtoliter oily adhesive
  fluid 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -357,7 +373,8 @@ literal "false"
 \end_inset
 
 .
- A recent study 
+ A recent study by Gernay et.
+ al.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN77"
@@ -376,19 +393,11 @@ wet adhesion
 \end_inset
 
  of beetles.
- 
 \end_layout
 
 \begin_layout Standard
-While most of the studies on insect adhesion have focused on 
-\begin_inset Quotes eld
-\end_inset
-
-terrestrial
-\begin_inset Quotes erd
-\end_inset
-
- conditions in air, animal attachment underwater has been relatively unexplored.
+While most of the studies on insect adhesion are done under natural conditions
+ in air, insect attachment underwater has been relatively unexplored.
  Typically, underwater adhesion is complicated to achieve due to the difficulty
  in displacing the water layer and enable good contact 
 \begin_inset CommandInset citation
@@ -399,11 +408,25 @@ literal "false"
 \end_inset
 
 .
- Regardless, geckos show the remarkable behavior, where its shear adhesion
- force on hydrophobic substrates are similar in both air and underwater
- conditions.
- Interestingly, its adhesion on a fluorinated substrate is larger underwater
- than in air
+ Regardless, a study on leaf beetles 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN87"
+literal "false"
+
+\end_inset
+
+ has revealed that beetles can attach well to surfaces underwater.
+ Its hairy pad traps an air bubble underwater, which dewets the surface
+ on contact.
+ It has been hypothesized that a combination of capillary forces due the
+ air bubble and hair contact within the dewetted area results in attachment.
+ However, a detailed investigation of the bubble's contribution and necessity
+ to adhere to different surfaces is lacking.
+ Geckos are also known to adhere underwater, where its shear adhesion force
+ on hydrophobic substrates are similar in both air and underwater conditions.
+ Interestingly, its adhesion on a fluorinated substrate is even larger underwate
+r than in air
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN15"
@@ -413,7 +436,8 @@ literal "false"
 
 .
  This has been partially explained by a thermodynamic work of adhesion model,
- assuming full displacement of water leading to dry contact of hairs
+ assuming full displacement of water at the interface, leading to dry contact
+ of hairs with the surface
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN199"
@@ -422,34 +446,18 @@ literal "false"
 \end_inset
 
 .
- A study on leaf beetles 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "RN87"
-literal "false"
-
-\end_inset
-
- has also revealed that beetles can attach well to surfaces underwater.
- Its hairy pad traps an air bubble underwater, which dewets the surface
- on contact.
- It has been hypothesized that a combination of capillary forces due the
- air bubble and hair contact within the dewetted area results in attachment.
- However, a detailed investigation of this phenomenon is lacking.
- 
 \end_layout
 
 \begin_layout Standard
-The goal of this paper is to provide a generalized picture of insect adhesion
- in both air and underwater conditions to substrates of different wettability.
- We focus on insects with hairy pads relying on an adhesive fluid for attachment.
+The goal of this paper is to provide a generalized picture of adhesion in
+ insects using hairy pads secreting a fluid for attachment.
  First, we perform adhesion measurements of a single constrained pad of
- a live ladybug beetle in air and underwater conditions.
- The experiments are performed on smooth hydrophilic and hydrophobic glass
- surfaces with a microscopic observation of the contact process.
+ a live ladybug beetle in air and underwater conditions on smooth hydrophilic
+ and hydrophobic glass surfaces, with a microscopic observation of the contact
+ process.
  Second, we develop a simple theoretical model considering capillary forces
  to predict the net adhesion force of a hairy pad under different conditions.
- Finally, we discuss key insights gained from our model and experiments
+ Finally, we discuss key insights gained from our experiments and model
  as well as possible implications in understanding adhesion in other animals.
 \end_layout
 
@@ -459,42 +467,112 @@ Experimental
 
 \begin_layout Standard
 Normal adhesion force measurements on a restrained leg of a live ladybug
- beetle are performed.
+ beetle were performed.
  We characterize adhesion by the pull-off force during detachment.
- Measurements are done against smooth glass and fluorinated surface to represent
- hydrophilic and hydrophobic substrates respectively.
- In underwater conditions, measurements are done both in the presence and
- absence of trapped bubble to investigate the bubble's role in underwater
- adhesion.
- The three possible contact types are thus labeled as: 1) 
-\begin_inset Quotes eld
+ Measurements were done against smooth glass and fluorinated surfaces to
+ represent hydrophilic and hydrophobic substrates respectively.
+ When no water is present, we labeled the contact type as "
+\emph on
+In-Air
+\emph default
+".
+ For the underwater conditions, measurements were done both in the presence
+ and absence of a trapped bubble ("
+\emph on
+Underwater: bubble
+\emph default
+" and "
+\emph on
+Underwater: no bubble
+\emph default
+", respectively) to investigate the bubble's role in underwater adhesion.
+ Adhesion force for each of the labeled contact types are compared for both
+ substrates.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+check labels throughout text
+\end_layout
+
 \end_inset
 
-Air
-\begin_inset Quotes erd
-\end_inset
 
-, 2) 
-\begin_inset Quotes eld
-\end_inset
-
-Underwater: Wet
-\begin_inset Quotes erd
-\end_inset
-
- and 3) 
-\begin_inset Quotes eld
-\end_inset
-
-Underwater: Bubble
-\begin_inset Quotes erd
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Subsection
 Material and Methods
+\end_layout
+
+\begin_layout Subsubsection
+Specimen preparation
+\end_layout
+
+\begin_layout Standard
+Seven-spotted adult ladybug beetles (
+\emph on
+Coccinella septempuctata
+\emph default
+) purchased from Katz Biotech (Baruth, Germany) were used for adhesion tests.
+ The beetles were housed in a plastic box filled with leaves, twigs and
+ stones under at room temperature and 60-80% relative humidity with daily
+ access to sunlight.
+ The beetles were fed with raisins, honey and water
+\emph on
+ ad libitum
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Experiments were done on male beetles.
+ Each leg of the beetle has a pair of hairy pads covered with mostly discoidal
+ shaped setae, capable of strong adhesion.
+ For the test, we only allow the distal-end pad to make contact.
+ The beetle's leg was constrained similar to the method described by Bullock
+ et al 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN19"
+literal "false"
+
+\end_inset
+
+.
+ A steel ball fixed with a piece of thick solder wire serves as a rota-table
+ holder to fix the beetle and align its leg (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Setup"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ The beetle was first anesthetized using CO
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ sublimating from a piece of dry ice and glued to the steel ball on its
+ back.
+ Its front left leg was carefully fixed to the solder wire using Blue-Tac.
+ Its claws were fixed using epoxy glue to prevent any wiggling.
+ The leg was aligned such that only the distal pad of its leg can make contact.
+ A small piece of non-sticky Teflon tape helped to keep its other legs tucked
+ close to the body to minimize interference during the measurements.
+\end_layout
+
+\begin_layout Standard
+After measurements, the beetle was freed by carefully removing the epoxy
+ glue and Blue-Tac without harming it using a pair of tweezers and set free.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1004,66 +1082,6 @@ Harmonia axyridis
 \end_layout
 
 \begin_layout Subsubsection
-Specimen preparation
-\end_layout
-
-\begin_layout Standard
-Seven-spotted adult ladybug beetles (
-\emph on
-Coccinella septempuctata
-\emph default
-) purchased from Katz Biotech (Baruth, Germany) were used for adhesion tests.
- The beetles were housed in a plastic box filled with leaves, twigs and
- stones under at room temperature and 60-80% relative humidity with daily
- access to sunlight.
- The beetles were fed with raisins, honey and water
-\emph on
- ad libitum
-\emph default
-.
- 
-\end_layout
-
-\begin_layout Standard
-Experiments were done on male beetles since their adhesive pads possess
- discoidal shaped setae capable of strong adhesion.
- For the test, the beetle's leg was constrained similar to the method described
- by Bullock et al 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "RN19"
-literal "false"
-
-\end_inset
-
-.
- A steel ball fixed with a piece of thick solder wire was used as a holder
- to fix and constrain the beetle and its leg (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Setup"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
- The beetle was first anesthetized using dry ice and glued to the steel
- ball on its back.
- Its front left leg was carefully fixed to the solder wire using Blue-Tac.
- Its claw was fixed using epoxy glue to prevent any wiggling.
- The leg was aligned such that only the distal pad of its leg can make contact.
- Teflon tape was used like a blanket to wrap around the rest of its body
- to prevent interference by its other legs.
-\end_layout
-
-\begin_layout Standard
-After measurements, the beetle was freed by carefully removing the epoxy
- glue and Blue-Tac without harming it using a pair of tweezers and set free.
-\end_layout
-
-\begin_layout Subsubsection
 Adhesion test
 \end_layout
 
@@ -1081,23 +1099,16 @@ noprefix "false"
 
 ).
  A fiber optic displacement sensor (Philtec D20, PHILTEC, Inc.
- USA) together with a steel bending beam constitutes the vertical force
- sensor.
+ USA) together with a steel bending beam (spring constant = 68.1 N/m) constitutes
+ the vertical force sensor.
  Beam deflection was calibrated using 4 different known weights to get the
  corresponding force.
  A plastic 3D printed substrate holder was glued to the end of the bending
  beam.
  The holder was designed to allow switching from one substrate to another
  without removing any glue.
- Its 
-\begin_inset Quotes eld
-\end_inset
-
-tank
-\begin_inset Quotes erd
-\end_inset
-
- like design also allows it to be filled with water for underwater tests.
+ It also had transparent side walls which allowed us to fill it with water
+ for the underwater experiments.
  The sensor was mounted on a stage consisting of a X-piezo used for precise
  lateral movements, XYZ motors for coarse movements and goniometer for adjusting
  substrate alignment with the optics.
@@ -1109,6 +1120,8 @@ tank
  stereo-microscope with 1x objective (Wild Heerbrugg) fit with cameras are
  used to record the sample contact with the substrate from bottom and side
  views respectively.
+ Pad contact area was visualized in total reflection mode by the bottom
+ view camera.
  The data acquisition from the force sensor and cameras together with an
  appropriate piezo motion steps are synchronized using a custom LABVIEW
  program.
@@ -1145,18 +1158,10 @@ literal "false"
 
 .
  An additional 10 μm compression step (approach) was done to ensure all
- hairs are loaded and make good contact with the surface.
- A 1 second 
-\begin_inset Quotes eld
-\end_inset
-
-Pause
-\begin_inset Quotes erd
-\end_inset
-
- step was done to minimize any viscoelastic effects before finally retracting
- the leg away from the substrate.
- All approach, retract and sliding motion was done at a speed of 62.5 μm/s.
+ hairs are loaded in compression and make good contact with the surface.
+ A short pause (1 s) was introduced to minimize any viscoelastic effects
+ before finally retracting the leg away from the substrate.
+ All approach, retract and lateral slide was done at a speed of 62.5 μm/s.
  Bottom view video recordings were used for contact area extraction while
  the side view imaging is used only to visually aid orienting the pad with
  the substrate before a test.
@@ -1170,12 +1175,12 @@ noprefix "false"
 
 \end_inset
 
- shows a typical measurement data where recorded force is plotted as a function
- of time along with the observed pad contact area extracted via image processing.
+ shows a typical measurement recording, where force and contact area are
+ plotted as a function of time.
 \end_layout
 
 \begin_layout Standard
-For underwater experiments, 1 ml deionized water was poured into the substrate
+For underwater experiments, 1 ml deionized water was pipetted into the substrate
  holder.
  In order to achieve an underwater 
 \begin_inset Quotes eld
@@ -1190,23 +1195,13 @@ wet
 \end_layout
 
 \begin_layout Standard
-10 contact measurements were done on the same spot of the surface to equilibriat
-e the pad system.
- 5 measurements were subsequently performed on a fresh spot of the substrate
- for each type of contact and were used for data analysis.
- Experiments were repeated with 5 distinct beetles for each type of contact.
+Before experiment, the pad was repeatedly brought into contact with the
+ surface 10 times to equilibriate the pad system.
+ 5 force measurements were subsequently performed on a fresh spot of the
+ substrate and averaged for data analysis.
+ Experiments were repeated with 5 individual beetles for each type of contact
+ and substrate.
  In total, 30 beetles were tested.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-check if averaging data is a good idea
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1236,10 +1231,20 @@ name "fig:Setup"
 
 \end_inset
 
-a) Adhesion test setup b) Representative force data and contact area of
- distal pad for a typical measurement.
+ Adhesion test setup.
+ Representative force data and contact area of distal pad is also shown.
  Shaded regions represent distinct motion steps.
  Minimum peak value during final retract step is taken as adhesion force.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+make plot bigger
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1300,12 +1305,11 @@ For measurements in air, pull-off force is defined as the minimum negative
 \end_layout
 
 \begin_layout Standard
-Data sets are compared for statistical deviations using pairwise Tukey t-test
- and their corresponding effect sizes are compared using Pearson correlation
- coefficients.
- Shapiro-Wilk test was done for each data sets to verify normal distribution
- of its residuals and Levene's test was done to check equality of the respective
- variances, thus validating the assumptions involved in the Tukey test.
+Data sets are compared for statistical differences using pairwise t-test
+ and their corresponding p-value and CLES effect sizes are reported.
+ Shapiro-Wilk test was done for each data set to verify a normal distribution
+ of its residuals and Levene's test was done to check for variance homogeneity,
+ to validate the t-test assumptions.
 \end_layout
 
 \begin_layout Subsection
@@ -1830,7 +1834,7 @@ name "tab:Molecular-distribution-of"
 \end_layout
 
 \begin_layout Subsubsection
-Adhesion test
+Adhesion measurements
 \end_layout
 
 \begin_layout Standard
@@ -1845,28 +1849,7 @@ noprefix "false"
 
 \end_inset
 
-).
- In air, there is only a small difference in the median adhesion force on
- glass and PFOTS.
- The small difference can be attributed to the higher receding contact angle
- of oil in PFOTS when compared to glass (Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Contact-Angles"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
- In underwater, a larger difference is seen in the forces between glass
- and PFOTS for a wet contact.
- On glass, very small adhesion is recorded, while on PFOTS, the adhesion
- is close to that in air.
- For a bubble contact, both glass and PFOTS show similar adhesion.
- Statistical significance values for comparison of the different contact
- types (Table 
+ and Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Statistical-analysis"
@@ -1876,7 +1859,20 @@ noprefix "false"
 
 \end_inset
 
-) support the above conclusions.
+).
+ In air, there is no significant difference in the adhesion force between
+ glass and PFOTS substrate (p = 0.959).
+ Underwater however, adhesion on a PFOTS surface is significantly larger
+ than on glass, for either with (p = 0.011) or without (p < 0.001) a trapped
+ bubble.
+ On PFOTS, there is no significant difference in the adhesion force in air
+ or underwater conditions.
+ But on glass, adhesion in air is significantly larger than underwater in
+ the presence (p = 0.002) or absence (p < 0.011) of the bubble.
+ At the same, we see that the presence of bubble results in a higher adhesion
+ force than with no bubble (CLES = 0.84), although the difference is not
+ statistically significant (p = 0.07).
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1900,6 +1896,15 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+Fixed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 A
 \end_layout
 
@@ -1918,25 +1923,16 @@ B
 \begin_inset Text
 
 \begin_layout Plain Layout
-Fixed
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-tukey
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p-value
 \end_layout
 
 \end_inset
@@ -1945,7 +1941,7 @@ T
 \begin_inset Text
 
 \begin_layout Plain Layout
-r
+CLES
 \end_layout
 
 \end_inset
@@ -1956,184 +1952,7 @@ r
 \begin_inset Text
 
 \begin_layout Plain Layout
-Air
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Bubble
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Glass
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.211
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.298
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Air
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Wet
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Glass
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.001
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10.985
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.846
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Bubble
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Wet
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Glass
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.001
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.857
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.774
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Air
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Bubble
+In air
 \end_layout
 
 \end_inset
@@ -2151,7 +1970,7 @@ PFOTS
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.9
+Glass
 \end_layout
 
 \end_inset
@@ -2160,12 +1979,348 @@ PFOTS
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.017
+-0.053
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.959
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.48
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PFOTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Glass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.292
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.96
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: no bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PFOTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Glass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.044
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+< 0.001
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PFOTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+In air
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.133
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.897
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.48
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PFOTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+In air
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: no bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.224
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.828
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.48
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PFOTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: no bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.37
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.721
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.44
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Glass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+In air
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underwater: bubble
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.688
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2174,114 +2329,11 @@ PFOTS
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Air
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Wet
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PFOTS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.854
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.767
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.085
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Bubble
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Wet
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PFOTS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.561
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.083
+1.0
 \end_layout
 
 \end_inset
@@ -2301,7 +2353,7 @@ Glass
 \begin_inset Text
 
 \begin_layout Plain Layout
-PFOTS
+In air
 \end_layout
 
 \end_inset
@@ -2310,7 +2362,7 @@ PFOTS
 \begin_inset Text
 
 \begin_layout Plain Layout
-Air
+Underwater: no bubble
 \end_layout
 
 \end_inset
@@ -2319,7 +2371,7 @@ Air
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.16
+11.341
 \end_layout
 
 \end_inset
@@ -2328,7 +2380,7 @@ Air
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.405
+< 0.001
 \end_layout
 
 \end_inset
@@ -2337,63 +2389,7 @@ Air
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.151
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Glass
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-PFOTS
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Underwater: Bubble
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.348
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.939
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.192
+1.0
 \end_layout
 
 \end_inset
@@ -2413,7 +2409,7 @@ Glass
 \begin_inset Text
 
 \begin_layout Plain Layout
-PFOTS
+Underwater: bubble
 \end_layout
 
 \end_inset
@@ -2422,7 +2418,7 @@ PFOTS
 \begin_inset Text
 
 \begin_layout Plain Layout
-Underwater: Wet
+Underwater: no bubble
 \end_layout
 
 \end_inset
@@ -2431,7 +2427,7 @@ Underwater: Wet
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.001
+2.086
 \end_layout
 
 \end_inset
@@ -2440,7 +2436,7 @@ Underwater: Wet
 \begin_inset Text
 
 \begin_layout Plain Layout
--8.258
+0.07
 \end_layout
 
 \end_inset
@@ -2449,7 +2445,7 @@ Underwater: Wet
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.776
+0.84
 \end_layout
 
 \end_inset
@@ -2466,10 +2462,12 @@ Underwater: Wet
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Statistical analysis of adhesion force.
- p-value and T are obtained from pair-wise Tukey test between A and B while
- keeping the third parameter fixed.
- r values represent the corresponding Pearson correlation coefficient
+Pairwise statistical comparison of adhesion force for each contact type
+ and substrate.
+ T statistic, p-value and Common Language Effect Size (CLES) are obtained
+ from post-hoc pair-wise t-test between A and B while keeping the third
+ parameter fixed.
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Statistical-analysis"
@@ -2477,17 +2475,6 @@ name "tab:Statistical-analysis"
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Update this.
- Include ANOVA results as well
 \end_layout
 
 \end_inset
@@ -2530,7 +2517,11 @@ Single leg adhesion force measurements of ladybug beetle on glass and PFOTS
 \begin_inset Quotes eld
 \end_inset
 
-Bubble
+
+\emph on
+bubble
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -2538,7 +2529,11 @@ Bubble
 \begin_inset Quotes eld
 \end_inset
 
-Wet
+
+\emph on
+no bubble
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -2546,12 +2541,15 @@ Wet
 \begin_inset Quotes eld
 \end_inset
 
-Bad Contact
+
+\emph on
+bad contact
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
 .
- Insets show bottom view images of the corresponding contact types.
  Stars represent theoretical predictions of adhesion force calculated from
  Capillary Bridge Model, where hair diameter = 4 μm, pad diameter = 200
  μm, hair height = 40 μm, N
@@ -2677,13 +2675,13 @@ f
  The fluid is assumed to be pinned to the circumference of the hair and
  forms a capillary bridge of height d with the substrate.
  In order to model the contact in both air and underwater conditions, we
- consider three types of contacts:
+ consider three types of contacts as seen in our experiments with the beetle:
 \end_layout
 
 \begin_layout Enumerate
 
 \emph on
-Air contact
+In air
 \emph default
  - All hairs and fluid bridges are surrounded by air
 \end_layout
@@ -2691,7 +2689,7 @@ Air contact
 \begin_layout Enumerate
 
 \emph on
-Underwater: Wet contact
+Underwater: no bubble
 \emph default
  - All hairs and fluid bridges are surrounded by water
 \end_layout
@@ -2699,7 +2697,7 @@ Underwater: Wet contact
 \begin_layout Enumerate
 
 \emph on
-Underwater: Bubble contact
+Underwater: bubble
 \emph default
  - A bubble of volume V
 \begin_inset script subscript
@@ -2750,7 +2748,8 @@ p
 
 \end_inset
 
- acting as support for an array rigid cylindrical hairs with diameters D
+ acting as support for an array N rigid cylindrical hairs with diameters
+ D
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -2764,19 +2763,19 @@ h
  with the substrate.
  This hairy pad makes contact with a substrate in three ways: a) 
 \emph on
-Air
+In air
 \emph default
 , where the adhesive fluid bridges are surrounded by air; b) 
 \emph on
-Underwater: Wet
+Underwater: no bubble
 \emph default
 , where the adhesive fluid bridges are fully surrounded by water; c)
 \emph on
- Underwater: Bubble
+ Underwater: bubble
 \emph default
 , where part of the adhesive fluid bridges are inside the bubble while others
  are outside in water.
- 
+ The corresponding contact images of the beetle's pad are shown on the right.
 \end_layout
 
 \end_inset
@@ -2981,7 +2980,7 @@ out
 
 \end_inset
 
-are the number of hairs inside and outside the bubble respectively.
+ are the number of hairs inside and outside the bubble respectively.
  f
 \begin_inset script subscript
 
@@ -3080,7 +3079,7 @@ water
 \end_layout
 
 \begin_layout Standard
-Here, θ
+Here, 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -3089,7 +3088,7 @@ fw
 
 \end_inset
 
-and θ
+and 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -3099,7 +3098,7 @@ fa
 \end_inset
 
 are the contact angles of the adhesive fluid with the substrate in water
- and air respectively, θ
+ and air respectively, 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -3169,7 +3168,11 @@ f
 \end_inset
 
 .
- 
+ Non dimensional bubble volume, 
+\begin_inset Formula $\hat{V}_{b}=V_{b}/s_{f}^{3}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3186,7 +3189,7 @@ noprefix "false"
 
 .
  We consider representative hydrophilic and hydrophobic substrates with
- θ
+ 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -3195,7 +3198,7 @@ fa
 
 \end_inset
 
-and θ
+and 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -3821,16 +3824,8 @@ ce curve plotted as a function of contact angle with the substrate, shown
  in red (circles).
  Laplace and surface tension contributions to the net total adhesion force
  are shown in yellow (cross) and green (squares) respectively.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-use sf instead of s in all plots
-\end_layout
-
-\end_inset
-
-
+ Simulation snapshots of liquid meniscus corresponding to angles 6° and
+ 150° are depicted.
 \end_layout
 
 \end_inset
@@ -4155,7 +4150,7 @@ h
 
 \end_inset
 
-) and bubble size parameter ( ϕ
+) and bubble volume (V
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -4164,28 +4159,12 @@ b
 
 \end_inset
 
-) are kept fixed
+) are kept fixed.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-replace headings with 
-\begin_inset Quotes eld
-\end_inset
-
-hydrophilic
-\begin_inset Quotes erd
-\end_inset
-
-/
-\begin_inset Quotes erd
-\end_inset
-
-hydrophobic
-\begin_inset Quotes erd
-\end_inset
-
- in all plots
+express Vb as Vb hat everywhere
 \end_layout
 
 \end_inset
@@ -4435,7 +4414,7 @@ h
 \begin_inset Quotes eld
 \end_inset
 
-Underwater: Bubble
+Underwater: bubble
 \begin_inset Quotes erd
 \end_inset
 
@@ -4557,13 +4536,8 @@ Capillary Bridge Model: Effect of bubble volume
 \end_layout
 
 \begin_layout Standard
-The effect of varying bubble volume (V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+The effect of varying bubble volume (non-dimensionalized as
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
 ) on the net adhesion force of the underwater 
@@ -4598,13 +4572,8 @@ noprefix "false"
 
 , we know that on the hydrophilic substrate, fluid bridges outside the bubble
  has negligible contribution due to its positive curvature.
- Thus, decreasing V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ Thus, decreasing 
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
  decreases adhesion force due to the larger proportion of hairs outside
@@ -4640,36 +4609,20 @@ name "fig:Effect-of-bubble"
 \end_inset
 
 Normalized adhesion force of a hairy pad system as a function of bubble
- size parameter ( ϕ
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ volume (
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
 ) for 
 \begin_inset Quotes eld
 \end_inset
 
-Underwater: Bubble
+Underwater: bubble
 \begin_inset Quotes erd
 \end_inset
 
- contact type (red).
+ contact type.
  Negative value represents attractive force.
- Higher ϕ
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
-\end_inset
-
- value implies a smaller bubble size.
- Bubble's contribution to the net adhesion is shown in blue.
  Here, pad to hair size ratio (D
 \begin_inset script subscript
 
@@ -4691,16 +4644,6 @@ h
 ) is kept fixed.
  Adhesion forces are calculated from minima of the respective force-distance
  curves.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Change 'underwater: bubble' to whole pad
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -4712,35 +4655,20 @@ Change 'underwater: bubble' to whole pad
 
 Bubble's capillary contribution to the net adhesion force is small regardless
  of its size.
- We see that a smaller V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ We see that a smaller 
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
  results in increased attraction by the bubble in both types of substrates.
- For larger values of V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ For larger values of 
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
 , force trend for the whole pad mostly follows that of the bubble, because
  the bubble in this case is big enough to entrap all hairs inside it.
  Thus, the force contribution due to the fluid bridges remains unchanged
- while the bubble's contribution increases slightly as V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ while the bubble's contribution increases slightly as 
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
  increases.
@@ -4781,18 +4709,6 @@ wet
  In either case, the bubble by itself hardly contributes to the net force.
  Despite its large size, the bubble fails to overcome the combined contribution
  of the much smaller fluid bridges to the total force.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-change contact angle to hydrophilic and hydrophobic.
- change label of underwater:bubble contact to total force and bubble contributio
-n.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -4920,6 +4836,16 @@ wet contact
 
 .
  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+mention about FDMS and single bubble measurement
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4946,7 +4872,7 @@ name "fig:Oil-contact-images"
 \end_inset
 
 Simulation snapshots of oil capillary meniscus in contact with glass and
- PFOTS in air and underwater conditions
+ PFOTS in air and underwater conditions.
 \end_layout
 
 \end_inset
@@ -5252,7 +5178,7 @@ literal "false"
  chemistry in controlling insect adhesion.
  Future work will explore how roughness can impact the net capillary force
  as predicted by our model.
- Our study can have potential applications in the design of bioinspired
+ Our study can have potential applications in the design of bio-inspired
  materials to achieve adhesion via capillary bridges.
  Bubble can be possibly be used to control underwater adhesion by changing
  the relative proportion of the arrays inside and outside the bubble.
@@ -5282,8 +5208,8 @@ Our study illustrates that ladybug relies primarily on its oily adhesive
  Insect adhesion is correlated directly to the shape of the adhesive fluid
  on a given substrate and medium, which is a result of the small fluid volume
  and its contact angle with the substrate.
- A similar argument can also consistently explain previously reported measuremen
-ts in geckos 
+ A similar argument also explains previously reported measurements in geckos
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN15"
@@ -5291,7 +5217,7 @@ literal "false"
 
 \end_inset
 
-, which highlights the possibility of capillary contributions to gecko adhesion
+, which highlights the possibility of capillary contributions to gecko adhesion.
 \end_layout
 
 \begin_layout Section
@@ -5388,9 +5314,9 @@ literal "false"
  V is defined as the initial condition with an interfacial tension γ with
  the surrounding medium.
  Interfacial tension of the capillary bridge with the substrate is given
- by γcosθ, where θ is the corresponding contact angle inside the bridge.
- For the case of a bubble meniscus, θ is defined w.r.t.
- the surrounding water since θ can also then characterize the substrate
+ by γcos𝜃, where 𝜃 is the corresponding contact angle inside the bridge.
+ For the case of a bubble meniscus, 𝜃 is defined w.r.t.
+ the surrounding water since 𝜃 can also then characterize the substrate
  wettability.
  The capillary bridge spans a gap distance d between the top face and the
  substrate.
@@ -5460,7 +5386,7 @@ bottom
 \begin_layout Standard
 The gap distance d is varied by fixed steps and the capillary force is calculate
 d each time to obtain force-distance curves for a particular choice of D
- and θ.
+ and 𝜃.
  
 \end_layout
 
@@ -5485,7 +5411,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename FigureS1-Effect of fluid volume.svg
+	filename FigureS1-Effect_of_fluid_volume.svg
 
 \end_inset
 
@@ -5558,7 +5484,7 @@ h
 \begin_inset Quotes eld
 \end_inset
 
-Underwater: Bubble
+Underwater: bubble
 \begin_inset Quotes erd
 \end_inset
 
