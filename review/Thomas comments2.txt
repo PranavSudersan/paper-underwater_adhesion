@@ -1,4 +1,4 @@
-bon ferroni correction, correct p-values for multiple values
+bon ferroni correction, correct p-values for multiple values - done
 "preliminary result" fdms, maybe in abstract?
 bad contact 
-"Animal prep" instead of specimen preperation
+"Animal prep" instead of specimen preperation - done
