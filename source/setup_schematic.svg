@@ -819,14 +819,14 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1200"
-   inkscape:window-height="1577"
+   inkscape:window-width="1920"
+   inkscape:window-height="1137"
    id="namedview133"
    showgrid="false"
-   inkscape:zoom="1"
-   inkscape:cx="540.43224"
-   inkscape:cy="-14.824881"
-   inkscape:window-x="1358"
+   inkscape:zoom="2"
+   inkscape:cx="416.60282"
+   inkscape:cy="295.08808"
+   inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1"
@@ -859,12 +859,12 @@
 
 
 <rect
-   style="opacity:1;fill:#f4eed7;stroke:none;stroke-width:2.12146;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+   style="opacity:1;fill:#d5f6ff;stroke:none;stroke-width:1.76291;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
    id="rect6745"
    width="108.37485"
-   height="27.419987"
+   height="18.934706"
    x="316.26361"
-   y="207.24936" /><path
+   y="215.73463" /><path
    stroke-miterlimit="10"
    d="m 413.3588,150.46661 c 0,0 9.70203,46.29265 5.36803,61.74965 -0.333,14.542 -31.66744,12.56031 -31.66744,12.56031"
    id="path34"
@@ -1544,7 +1544,7 @@
      x="580.80896"
      y="356.33667" /></g><path
    id="path1418"
-   style="fill:#afdde9;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="fill:#80b3ff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    d="m 385.66825,220.84423 c -0.50874,1.64711 -1.30339,3.24116 -1.00786,5.00707 0.1681,2.50312 2.98824,1.8246 4.67239,1.81208 2.13293,0.17708 4.32501,0.24737 6.04879,-1.21809 2.12565,-0.9229 1.26688,-3.37609 -0.32987,-4.34556 -0.88579,-1.88822 -3.03696,-2.25588 -4.89299,-2.58371 -1.41739,0.23954 -3.70115,-0.32833 -4.54492,1.05983 0.0178,0.0888 0.0374,0.18115 0.0545,0.26838 z" /><g
    id="g1770"
    transform="translate(99,-82)"
@@ -1694,7 +1694,7 @@
      x="160.06183"
      y="366.19284"
      style="font-size:13.3333px">Bottom View</tspan></text><path
-   style="fill:none;stroke:#d5f6ff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   style="fill:#87aade;stroke:#d7d7f4;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    d="m 325.41789,234.75534 h 91.5"
    id="path2671" /><g
    id="g3097"
