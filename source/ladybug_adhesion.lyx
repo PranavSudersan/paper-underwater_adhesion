@@ -471,21 +471,45 @@ Normal adhesion force measurements on a restrained leg of a live ladybug
  We characterize adhesion by the pull-off force during detachment.
  Measurements were done against smooth glass and fluorinated surfaces to
  represent hydrophilic and hydrophobic substrates respectively.
- When no water is present, we labeled the contact type as "
+ When no water is present, we labeled the contact type as 
+\begin_inset Quotes eld
+\end_inset
+
+
 \emph on
 In-Air
 \emph default
-".
+
+\begin_inset Quotes erd
+\end_inset
+
+.
  For the underwater conditions, measurements were done both in the presence
- and absence of a trapped bubble ("
+ and absence of a trapped bubble (
+\begin_inset Quotes eld
+\end_inset
+
+
 \emph on
 Underwater: bubble
 \emph default
-" and "
+
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+
 \emph on
 Underwater: no bubble
 \emph default
-", respectively) to investigate the bubble's role in underwater adhesion.
+
+\begin_inset Quotes erd
+\end_inset
+
+, respectively) to investigate the bubble's role in underwater adhesion.
  Adhesion force for each of the labeled contact types are compared for both
  substrates.
 \begin_inset Note Note
@@ -1373,7 +1397,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-Without rinsing in water (g/mol)
+Without rinsing (g/mol)
 \end_layout
 
 \end_inset
@@ -1382,7 +1406,7 @@ Without rinsing in water (g/mol)
 \begin_inset Text
 
 \begin_layout Plain Layout
-After immersion in water (g/mol)
+After rinsing (g/mol)
 \end_layout
 
 \end_inset
@@ -1892,9 +1916,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="6">
+<lyxtabular version="3" rows="10" columns="5">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1924,15 +1947,6 @@ A
 
 \begin_layout Plain Layout
 B
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-T
 \end_layout
 
 \end_inset
@@ -1988,15 +2002,6 @@ Glass
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.053
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.959
 \end_layout
 
@@ -2044,15 +2049,6 @@ Glass
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.292
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.011
 \end_layout
 
@@ -2092,15 +2088,6 @@ PFOTS
 
 \begin_layout Plain Layout
 Glass
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10.044
 \end_layout
 
 \end_inset
@@ -2158,15 +2145,6 @@ Underwater: bubble
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.133
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.897
 \end_layout
 
@@ -2206,15 +2184,6 @@ In air
 
 \begin_layout Plain Layout
 Underwater: no bubble
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.224
 \end_layout
 
 \end_inset
@@ -2270,15 +2239,6 @@ Underwater: no bubble
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.37
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.721
 \end_layout
 
@@ -2318,15 +2278,6 @@ In air
 
 \begin_layout Plain Layout
 Underwater: bubble
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4.688
 \end_layout
 
 \end_inset
@@ -2384,15 +2335,6 @@ Underwater: no bubble
 \begin_inset Text
 
 \begin_layout Plain Layout
-11.341
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
 < 0.001
@@ -2442,15 +2384,6 @@ Underwater: no bubble
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.086
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.07
 \end_layout
 
@@ -2479,9 +2412,9 @@ Underwater: no bubble
 \begin_layout Plain Layout
 Pairwise statistical comparison of adhesion force for each contact type
  and substrate.
- T statistic, p-value and Common Language Effect Size (CLES) are obtained
- from post-hoc pair-wise Student t-test between A and B while keeping the
- third parameter fixed.
+ The p-values and Common Language Effect Size (CLES) are obtained from post-hoc
+ pair-wise Student t-test between A and B while keeping the third parameter
+ fixed.
  p-values showing statistically significant difference between A and B are
  in boldface, where the critical p-value = 0.05/6 = 0.008, based on Bonferroni's
  correction for multiple comparison.
@@ -2617,7 +2550,11 @@ Apart from the three predicted contact types, we also observed an additional
 \begin_inset Quotes eld
 \end_inset
 
+
+\emph on
 bad contact
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -2628,7 +2565,11 @@ bad contact
 \begin_inset Quotes eld
 \end_inset
 
+
+\emph on
 Bad contact
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -3949,7 +3890,7 @@ Underwater: no bubble
 \emph default
  contact shows close to no adhesion while 
 \emph on
-Underwater: bubble
+underwater: bubble
 \emph default
  contact shows moderate adhesion.
  In contrast, for a hydrophobic substrate (𝜃
@@ -3972,7 +3913,7 @@ in air
 .
  Even 
 \emph on
-Underwater: bubble
+underwater: bubble
 \emph default
  contact has slightly higher adhesion than 
 \emph on
@@ -4125,8 +4066,8 @@ name "fig:Effect-of-substrate"
 Theoretical force-distance curves of a hairy pad system on a hydrophilic
  (left) and hydrophobic (right) substrate in air and underwater conditions.
  A negative value represents attractive force.
- Normalized forces are calculated from Capillary Bridge Model, with model
- parameters listed in Table 
+ Normalized forces are calculated from the capillary bridge model, with
+ model parameters listed in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Model-parameters"
@@ -4160,16 +4101,7 @@ h
 
 \end_inset
 
-) and bubble volume (V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
-\end_inset
-
-) are kept fixed.
+) and bubble volume are kept fixed.
 \begin_inset Note Note
 status open
 
@@ -4209,17 +4141,9 @@ noprefix "false"
 \end_inset
 
 ).
- For the given bubble size (parameter ϕ
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
-\end_inset
-
-), only part of the hairs are inside the bubble for the hydrophilic substrate
- while all the hairs are inside the bubble for the hydrophobic substrate.
+ For the given bubble volume, only part of the hairs are inside the bubble
+ for the hydrophilic substrate while all the hairs are inside the bubble
+ for the hydrophobic substrate.
  Therefore, its force curve lies in between 
 \emph on
 in air
@@ -4228,8 +4152,11 @@ in air
 \emph on
 underwater: no bubble
 \emph default
- contact on a hydrophilic substrate, and closely follows air contact for
- hydrophobic substrate.
+ contact on a hydrophilic substrate, and closely follows that 
+\emph on
+in air
+\emph default
+ for a hydrophobic substrate.
 \end_layout
 
 \begin_layout Standard
@@ -4398,8 +4325,7 @@ name "fig:Effect-of-hair"
 \end_inset
 
 Normalized adhesion force of a hairy pad system on a hydrophilic (left)
- and hydrophobic (right) substrate as a function of pad to hair diameter
- (D
+ and hydrophobic (right) substrate as a function of hair diameter (D
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -4408,28 +4334,15 @@ h
 
 \end_inset
 
-), calculated from Capillary Bridge Model.
+), calculated from the capillary bridge model.
  Negative value represents attractive force.
  The bubble's contribution to the net force for an 
-\begin_inset Quotes eld
-\end_inset
-
-Underwater: bubble
-\begin_inset Quotes erd
-\end_inset
-
+\emph on
+underwater: bubble
+\emph default
  contact is denoted by plus symbols.
- Pad diameter and bubble size parameter (ϕ
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
-\end_inset
-
-) are kept fixed to 200 and 1.5, respectively.
- Adhesion forces are calculated from minima of the respective force-distance
+ Pad diameter and bubble volume are kept fixed.
+ Adhesion forces are calculated from the minima of the respective force-distance
  curves.
  Length is in arbitrary units.
 \end_layout
@@ -4456,7 +4369,7 @@ noprefix "false"
 \end_inset
 
 , contact in air shows the highest adhesion force for the hydrophilic substrate
- for all hair sizes, while on the hydrophobic substrate, 
+ for all hair diameters, while on the hydrophobic substrate, 
 \emph on
 underwater: no bubble
 \emph default
@@ -4513,17 +4426,6 @@ noprefix "false"
  resulting in it bulging outwards near the pinned contact line on top.
  Thus, bubble contribution gets repulsive as hair diameter decreases if
  bubble volume is kept constant.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-check 'size'.
- replace to 'volume' or 'diameter'
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -4689,8 +4591,8 @@ Discussion
 
 \begin_layout Standard
 Our experiments demonstrate, for the first time, that the ladybug beetle
- can attach to a hydrophobic substrate even without a bubble trapped around
- its hairs.
+ can attach underwater to a hydrophobic substrate even without a bubble
+ trapped around its hairs.
  A previous study
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -4701,21 +4603,18 @@ literal "false"
 
  had hypothesized that bubble is necessary for underwater attachment in
  beetles.
- This is, however, only true for glass substrates where only the 
-\emph on
-underwater: bubble
-\emph default
- contact shows significant adhesion while 
-\emph on
-underwater: no bubble
-\emph default
- contact shows poor adhesion.
- For a hydrophobic substrate, all forces lie in a similar range regardless
- of the type of contact, with the only exception of 
-\emph on
-underwater: bad contact
-\emph default
-.
+ This is, however, only true for hydrophilic substrates, where a trapped
+ bubble can facilitate underwater adhesion due to the hairs making contact
+ in a dewetted environment.
+ For a hydrophobic substrate, the adhesion is similar regardless of whether
+ the contact occurs in air or underwater conditions, with or without a trapped
+ bubble.
+ Our theoretical calculations also show that the bubble by itself has a
+ negligible capillary contribution to the net adhesion of the pad underwater.
+ Direct force measurement of a single similarly sized bubble making contact
+ with a hydrophobic substrate shows a maximum adhesion less than 50 μN,
+ which further validates that the bubble's contribution is insignificant
+ (see SI).
 \end_layout
 
 \begin_layout Standard
@@ -4731,21 +4630,11 @@ noprefix "false"
 \end_inset
 
 ).
- On hydrophobic PFOTS, 
-\emph on
-underwater: no bubble
-\emph default
- contact shows adhesion similar to contact 
-\emph on
-in air
-\emph default
-, while on a hydrophilic glass, 
-\emph on
-underwater: no bubble
-\emph default
- contact has very low adhesion.
- This is explained by the different oil contact angles and interfacial tension
- for these two substrates in air and underwater conditions (Figure 
+ In underwater conditions without a trapped bubble, adhesion on a hydrophobic
+ substrate is significantly larger than on a hydrophilic substrate.
+ This is explained by the different oil contact angles and its interfacial
+ tension values for both substrates in air and underwater, which influences
+ the capillary adhesive force in each case (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Oil-contact-images"
@@ -4756,55 +4645,49 @@ noprefix "false"
 \end_inset
 
 ).
- The measurements however don't show a significantly higher adhesion for
- the 
-\emph on
-underwater: no bubble
-\emph default
- contact on PFOTS when compared to its adhesion in air as predicted by the
- model.
- 
-\begin_inset Note Note
-status open
+ However, the measurements don't show the predicted 
+\begin_inset Formula $\sim$
+\end_inset
+
+ 2.6 times increase in underwater adhesion relative to that in air on the
+ hydrophobic PFOTS surface.
+ This discrepancy could be due to our assumptions of the oily fluid's interfacia
+l properties.
+ If we choose γ
+\begin_inset script subscript
 
 \begin_layout Plain Layout
-show effect of changing interfacial tension assumptions
+fa
 \end_layout
 
 \end_inset
 
-This could be due to the additional complexity involved in making a good
- underwater contact.
- We already observe that a 
-\emph on
-underwater: bad contact
-\emph default
- can lead to complete loss of adhesion.
- It is, thus, possible that such 
-\begin_inset Quotes eld
-\end_inset
-
-bad contacts
-\begin_inset Quotes erd
-\end_inset
-
- are happening locally for some hairs, which reduces the net adhesion force
- for the 
-\emph on
-underwater: no bubble
-\emph default
- case.
- 
-\begin_inset Note Note
-status open
+=30 mN/m and γ
+\begin_inset script subscript
 
 \begin_layout Plain Layout
-mention about FDMS and single bubble measurement
+wa
 \end_layout
 
 \end_inset
 
+=40 mN/m, the corresponding increase in adhesion will be 
+\begin_inset Formula $\sim$
+\end_inset
 
+ 1.7, closer to our experimental value of 
+\begin_inset Formula $\sim$
+\end_inset
+
+ 1.
+ Direct measurement of the fluid's interfacial properties is thus essential
+ to better predict the insect's adhesion, and will be a subject of future
+ study.
+ Further, due to surface inhomogeneities, all the hairs might not be able
+ to completely drain the water layer on the surface, in order for the fluid
+ to make a direct contact with the substrate.
+ This can further reduce underwater adhesion, in comparison to our theoretical
+ predictions which assumes a perfect contact.
 \end_layout
 
 \begin_layout Standard
@@ -4832,6 +4715,8 @@ name "fig:Oil-contact-images"
 
 Simulation snapshots of oil capillary meniscus in contact with glass and
  PFOTS in air and underwater conditions.
+ The corresponding interfacial tension, γ, and contact angle, 𝜃, used to
+ predict the ladybug's adhesion are labeled for each case.
 \end_layout
 
 \end_inset
@@ -4845,28 +4730,8 @@ Simulation snapshots of oil capillary meniscus in contact with glass and
 \end_layout
 
 \begin_layout Standard
-The role of bubble for underwater adhesion is further clarified based on
- the model.
- The bubble by itself has a negligible capillary contribution to the net
- adhesion force underwater.
- The bubble can only help in adhesion on a hydrophilic substrate by providing
- the hairs an air environment such that the liquid capillary bridges show
- adhesion similar to that in air.
- For a hydrophobic substrate, having a trapped bubble has no significant
- effect on improving adhesion as even an 
-\emph on
-underwater: no bubble
-\emph default
- contact shows adhesion similar to that 
-\emph on
-in air
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-The model assumes a perfect contact of each hair which detaches simultaneously
- to give a theoretical maximum adhesion force achievable.
+In the model, we assume that all the hairs detach simultaneously to give
+ a theoretical maximum achievable adhesion force.
  Our experimental conditions, however, differ from such assumptions.
  The pad always makes contact with the substrate at a random orientation,
  which is difficult to control precisely.
@@ -4874,38 +4739,39 @@ The model assumes a perfect contact of each hair which detaches simultaneously
  end rather than detach simultaneously.
  Our model also assumes the hairs to be of similar geometry, unlike the
  beetle's pad which has a distribution of flat or pointed tipped hairs.
- The adhesive fluid's interfacial tension is also assumed to be similar
- to a non-polar oil.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-remove this
-\end_layout
-
-\end_inset
-
- However, we couldn't find any previous study with direct measurement of
- the fluid interfacial tension to validate our assumption.
  Thus, it's not surprising that the model overestimates the adhesion forces.
  The predictions are however in the same order of magnitude as experiments,
  and the qualitative trend is consistent for both hydrophilic and hydrophobic
  substrates in air and underwater.
- 
 \end_layout
 
 \begin_layout Standard
 Our study provides further validation that capillary forces by the adhesive
  fluid control insect adhesion and van der Waals contribution, if any, must
  be negligible.
- For underwater contact with no trapped bubble, the pad adheres strongly
- to a PFOTS substrate, but poorly to a glass substrate, even though it shows
+ Further, the same capillary forces can even enable adhesion underwater
+ depending on the substrate chemistry.
+ Underwater without a trapped bubble, the pad adheres strongly to a hydrophobic
+ substrate, but poorly to a hydrophilic substrate, even though it shows
  similarly strong adhesion to both substrates in air.
  This behavior can only be explained by capillary forces.
+ Our preliminary FDMS results further provides validation to our assumption
+ that the adhesive fluid can form capillary bridges with the substrate underwate
+r, instead of getting washed away (Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Molecular-distribution-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
-Our findings can also be extended to other animals relying on oily adhesive
+The findings can also be extended to other animals relying on oily adhesive
  fluids for adhesion.
  Ants for example show similar adhesion on hydrophobic substrates under
  wet and dry conditions
@@ -4928,9 +4794,6 @@ literal "false"
 \end_inset
 
 .
- Although a work of adhesion model, assuming dry contact, was able to explain
- this result qualitatively, the same model fails to predict the low underwater
- adhesion seen for the slightly hydrophilic substrates such as PMMA or PET.
  Geckos are thought to rely on van der Waals forces via dry contact with
  the substrate 
 \begin_inset CommandInset citation
@@ -4984,7 +4847,7 @@ noprefix "false"
 \end_inset
 
  then gives us an underwater contact angle of 70° for the phospholipid fluid.
- Thus, the Capillary Bridge Model can predict a higher adhesion underwater
+ Thus, the capillary bridge model can predict a higher adhesion underwater
  than in air with PTFE due to its lower contact angle and higher interfacial
  energy underwater.
  Based on similar assumptions, we predict the net adhesion force for a gecko
@@ -4999,11 +4862,11 @@ noprefix "false"
 \end_inset
 
 ).
- The adhesion force predictions are in qualitative agreement with the whole
- animal experimental shear force values reported for the gecko, with the
- trend of higher adhesion in air than underwater for glass, similar adhesion
- in air and underwater for PMMA/OTS-SAM and lower adhesion in air than underwate
-r for PTFE.
+ The adhesion force predictions are in good qualitative agreement with the
+ whole animal experimental shear force values reported for the gecko, with
+ the trend of higher adhesion in air than underwater for glass, similar
+ adhesion in air and underwater for PMMA/OTS-SAM and lower adhesion in air
+ than underwater for PTFE.
  We, thus, propose that the underwater experiments performed on geckos 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -5140,7 +5003,7 @@ literal "false"
  as predicted by our model.
  Our study can have potential applications in the design of bio-inspired
  materials to achieve adhesion via capillary bridges.
- Bubble can be possibly be used to control underwater adhesion by changing
+ Bubble can possibly be used to control underwater adhesion by changing
  the relative proportion of the arrays inside and outside the bubble.
  A suitable choice of adhesive fluid can be made tailored to the substrate
  and environment of application for optimal adhesion performance.
@@ -5166,8 +5029,8 @@ Our study illustrates that ladybug relies primarily on its oily adhesive
  The trapped bubble can promote adhesion only on a hydrophilic substrate
  by providing an air medium to the adhesive fluid bridges inside it.
  Insect adhesion is correlated directly to the shape of the adhesive fluid
- on a given substrate and medium, which is a result of the small fluid volume
- and its contact angle with the substrate.
+ bridge on a given substrate and medium, which is a result of the small
+ fluid volume and its contact angle with the substrate.
  A similar argument also explains previously reported measurements in geckos
  
 \begin_inset CommandInset citation
@@ -5185,8 +5048,8 @@ Acknowledgement
 \end_layout
 
 \begin_layout Standard
-We acknowledge Deutsche Forschungsgemeinschaft for providing funding to
- make this project possible.
+We are grateful to Eduard Arzt and Renѐ Hensel for fruitful discussions.
+ The project was funded by Deutsche Forschungsgemeinschaft.
  
 \end_layout
 
@@ -5355,8 +5218,8 @@ Single capillary bridge: Effect of volume
 \end_layout
 
 \begin_layout Standard
-Below plot show the effect of volume on the maximum capillary force of a
- single fluid bridge.
+Surface Evolver simulations showing the effect of volume on the maximum
+ capillary force of a single fluid bridge.
 \end_layout
 
 \begin_layout Standard
@@ -5402,10 +5265,11 @@ Capillary Bridge Model: Effect of hair diameter at constant fluid volume
 \end_layout
 
 \begin_layout Standard
-Here, instead of assuming a self-similar scaling of fluid volume, we assume
- a fixed total fluid volume distributed equally among the N hairs.
+Here, instead of scaling of fluid volume relative to the hair diameter,
+ we now assume a fixed total fluid volume distributed equally among the
+ N hairs.
  Hair diameter is varied while keeping the total hair contact area constant.
- Length is arbitrary units.
+ Length is in arbitrary units.
  Forces increase at a much smaller rate on decreasing diameter when compared
  to the case with self-similar scaling of fluid volume.
 \end_layout
@@ -5442,15 +5306,11 @@ h
 ), calculated from Capillary Bridge Model.
  Negative value represents attractive force.
  The bubble's contribution to the net force for an 
-\begin_inset Quotes eld
-\end_inset
-
-Underwater: bubble
-\begin_inset Quotes erd
-\end_inset
-
+\emph on
+underwater: bubble
+\emph default
  contact is denoted by plus symbols.
- Bubble size parameter ( ϕ
+ Bubble volume ( V
 \begin_inset script subscript
 
 \begin_layout Plain Layout
