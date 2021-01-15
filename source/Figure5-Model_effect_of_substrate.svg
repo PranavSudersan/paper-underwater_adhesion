@@ -13,7 +13,7 @@
    viewBox="0 0 852.449889 470.92155"
    width="852.449889pt"
    id="svg1385"
-   sodipodi:docname="Figure2-Effect_of_substrate.svg"
+   sodipodi:docname="Figure5-Model_effect_of_substrate.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata1389">
@@ -39,13 +39,14 @@
      inkscape:window-height="1577"
      id="namedview1387"
      showgrid="false"
-     inkscape:zoom="1.2965078"
-     inkscape:cx="533.31016"
-     inkscape:cy="45.797372"
+     inkscape:zoom="0.91676946"
+     inkscape:cx="469.27251"
+     inkscape:cy="218.95528"
      inkscape:window-x="1358"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1385" />
+     inkscape:current-layer="svg1385"
+     inkscape:document-rotation="0" />
   <defs
      id="defs4">
     <style
@@ -3870,4 +3871,8 @@
      style="fill:none;stroke:#000000;stroke-width:2.45197;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="M 566.13543,141.05945 H 747.80227"
      id="path1032" />
+  <path
+     d="m 54.034187,432.96194 h 0.97454 l 1.61578,2.47852 h -0.91758 l -1.18547,-1.61367 -1.18758,1.61367 h -0.91546 z m 0.48727,3.23789 z"
+     id="use204-5"
+     style="fill:#262626;stroke-width:0.135;stroke-linecap:butt;stroke-linejoin:round" />
 </svg>

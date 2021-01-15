@@ -527,26 +527,6 @@ underwater: no bubble
 , respectively) to investigate the bubble's role in underwater adhesion.
  Adhesion force for each of the labeled contact types were compared for
  both substrates.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-check labels throughout text
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-check tense throughout text
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -1263,7 +1243,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename setup_schematic.svg
+	filename Figure1-Setup_schematic.svg
 	lyxscale 50
 	scale 50
 
@@ -2467,7 +2447,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Figure5-Expt_Effect_of_contact.svg
+	filename Figure2-Expt_effect_of_contact.svg
 	lyxscale 50
 	scale 50
 
@@ -2689,7 +2669,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename model_schematic.svg
+	filename Figure3-Model_schematic.svg
 	width 70line%
 
 \end_inset
@@ -3409,7 +3389,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Figure1-Single_bridge.svg
+	filename Figure4a-Single_bridge_fd.svg
 	scale 50
 
 \end_inset
@@ -3460,7 +3440,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Figure1-Force_contribution.svg
+	filename Figure4b-Single_bridge_force_contribution.svg
 	scale 50
 
 \end_inset
@@ -3732,7 +3712,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Figure2-Effect_of_substrate.svg
+	filename Figure5-Model_effect_of_substrate.svg
 	lyxscale 50
 
 \end_inset
@@ -3772,17 +3752,6 @@ underwater: bubble
 underwater: bubble 
 \emph default
 contact for each case.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-express Vb as Vb hat everywhere
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -3954,7 +3923,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Figure3-Effect_of_hair_size.svg
+	filename Figure6-Model_effect_of_hair_size.svg
 	lyxscale 50
 	scale 50
 
@@ -3985,7 +3954,7 @@ underwater: bubble
  Pad diameter and bubble volume are kept fixed.
  Adhesion forces are calculated from the minima of the respective force-distance
  curves.
- Length is in arbitrary units.
+ Lengths are in arbitrary units.
 \end_layout
 
 \end_inset
@@ -4117,7 +4086,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Figure4-Effect_of_bubble_volume.svg
+	filename Figure7-Model_effect_of_bubble_volume.svg
 
 \end_inset
 
@@ -4142,7 +4111,7 @@ underwater: bubble
 \emph default
  contact type.
  Negative value represents attractive force.
- Here, pad to hair size ratio (
+ Here, pad to hair diameter ratio (
 \begin_inset Formula $D_{p}/D_{h}$
 \end_inset
 
@@ -4576,16 +4545,6 @@ literal "false"
 \end_inset
 
 .
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-change ref num to 18
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
