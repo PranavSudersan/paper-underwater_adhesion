@@ -265,7 +265,7 @@ literal "false"
 
 \end_inset
 
-, which makes it suitable to adhere to most surfaces reversibly.
+, which makes them suitable to adhere to most surfaces reversibly.
  Many of these insects pads also secrete an adhesive fluid, as seen in flies
  and ants 
 \begin_inset CommandInset citation
@@ -598,7 +598,7 @@ noprefix "false"
  using Blue-Tac.
  Its claws were fixed using epoxy glue to prevent any wiggling.
  A small piece of non-sticky Teflon tape helped to keep its other legs tucked
- close to the body and minimize their interference during the adhesion test.
+ close to the body and avoid their interference during the adhesion test.
 \end_layout
 
 \begin_layout Standard
@@ -615,7 +615,7 @@ Standard 20 mm wide glass coverslips were used as the hydrophilic substrate.
  Glass was wiped with isopropanol, rinsed in water and dried under nitrogen
  flow.
  The surface was then plasma cleaned in a oxygen plasma chamber (Diener
- Electronic Femto) for 10 mins at 120 W.
+ Electronic Femto) for 10 min at 120 W.
  The surface was further rinsed with water and dried under nitrogen flow.
 \end_layout
 
@@ -626,8 +626,7 @@ ne via chemical vapor deposition (CVD).
  Next, 0.2 ml of Trichloro(1H,1H,2H,2H-perfluorooctyl) silane (PFOTS), procured
  from Sigma Aldrich, was put in a sealed chamber along with the the cleaned
  glass.
- The chamber was placed under 100 mbar pressure for 10 mins for the CVD
- process.
+ The chamber was placed under 100 mbar pressure for 10 min for the CVD process.
  Finally, the substrate was annealed at 150℃ for 3 hours.
 \end_layout
 
@@ -647,6 +646,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="5">
 <features tabularvalignment="middle">
@@ -1102,12 +1102,12 @@ literal "false"
 \emph on
 Harmonia axyridis
 \emph default
-) was immersed in 50 µL THF for 20 m and then transferred to the measurement
+) was immersed in 50 µL THF for 20 min and then transferred to the measurement
  chamber of the FDMS.
  As a reference, pure THF was used.
  The second middle leg of the same ladybird was immersed in 100 µL milli-Q
- water for 15 minutes, then in THF for 20 minutes and then transferred to
- the measurement chamber of the spectrometer.
+ water for 15 min, then in THF for 20 min and then transferred to the measuremen
+t chamber of the spectrometer.
  Molecular composition was extracted from the peak positions of the FDMS
  data.
 \end_layout
@@ -1162,8 +1162,8 @@ Wild Heerbrugg
 \emph default
 ) fit with cameras were used to record the sample contact with the substrate
  from ventral and side views respectively.
- Pad contact area was visualized in total reflection mode by the ventral
- view camera.
+ Pad contact area was visualized through the substrate in total reflection
+ mode by the ventral view camera.
  The data acquisition from the force sensor and cameras, together with the
  appropriate piezo motion steps were synchronized using a custom LABVIEW
  program.
@@ -1211,11 +1211,11 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-For underwater experiments, 1 ml deionized water was pipetted into the substrate
+For underwater experiments, 1 ml MilliQ water was pipetted into the substrate
  holder.
  In order to achieve an underwater contact without a trapped air bubble,
- the water was first degassed in a vacuum chamber for 3 hours and used immediate
-ly.
+ the water was first degassed in a vacuum chamber at 10 mbar pressure for
+ 3 hours and used immediately.
  Before experiment, the pad was repeatedly brought into contact with the
  surface 10 times to equilibriate the pad system.
  5 force measurements were subsequently performed on a fresh spot of the
@@ -1232,6 +1232,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Figure1-Setup_schematic.svg
 	lyxscale 50
@@ -1287,16 +1288,19 @@ Buggee
 \begin_inset Quotes erd
 \end_inset
 
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "BUGGEE"
-literal "false"
+, a tool written in Python using open-source libraries for synchronous analysis
+ of force data and video recordings (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/PranavSudersan/Buggee
+\end_layout
 
 \end_inset
 
-, a tool written in Python using open-source libraries for synchronous analysis
- of force data and video recordings.
+).
  
 \end_layout
 
@@ -1358,8 +1362,8 @@ noprefix "false"
 
 ).
  Except for two molecular weights (406.8 g/mol and 331.6 g/mol), the chemical
- fingerprint remained unchanged, indicating that the lipid mixture was not
- washed away underwater.
+ fingerprint remained unchanged, indicating that the adhesion fluid was
+ not washed away underwater.
  Probable compounds in the fluid, corresponding to the resultant molecular
  weights, include mostly aliphatic hydrocarbons with traces of aldehydes.
 \end_layout
@@ -1371,6 +1375,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="3">
 <features tabularvalignment="middle">
@@ -1900,16 +1905,18 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="5">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="left" valignment="middle" width="15line%">
+<column alignment="left" valignment="middle" width="15line%">
+<column alignment="left" valignment="middle" width="15line%">
+<column alignment="center" valignment="middle" width="15line%">
+<column alignment="center" valignment="middle" width="15line%">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1918,7 +1925,7 @@ Fixed
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1927,7 +1934,7 @@ A
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1956,7 +1963,7 @@ CLES
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1965,7 +1972,7 @@ In air
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1974,7 +1981,7 @@ PFOTS
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2003,7 +2010,7 @@ Glass
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2012,7 +2019,7 @@ Underwater: bubble
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2021,7 +2028,7 @@ PFOTS
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2050,7 +2057,7 @@ Glass
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2059,7 +2066,7 @@ Underwater: no bubble
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2068,7 +2075,7 @@ PFOTS
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2099,7 +2106,7 @@ Glass
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2108,7 +2115,7 @@ PFOTS
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2117,7 +2124,7 @@ In air
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2146,7 +2153,7 @@ Underwater: bubble
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2155,7 +2162,7 @@ PFOTS
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2164,7 +2171,7 @@ In air
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2193,7 +2200,7 @@ Underwater: no bubble
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2202,7 +2209,7 @@ PFOTS
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2211,7 +2218,7 @@ Underwater: bubble
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2240,7 +2247,7 @@ Underwater: no bubble
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2249,7 +2256,7 @@ Glass
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2258,7 +2265,7 @@ In air
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2289,7 +2296,7 @@ Underwater: bubble
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2298,7 +2305,7 @@ Glass
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2307,7 +2314,7 @@ In air
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2338,7 +2345,7 @@ Underwater: no bubble
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2347,7 +2354,7 @@ Glass
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2356,7 +2363,7 @@ Underwater: bubble
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2427,6 +2434,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Figure2-Expt_effect_of_contact.svg
 	lyxscale 50
@@ -2548,8 +2556,9 @@ bad contact
 \end_inset
 
 .
- In this scenario, the hairs don't appear to make a perfect contact with
- the substrate, unlike the other three contact types.
+ In this scenario, the ventral view recordings show that the hairs don't
+ appear to contact well with the substrate, unlike the other three contact
+ types.
  
 \begin_inset Quotes eld
 \end_inset
@@ -2566,7 +2575,7 @@ Bad contact
  While it's not completely clear why such a contact occurs, there can be
  two possible reasons.
  First, the hairs could get bundled due to a small air meniscus within the
- hairs, resulting in its disorientation.
+ hairs, resulting in their disorientation.
  Second, a thin water layer at the substrate interface might not be drained
  out to allow the hairs to make contact with the substrate, resulting in
  a loss of adhesion.
@@ -2679,7 +2688,8 @@ Underwater: no bubble
 \emph default
 , where part of the adhesive fluid bridges are inside the bubble while others
  are outside in water.
- The corresponding contact images of the beetle's pad are shown on the right.
+ The corresponding ventral view contact images of the beetle's pad are shown
+ on the right.
 \end_layout
 
 \end_inset
@@ -3022,7 +3032,7 @@ First, we calculate force-distance curves for a single pinned liquid capillary
 \noun off
 \color none
 
-\begin_inset Formula $V_{b}$
+\begin_inset Formula $\hat{V}_{b}$
 \end_inset
 
 ,
@@ -3048,13 +3058,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="8" columns="2">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3074,7 +3085,7 @@ Value
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3098,7 +3109,7 @@ Area fraction,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3122,7 +3133,7 @@ Hair aspect ratio,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3146,7 +3157,7 @@ Water surface tension ratio,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3170,7 +3181,7 @@ Fluid-water interfacial tension ratio,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3207,7 +3218,7 @@ Fluid size parameter,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3234,7 +3245,7 @@ Hydrophilic substrate
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3702,6 +3713,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Figure5-Model_effect_of_substrate.svg
 	lyxscale 50
@@ -3791,7 +3803,7 @@ in air
 \end_layout
 
 \begin_layout Standard
-The contribution of the capillary force due to the bubble is negligible
+The contribution of the capillary force due to the bubble itself is negligible
  for both substrates (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3817,6 +3829,123 @@ in air
 \emph default
  for the hydrophobic substrate, since all hairs are within the bubble in
  this case.
+\end_layout
+
+\begin_layout Subsubsection
+Capillary Bridge Model: Effect of bubble volume
+\end_layout
+
+\begin_layout Standard
+The effect of varying bubble volume, 
+\begin_inset Formula $\hat{V}_{b}$
+\end_inset
+
+, on the net adhesion force of the 
+\emph on
+underwater: bubble
+\emph default
+ case are compared for hydrophilic and hydrophobic substrates (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Effect-of-bubble"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ From previous section, we know that on the hydrophilic substrate, fluid
+ bridges outside the bubble show poor adhesion due to the positive curvature
+ of their meniscus.
+ Thus, decreasing 
+\begin_inset Formula $\hat{V}_{b}$
+\end_inset
+
+ decreases the adhesion force due to a larger proportion of hairs being
+ outside the bubble.
+ In contrast, on the hydrophobic substrate, fluid bridges outside the bubble
+ show higher capillary forces, due to its low contact angle and high interfacial
+ tension in water.
+ Thus, adhesion force increases for a hydrophobic substrate as the bubble
+ size decreases.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figure7-Model_effect_of_bubble_volume.svg
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Effect-of-bubble"
+
+\end_inset
+
+Normalized adhesion force of a hairy pad system as a function of bubble
+ volume, 
+\begin_inset Formula $\hat{V}_{b}$
+\end_inset
+
+, for the 
+\emph on
+underwater: bubble
+\emph default
+ contact type.
+ Adhesion forces are calculated from the minima of the respective force-distance
+ curves.
+ Negative force value represents attraction.
+ Pad to hair diameter ratio (
+\begin_inset Formula $D_{p}/D_{h}$
+\end_inset
+
+) is kept fixed.
+ Highlighted regions represent entrapment of all hairs within the bubble.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The contribution of the bubble to the net adhesion force is small regardless
+ of its volume, when compared to the whole pad.
+ We see that a smaller 
+\begin_inset Formula $\hat{V}_{b}$
+\end_inset
+
+ results in increased attraction by the bubble on both types of substrates.
+ For larger values of 
+\begin_inset Formula $\hat{V}_{b}$
+\end_inset
+
+, the force trend for the whole pad mostly follows that of the bubble, because
+ the bubble in this case is big enough to entrap all the hairs inside it.
+ Thus, the force contribution due to the fluid bridges remain unchanged,
+ and only the bubble's contribution drives the slight variation in the pad's
+ adhesion at high 
+\begin_inset Formula $\hat{V}_{b}$
+\end_inset
+
+.
+ Once the bubble is small enough such that part of the fluid bridges start
+ making contact in water, the force trend changes, with a steep decrease
+ (increase) in adhesion force on hydrophilic (hydrophobic) substrate as
+ the volume decreases.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3855,7 +3984,7 @@ noprefix "false"
 
  are kept fixed.
  The radius corresponding to the fluid volume is assumed to scale proportional
- to the hair diameter it is pinned to (
+ to the hair diameter and is fixed (
 \begin_inset Formula $\phi_{f}=2$
 \end_inset
 
@@ -3992,7 +4121,11 @@ underwater: bubble
 \emph default
  contact is denoted by plus symbols.
  Pad diameter and bubble volume are kept fixed.
- Lengths are in arbitrary units.
+ All lengths are scaled relative to 
+\begin_inset Formula $D_{p}$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4075,122 +4208,6 @@ noprefix "false"
  Thus, the bubble's contribution gets repulsive as hair diameter decreases.
 \end_layout
 
-\begin_layout Subsubsection
-Capillary Bridge Model: Effect of bubble volume
-\end_layout
-
-\begin_layout Standard
-The effect of varying bubble volume, 
-\begin_inset Formula $\hat{V}_{b}$
-\end_inset
-
-, on the net adhesion force of the 
-\emph on
-underwater: bubble
-\emph default
- case are compared for hydrophilic and hydrophobic substrates (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Effect-of-bubble"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
- From previous sections, we know that on the hydrophilic substrate, fluid
- bridges outside the bubble show poor adhesion due to the positive curvature
- of its meniscus.
- Thus, decreasing 
-\begin_inset Formula $\hat{V}_{b}$
-\end_inset
-
- decreases the adhesion force due to a larger proportion of hairs being
- outside the bubble.
- In contrast, on the hydrophobic substrate, fluid bridges outside the bubble
- show higher capillary forces, due to its low contact angle and high interfacial
- tension in water.
- Thus, adhesion force increases for a hydrophobic substrate as the bubble
- size decreases.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Figure7-Model_effect_of_bubble_volume.svg
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Effect-of-bubble"
-
-\end_inset
-
-Normalized adhesion force of a hairy pad system as a function of bubble
- volume, 
-\begin_inset Formula $\hat{V}_{b}$
-\end_inset
-
-, for the 
-\emph on
-underwater: bubble
-\emph default
- contact type.
- Adhesion forces are calculated from the minima of the respective force-distance
- curves.
- Negative force value represents attraction.
- Pad to hair diameter ratio (
-\begin_inset Formula $D_{p}/D_{h}$
-\end_inset
-
-) is kept fixed.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-The contribution of the bubble to the net adhesion force is small regardless
- of its volume, when compared to the whole pad.
- We see that a smaller 
-\begin_inset Formula $\hat{V}_{b}$
-\end_inset
-
- results in increased attraction by the bubble on both types of substrates.
- For larger values of 
-\begin_inset Formula $\hat{V}_{b}$
-\end_inset
-
-, the force trend for the whole pad mostly follows that of the bubble, because
- the bubble in this case is big enough to entrap all the hairs inside it.
- Thus, the force contribution due to the fluid bridges remain unchanged,
- and only the bubble's contribution drives the slight variation in the pad's
- adhesion at high 
-\begin_inset Formula $\hat{V}_{b}$
-\end_inset
-
-.
- Once the bubble is small enough such that part of the fluid bridges start
- making contact in water, the force trend changes, with a steep decrease
- (increase) in adhesion force on hydrophilic (hydrophobic) substrate as
- the volume decreases.
-\end_layout
-
 \begin_layout Section
 Discussion
 \end_layout
@@ -4207,8 +4224,8 @@ literal "false"
 
 \end_inset
 
- had hypothesized that the bubble is necessary for underwater attachment
- in beetles.
+ had hypothesized that a bubble is necessary for underwater attachment in
+ beetles.
  This is, however, only true for hydrophilic substrates, where a trapped
  bubble can facilitate underwater adhesion due to the hairs making contact
  in a dewetted environment.
@@ -4250,7 +4267,7 @@ noprefix "false"
  In underwater conditions without a trapped bubble, adhesion on a hydrophobic
  substrate is significantly larger than on a hydrophilic substrate.
  This is explained by the different oil interfacial tension and contact
- angles with the substrates in air and underwater, which influences the
+ angles with the substrates in air and underwater, which determines the
  capillary adhesive force in each case (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4299,7 +4316,7 @@ l properties.
  Direct measurement of the fluid's interfacial properties is thus essential
  to better predict the insect's adhesion, and will be a subject of future
  study.
- Further, due to surface inhomogeneities, all the hairs might not be able
+ Further, due to surface inhomogeneities, not all the hairs might be able
  to completely drain the interfacial water layer, in order for the adhesive
  fluid to make a direct contact with the substrate.
  This can further reduce underwater adhesion, in comparison to our theoretical
@@ -4480,7 +4497,7 @@ literal "false"
 
 \end_inset
 
- are an indirect proof of capillary contributions to gecko adhesion.
+ indicate a capillary contribution to gecko adhesion.
  We suggest performing single seta adhesion force tests similar to Autumn
  et.
  al.
@@ -4494,9 +4511,6 @@ literal "false"
 
  using a hydrophilic and fluorinated probe in air and underwater conditions
  to validate the role of capillary contributions to gecko adhesion.
- Future studies on animal adhesion should characterize oleophilicity rather
- than hydrophilicity of a substrate, since oil contact angle primarily controls
- its adhesion to the substrate.
 \end_layout
 
 \begin_layout Standard
@@ -4625,21 +4639,20 @@ Conclusions
 
 \begin_layout Standard
 Our study illustrates that the ladybug beetle relies primarily on its oily
- adhesive fluid secretion to achieve adhesion in both air and underwater
- conditions.
- We show that the beetle can attach underwater on a hydrophobic substrate
- even without a trapped air bubble within its hairy pad, although it loses
- this ability on a hydrophilic substrate.
- The different contact angle and interfacial tension of the adhesive fluid
- in air and underwater conditions explain this observation.
- Theoretical calculations suggest that the bubble itself has a negligible
- capillary contribution to the total force.
+ fluid secretion to achieve adhesion in both air and underwater conditions.
+ The beetle can attach underwater on a hydrophobic substrate even without
+ a trapped air bubble within its hairy pad, although it loses this ability
+ on a hydrophilic substrate.
+ This is explained theoretically by the different contact angle and interfacial
+ tension of the adhesive fluid in air and underwater conditions.
+ Further, the bubble itself has a negligible capillary contribution to the
+ total force.
  The trapped bubble can promote adhesion only on a hydrophilic substrate
  by providing an air medium to the adhesive fluid bridges inside it.
- Insect adhesion is thus correlated directly to the wettability of the adhesive
- fluid on a given substrate and surrounding medium.
- A similar argument also explains previously reported measurements in geckos
- 
+ Oil wettability, thus, primarily controls the insect's adhesion in any
+ given condition.
+ A similar argument also explains previously reported underwater measurements
+ in geckos 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN15"
@@ -4648,6 +4661,9 @@ literal "false"
 \end_inset
 
 , which highlights the possibility of capillary contributions to gecko adhesion.
+ Future studies should characterize the fluid secretion's interfacial properties
+ with a particular substrate to better understand the nature of the animal's
+ adhesion.
 \end_layout
 
 \begin_layout Section
@@ -4856,6 +4872,10 @@ Single capillary bridge: Effect of volume
 \begin_layout Standard
 Surface Evolver simulation results showing the effect of volume on the maximum
  capillary force of a single fluid bridge.
+ Since the fluid is pinned at the top to the same diameter, D, a smaller
+ volume would result in high interfacial curvatures, which increases the
+ capillary force due to the negative Laplace pressure.
+ In this case, small contact angles lead to a greater increase in adhesion.
 \end_layout
 
 \begin_layout Standard
@@ -4869,6 +4889,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename FigureS2-Effect_of_fluid_volume.svg
 
@@ -4964,6 +4985,11 @@ underwater: bubble
 \emph default
  contact is denoted by plus symbols.
  Bubble volume and pad diameter are kept fixed.
+ All lengths are scaled relative to 
+\begin_inset Formula $D_{p}$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4988,15 +5014,27 @@ name "subsec:Capillary-force-due"
 \end_layout
 
 \begin_layout Standard
-Video shows the experimental force measurement of a bubble of volume 
-\begin_inset Formula $\sim$
+Capillary force of a single bubble against a PFOTS surface are compared
+ for two different volumes.
+ The volumes correspond to the expected range in the case of the trapped
+ bubble in a ladybug.
+ Here, the bubble is pinned to a micropatterned PDMS substrate on the top.
+ The maximum adhesion force of any of the bubble never exceeds 50 μN, significan
+tly lower than the beetle's underwater adhesion to the same substrate (>
+ 400 μN).
+ Thus, the bubble's contribution to adhesion in the 
+\begin_inset Quotes eld
 \end_inset
 
- 2 nL underwater.
- The bubble is pinned to a micropatterned PDMS substrate on the top and
- makes contact with a PFOTS substrate on the bottom.
- Maximum adhesion force of the bubble is 42 μN, significantly lower than
- the beetle's underwater adhesion to the same substrate (> 400 μN).
+
+\emph on
+underwater: bubble
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ contact of a ladybug's pad should be negligible.
 \end_layout
 
 \begin_layout Standard
@@ -5006,12 +5044,9 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename FigureS4-Bubble_force_curve.svg
+	filename FigureS4-Expt_bubble_force.svg
 
 \end_inset
 
