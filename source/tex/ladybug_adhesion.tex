@@ -20,7 +20,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
 
 
-\title{Wetting properties of the adhesive fluid allows beetles to attach to surfaces not just in air but also underwater}
+\title{Wetting of the adhesive fluid controls underwater adhesion in insects}
 
 
 \author{Pranav Sudersan}
@@ -61,11 +61,6 @@ Mainz, Germany}
 \email{endlein01@mpip-mainz.mpg.de}
 
 
-\phone{+49 6131 379 111}
-
-
-\fax{+49 6131 379 310}
-
 \DeclareRobustCommand{\greektext}{%
   \fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
 \DeclareRobustCommand{\textgreek}[1]{\leavevmode{\greektext #1}}
@@ -92,28 +87,26 @@ Mainz, Germany}
 \begin{document}
 \begin{abstract}
 
-Many beetles can climb smooth surfaces using hairy adhesive pads on their legs. It was previously shown that a terrestrial beetle can even adhere and walk underwater. The naturally hydrophobic hairs trap an air bubble around the pads, allowing the hairs to make contact to the substrate like in air. However, it remained unclear to what extend such an air bubble is necessary for underwater adhesion and if the bubble contributes to the net adhesive force. To investigate the role of the bubble, we measured the adhesive forces in individual legs of live but constrained ladybug beetles underwater in the presence and absence of a trapped bubble and compared it with its adhesion in air. Our experiments revealed that on a hydrophobic substrate, even without a bubble, the pads show adhesion comparable to that in air. On a hydrophilic substrate, underwater adhesion is significantly reduced, with or without a trapped bubble. We modelled the adhesion of a hairy pad using capillary forces. Coherent with our experiments, the model demonstrates that the wetting properties of the adhesive fluid alone can determine the insects' adhesion in both air and underwater conditions and that an air bubble is not a prerequisite for their underwater adhesion. 
+Many insects can climb smooth surfaces using hairy adhesive pads on their legs. It was previously shown that a terrestrial beetle can even adhere and walk underwater. The naturally hydrophobic hairs trap an air bubble around the pads, allowing the hairs to make contact to the substrate like in air. However, it remained unclear to what extent such an air bubble is necessary for underwater adhesion. To investigate the role of the bubble, we measured the adhesive forces in individual legs of live but constrained ladybug beetles underwater in the presence and absence of a trapped bubble and compared it with its adhesion in air. Our experiments revealed that on a hydrophobic substrate, even without a bubble, the pads show adhesion comparable to that in air. On a hydrophilic substrate, underwater adhesion is significantly reduced, with or without a trapped bubble. We modelled the adhesion of a hairy pad using capillary forces. Coherent with our experiments, the model demonstrates that the wetting properties of the adhesive fluid secretion alone can determine the insects' adhesion in both air and underwater conditions and that an air bubble is not a prerequisite for their underwater adhesion. 
 \end{abstract}
 
 \section{Introduction}
 
 The question on how insects and other small arboreal animals climb smooth and slippery
-surfaces has fascinated scientists for the past three centuries \cite{RN198,RN59}. We now know that such animals are able to adhere by using specialised organs on their feet called adhesive pads. These adhesive pads can generally be described as either ``smooth'' or ``hairy''. Several insect orders including earwigs, flies, and beetles \cite{Gorb:2001b} but also several spiders \cite{Coddington:1991} and arboreal lizards \cite{Williams:1982} bear hairy pads. Hairy pads show 1) compliance to rough surfaces due to their lower effective modulus, 2) angle dependent adhesion due to asymmetric hair geometry and 3) self-cleaning capability \cite{RN20}, which makes them suitable to adhere to most surfaces reversibly. The hairs themselves (setae) can branch into smaller fibrillar units (spatulae) like seen in spiders and lizards but are typically undivided in most insects. The hairs in many insects can however exhibit different tip geometries, including discoidal, spatula shaped or pointed tips, and distributed throughout the pad depending on sex or species\cite{RN19}. Single seta force measurements revealed that discoidal shaped seta show larger pull-off forces than spatula shaped or pointed setae\cite{RN79}, illustrating the role of hair geometry in adhesion. All insect pads secrete an adhesive fluid while spiders and geckos rely on their dry hairy pads for attachment (``dry adhesion''). In the ``wet adhesion'' case, fluid secretion can enforce adhesion through surface tension and viscous forces \cite{RN71}, while, ``dry adhesion'' relies mostly on van der Waals forces \cite{RN202}. 
+surfaces has fascinated scientists for the past three centuries \cite{RN198,RN59}. We now know that such animals are able to adhere by using specialised organs on their feet called adhesive pads. These adhesive pads can generally be described as either ``smooth'' or ``hairy''. Several insect orders including earwigs, flies, and beetles \cite{Gorb:2001b} but also several spiders \cite{Coddington:1991} and arboreal lizards \cite{Williams:1982} bear hairy pads. Hairy pads show 1) compliance to rough surfaces due to their lower effective modulus, 2) angle dependent adhesion due to asymmetric hair geometry and 3) self-cleaning capability \cite{RN20}, which makes them suitable to adhere to most surfaces reversibly. The hairs themselves (setae) can branch into smaller fibrillar units (spatulae) as seen in spiders and lizards but are typically undivided in most insects. The hairs in many insects can however exhibit different tip geometries, including discoidal, spatula shaped or pointed tips, and distributed throughout the pad depending on sex or species\cite{RN19}. Single seta force measurements revealed that discoidal shaped seta show larger pull-off forces than spatula shaped or pointed setae\cite{RN79}, illustrating the role of hair geometry in adhesion. All insect pads secrete an adhesive fluid (``wet adhesion'') while spiders and geckos rely on their dry hairy pads for attachment (``dry adhesion''). In the ``wet adhesion'' case, fluid secretion can enforce adhesion through surface tension and viscous forces \cite{RN71}, while, ``dry adhesion'' relies mostly on van der Waals forces \cite{RN202}. 
 
 
-While most of the studies on insect adhesion focused on terrestrial species, underwater insect attachment is much more rare and has been relatively unexplored. Some aquatic insects like diving beetles \cite{Chen:2014} or midge larva \cite{Kang:2020} using suction cups to adhere to surfaces. However, underwater adhesion using secreted liquids (glue-like substances or the adhesive fluid) requires the displacement of the water in the interface first and a spreading of the fluid on the substrate. Furthermore, the spreading coefficient of the secreted liquid needs to be larger than that of the water in order to utilise the interfacial tension between the liquids as an adhesive force. One relative simple approach is to use an air bubble around the adhesive organs similar to the air bubbles many secondary aquatic insects and spiders carry on their body for breathing underwater \cite{Seymour:2013}. This has been shown in a recent study by \citet{RN87} on the ability of a terrestrial leaf beetle which can attach quite well to surfaces underwater by using such an air bubble. Their naturally hydrophobic hairs trap the bubble around the pads when being submerged, which de-wets the surface effectively on contact. It has been hypothesised that a combination of capillary forces due the air bubble and hair secretions within the dewetted area results in its adhesion underwater. However, it remained unclear whether an air bubble is strictly necessary and its exact contribution to the adhesive force. The oily adhesive fluid found in insects alone might be sufficient in creating the necessary interfacial tension even without an bubble, given that the adhesive fluid remains on the hairs when submerged. In beetles, the tip of each seta secretes approximately one femtoliter of oily adhesive fluid \cite{RN108}. The fluid's chemical composition is identified as a mixture of mostly long chain hydrocarbons\cite{RN96} with traces
-of triglycerides, fatty acids and cholesterol\cite{RN221,RN222} rendering it immiscible with water. %A recent study by Gernay et. al.\cite{RN77}, based on an elastocapillary model, has been able to reasonably predict single seta adhesion forces theoretically, confirming the dominant role of surface tension in the ``wet adhesion'' of beetles.
+While most of the studies on insect adhesion focused on terrestrial species, underwater insect attachment is much more rare and has been relatively unexplored. Some aquatic insects like diving beetles \cite{Chen:2014} or midge larva \cite{Kang:2020} use suction cups to adhere to surfaces. However, underwater adhesion using secreted liquids (glue-like substances or the adhesive fluid) requires the displacement of the water at the interface first and a spreading of the fluid on the substrate. One relatively simple approach is to use an air bubble around the adhesive organs similar to the air bubbles many secondary aquatic insects and spiders carry on their body for breathing underwater \cite{Seymour:2013}. This has been shown in a recent study by \citet{RN87} that a terrestrial leaf beetle can attach quite well to surfaces underwater by using such an air bubble. Their naturally hydrophobic hairs trap the bubble around the pads when being submerged, which de-wets the surface effectively on contact. It has been hypothesised that a combination of capillary forces due the air bubble and hair secretions within the de-wetted area results in its adhesion underwater. However, it remained unclear whether an air bubble is strictly necessary and its exact contribution to the adhesive force. The oily adhesive fluid found in insects alone might be sufficient in creating the necessary capillary adhesion even without a bubble, given that the fluid remains on the hairs when submerged. In beetles, the tip of each seta secretes approximately one femtoliter of adhesive fluid \cite{RN108}. The fluid's chemical composition was identified to be an oil-like mixture of mostly long chain hydrocarbons\cite{RN96} with traces
+of triglycerides, fatty acids and cholesterol\cite{RN221,RN222}, rendering it immiscible with water.
 
-% Geckos are also known to adhere underwater, where its shear adhesion force on hydrophobic substrates are similar in both air and underwater conditions. Interestingly, its adhesion on a fluorinated substrate is even larger underwater than in air\cite{RN15}. This has been partially explained by a thermodynamic work of adhesion model, assuming full displacement of water at the interface, leading to a dry ``van der Waals'' contact of hairs with the surface\cite{RN199}.
-
-The goal of this paper is to provide a generalised picture of adhesion in insects which use hairy pads and secrete a oily fluid for attachment. We used the ladybug beetle (\emph{Coccinella septempunctata}) as an animal model to first experimentally measure adhesion of individual adhesive pads in air and underwater conditions, both on smooth hydrophilic and hydrophobic glass surfaces. We further tested whether the chemical profile of the adhesive fluid changes when the hairs being submerged in water. Second, we developed a simple theoretical model considering capillary forces to predict the net adhesion force of a hairy pad under different conditions. The case of underwater adhesion was studied both in the presence and absence of a trapped bubble, to decouple the bubble's role in the insect's adhesion. Finally, we
+The goal of this paper is to provide a generalised picture of adhesion in insects which use hairy pads and secrete an oily fluid for attachment. We used the ladybug beetle (\emph{Coccinella septempunctata}) as an animal model to first experimentally measure adhesion force of its individual pads in air and underwater conditions, both on smooth hydrophilic and hydrophobic glass surfaces. We further tested whether the chemical profile of the adhesive fluid changes when the hairs were submerged in water. Second, we developed a simple theoretical model considering capillary forces to predict the net adhesion force of a hairy pad under different conditions. The case of underwater adhesion was studied both in the presence and absence of a trapped bubble, to decouple the bubble's role in the insect's adhesion. Finally, we
 discuss key insights gained from our experiments and model with regards to understanding adhesion in other animals.
 
 \section{Experimental}
 
 Normal adhesion force measurements on a restrained leg in a live
 beetle were performed. We characterised adhesion by the pull-off force
-during detachment and tested smooth glass and
+during detachment, tested on smooth glass and
 fluorinated surfaces representing hydrophilic and hydrophobic substrates
 respectively. When no water was present, we labelled the contact type
 as ``\emph{in air}''. Underwater, measurements
@@ -127,40 +120,40 @@ for each of the labelled contact types were compared for both substrates.
 \subsubsection{Insect preparation}
 
 Seven-spotted male adult ladybug beetles (\emph{Coccinella septempuctata})
-purchased from Katz Biotech (Baruth, Germany) and housed in a plastic box filled with leaves,
+were purchased from Katz Biotech (Baruth, Germany) and housed in a plastic box filled with leaves,
 twigs and stones at room temperature and 60-80\% relative humidity
 with daily access to sunlight. They were fed with raisins, honey and
 water \emph{ad libitum}. 
 
  %The beetle's leg was constrained similar to the method described by Bullock et al \cite{RN19}.
-An individual beetle was first carefully anesthetised using small amounts of CO\textsubscript{2} sublimating
-from a piece of dry ice and then glued with a small dollop of epoxy glue on its elytra to the underside of a heavy steel ball. The ball was held in a bracket which allowed free rotational movement of the ball in each direction, thus helping to align the suspended beetle over the substrate (see Fig.~\ref{fig:Setup}). The bracket with the ball and the beetle could be further positioned by manual micromanipulators in all three axes before the experiments. One front left leg was carefully fixed to a piece of soft solder wire coming off the steel ball using Blue-Tac (X) allowing us to further align the leg to the substrate. The claws on the leg were also fixed to the wire using epoxy glue to prevent any further wiggling and to prevent the claws from touching the substrate. Each leg of a male ladybug beetle has two pads. For the test, we only allowed the distal pad to come into contact with the substrate thus minimising partial or bad contact of the other one. A small piece of non-sticky Teflon tape helped to keep other legs tucked close to the body and avoided any interference during the adhesion test. After the measurements, the beetle was freed by carefully removing the epoxy glue and Blue-Tac without harming it and set free. 
+An individual beetle was first carefully anaesthetised using small amounts of CO\textsubscript{2} sublimating
+from a piece of dry ice and then glued with a small dollop of epoxy glue on its elytra to the underside of a heavy steel ball. The ball was held in a bracket which allowed free rotational movement of the ball in each direction, thus helping to align the suspended beetle over the substrate (see Fig.~\ref{fig:Setup}). The bracket with the ball and the beetle could be further positioned by manual micro-manipulators in all three axes before the experiments. One front left leg was carefully fixed to a piece of soft solder wire coming off the steel ball using Blu Tack (Bostik Ltd., U.K.) allowing us to further align the leg to the substrate. The claws on the leg were also fixed to the wire using epoxy glue to prevent any further wiggling and to prevent the claws from touching the substrate. Each leg of a male ladybug beetle has two pads. For the test, we only allowed the distal pad to come into contact with the substrate thus minimising partial or bad contact of the other one. A small piece of non-sticky Teflon tape helped to keep other legs tucked close to the body and avoided any interference during the adhesion test. After the measurements, the beetle was freed by carefully removing the epoxy glue and Blu Tack without harming it and set free. 
 
 
 
 \subsubsection{Adhesion test}
 
 Adhesion measurements were performed on a custom force measurement
-setup developed in-house (Figure \ref{fig:Setup}). A fiber optic
+setup developed in-house (Figure \ref{fig:Setup}). A fibre optic
 displacement sensor (\emph{Philtec D20, PHILTEC, Inc. USA}) together
 with a steel bending beam (spring constant = 68.1 N/m) constitutes
-the (vertical) force sensor. Beam deflection was calibrated using 4
+the vertical force sensor. Beam deflection was calibrated using 4
 different known weights to get the corresponding force. A plastic
 3D printed substrate holder was glued to the end of the bending beam.
 The holder was designed to enable switching from one substrate to
 another without removing any glue. It also had transparent side walls
 which allowed us to fill it with water for the underwater experiments
 as well as observe the contact. The sensor was mounted on a stage
-consisting of a X-piezo, used for precise lateral movements, XYZ motors,
+consisting of a X-piezo element, used for precise lateral movements, XYZ motors,
 for coarse movements and a goniometer, for adjusting substrate alignment
-with the optics. Additionally, a separate Z-piezo, fixed upright,
+with the optics. Additionally, a separate Z-piezo element, fixed upright,
 was used for vertical up-down motion, bringing the insect in contact
 with the substrate from the top. A coaxial illuminated tube microscope
 (\emph{Navitar}) with 2$\times$ objective and a stereo-microscope
-with 1$\times$ objective (\emph{Wild Heerbrugg}) fit with digital video cameras (\emph{FLIR Blackfly S}, 2448 x 2048 pixel; XBasler)
+with 1$\times$ objective (\emph{Wild Heerbrugg}) fit with digital video cameras (\emph{FLIR Blackfly S}, 2448 x 2048 px; \emph{Basler ace U}, 1280 x 1024 px)
 were used to record the sample contact with the substrate from ventral
 and side views respectively. Pad contact area was visualised through
-the substrate with help of epi-illumination.
+the substrate under reflection mode with the help of epi-illumination.
 The data acquisition from the force sensor and cameras, together with
 the appropriate piezo motion steps were synchronised using a custom
 LABVIEW program. Force data was acquired at a sample rate of 984 Hz,
@@ -169,12 +162,12 @@ frames per second.
 
 The vertical and lateral piezos were used together to perform approach-retract
 adhesion tests with the substrate to get the pull-off force. However,
-instead of a simple down-up motion, an additional 100 \textgreek{m}m lateral sliding motion was introduced after the leg made contact, to ensure most of the hair tips align well with the substrate \cite{RN19}.
-A further 10 \textgreek{m}m compression step (approach) set all hairs in slight compression which helped further contact
+instead of a simple down-up motion, an additional 100 \textmu m lateral sliding motion was introduced after the leg made contact, to ensure most of the hair tips align well with the substrate \cite{RN19}.
+A further 10 \textmu m compression step (approach) set all hairs in slight compression which helped further contact
 with the surface. Next, a short pause (1 s) removed any
 viscoelastic effects before finally retracting the leg away from the
 substrate. All approach, retract and lateral slide motion was done
-at a speed of 62.5 \textgreek{m}m/s. Ventral view video recordings
+at a speed of 62.5 \textmu m/s. Ventral view video recordings
 were used for contact area extraction while the side view imaging
 was used to visually aid orienting the pad with the substrate before
 a test.
@@ -184,7 +177,7 @@ substrate holder. In order to achieve an underwater contact without
 a trapped air bubble, the water was first degassed in a vacuum chamber
 at 10 mbar pressure for 3 hours and used immediately. Before the experiments,
 the pad was brought into contact with the surface 10 times repeatedly 
-to equilibrate the pad system (X what do you mean by equilibrate?). 
+to equilibrate the pad's secretion system. 
 
 Five force measurements were subsequently performed on a fresh spot of the substrate and averaged for data analysis. Experiments were repeated with five individual beetles for each type of contact and substrate. In total, 30 beetles were tested.
 
@@ -194,9 +187,9 @@ Five force measurements were subsequently performed on a fresh spot of the subst
 \par\end{centering}
 \caption{\label{fig:Setup} Adhesion setup (for explanation see text). The recorded force data and
 contact area of a distal pad are shown in the plot, in which, the shaded
-regions represent distinct movements like approach, lateral pull, pre-load and detachment... (please explain which ones X). Negative force values
+regions from left to right represent the distinct movement sequence: approach, lateral pull, approach, pause and retract, respectively. Negative force values
 represent attraction and the minimum force peak during the final retraction
-step is the adhesion force used for further analysis. An animated version of a typical force recording is available in the Supplementary Material Xshould we provide one?}
+step is the adhesion force used for further analysis. An animated version of a typical force recording is available in the Supplementary Material.}
 \end{figure}
 
 \subsubsection{Data analysis}
@@ -211,7 +204,7 @@ negative force during the final retraction step (Figure \ref{fig:Setup}).
 For underwater measurements, an additional correction was necessary.
 When the beetle was submerged underwater, its contact line at the
 water surface shifted, which influenced the force readout due to surface
-tension effects. This effect needed to be canceled. So, a ``background''
+tension effects. This effect needed to be cancelled. So, a ``background''
 force data was recorded, where the submerged beetle makes no contact
 with the substrate. This background data was then subtracted from
 a typical force data with substrate contact to correct for the external
@@ -228,14 +221,14 @@ comparison between groups.
 
 \subsubsection{Substrate preparation}
 
-Standard 20 mm wide glass coverslips were used as the hydrophilic
+Standard 20 mm wide glass cover-slips were used as the hydrophilic
 substrate. Glass was wiped with isopropanol, rinsed in water and dried
 under nitrogen flow. The surface was then plasma cleaned in a oxygen
 plasma chamber (Diener Electronic Femto) for 10 min at 120 W. The
 surface was further rinsed with water and dried under nitrogen flow.
 
 For the hydrophobic substrate, the glass cover slip was coated with
-a fluorosilane via chemical vapor deposition (CVD). First, the glass
+a fluorosilane via chemical vapour deposition (CVD). First, the glass
 was cleaned using IPA and plasma treated as before. Next, 0.2 ml of
 Trichloro(1H,1H,2H,2H-perfluorooctyl) silane (PFOTS), procured from
 Sigma Aldrich, was put in a sealed chamber along with the the cleaned
@@ -243,11 +236,11 @@ glass. The chamber was placed under 100 mbar pressure for 10 min for
 the CVD process. Finally, the substrate was annealed at 150\textcelsius{}
 for 3 hours.
 
-The substrate wettability was characterised by dynamic contact angle
+The substrate wetting was characterised by dynamic contact angle
 measurements, performed with a DataPhysics OCA 35 contact angle goniometer.
 Milli-Q water and n-hexadecane were used as test liquids. Advancing
 and receding contact angles were measured for a maximum drop volume
-of 10 \textgreek{m}l and with 0.5 \textgreek{m}l/s flow rate.
+of 10 \textmu l and with 0.5 \textmu l/s flow rate.
 
 \begin{table}[H]
 \centering{}%
@@ -270,13 +263,13 @@ Substrate & Liquid & \ensuremath{\theta}\textsubscript{A} & \ensuremath{\theta}\
 
 \subsubsection{Field desorption mass spectroscopy}
 
-A previous study on archanids \cite{RN223} reported that its secreted
+A previous study on arachnids \cite{RN223} reported that its secreted
 fluid does not dissolve in water. To test whether the beetles retain
 their adhesive fluid underwater unchanged, we performed a Field Desorption Mass Spectroscopy
 (FDMS) using a ZAB 2-SE-FPD spectrometer (VG Instruments). The measurements
 were done on the extracted secretions before and after rinsing its
 legs with water. The middle leg of an Asian ladybird (\emph{Harmonia
-axyridis} X the fact we are introducing a new species is a bit odd and could raise a question with the reviewer but I don't know a good way around it. we could bring it in the introduction and say that these are preliminary/unpublished results. that would be perfectly viable) was immersed in 50 \textmu L THF for 20 min and then transferred
+axyridis}) was immersed in 50 \textmu L THF for 20 min and then transferred
 to the measurement chamber of the FDMS. As a reference, pure THF was
 used. The second middle leg of the same ladybird was subsequently
 immersed in 100 \textmu L Milli-Q water for 15 min, then in THF for
@@ -295,9 +288,9 @@ glass and PFOTS were similar, i.e. no significant differences were
 detected (Figure \ref{fig:Effect-of-contact} and Table \ref{tab:Statistical-analysis}).
 In contrast, the underwater adhesion on a PFOTS surface was significantly
 larger than on glass (p < 0.001). This stronger adhesion on PFOTS
-is observed both in the presence and absence of a trapped bubble.
-In both cases, adhesion force reach similar values as in air. In contrast,
-on glass, adhesion underwater is significantly reduced as compared
+was observed both in the presence and absence of a trapped bubble.
+In both cases, the adhesion force reached similar values as in air. In contrast,
+on glass, adhesion underwater was significantly reduced when compared
 to dry conditions, irrespective of the presence of a trapped bubble
 (p $\leq$ 0.002). In the presence of a bubble, underwater adhesion on glass was slightly higher (CLES = 0.84, p = 0.07).
 
@@ -310,8 +303,8 @@ are represented separately: \textquotedblleft\emph{bubble}\textquotedblright{}
 and \textquotedblleft\emph{no bubble}\textquotedblright . Crosses
 represent theoretical predictions of adhesion force, while, circles
 represent the contribution of the bubble itself, calculated from the
-capillary bridge model. In the model, hair diameter = 4 \textgreek{m}m,
-pad diameter = 200 \textgreek{m}m, hair height = 40 \textgreek{m}m,
+capillary bridge model. In the model, hair diameter = 4 \textmu m,
+pad diameter = 200 \textmu m, hair height = 40 \textmu m,
 N\protect\textsubscript{hairs} = 500, V\protect\textsubscript{fluid}
 = 4.2 fL and V\protect\textsubscript{bubble} = 1.2 nL. Interfacial
 tension of the adhesive fluid in air and water were assumed to be
@@ -341,7 +334,9 @@ for two molecular weights (406.8 g/mol and 331.6 g/mol), the chemical
 fingerprint remained unchanged This indicates that the adhesion fluid
 was not washed away underwater. Probable compounds in the fluid, corresponding
 to the resultant molecular weights, include mostly aliphatic hydrocarbons
-with traces of aldehydes.
+with traces of aldehydes. Our preliminary measurements on \emph{Harmonia axyridis} gives us confidence
+to assert that, even for the case of \emph{Coccinella
+septempuctata}, the adhesive fluid was not washed away from the hairs during the underwater experiments. 
 
 \begin{table}[H]
 \centering{}%
@@ -367,8 +362,7 @@ Without rinsing (g/mol) & After rinsing (g/mol) & Probable compounds\tabularnewl
 432.8 & 432.7 & C\textsubscript{31}H\textsubscript{60}\tabularnewline
 \hline 
 \end{tabular}\caption{Molecular weights of adhesive fluid secretion of \emph{Harmonia axyridis}
-with and without rinsing the beetle's leg in water. Molecular weights
-were extracted from the peaks in the FDMS spectra. \label{tab:Molecular-distribution-of}}
+with and without rinsing the beetle's leg in water. \label{tab:Molecular-distribution-of}}
 \end{table}
 
 
@@ -376,7 +370,6 @@ were extracted from the peaks in the FDMS spectra. \label{tab:Molecular-distribu
 
 \subsection{Capillary Bridge Model}
 
-(X check for the past tense where applicable X)
 \begin{figure}[H]
 \includegraphics[width=0.7\linewidth]{Figure3-Model_schematic}\caption{\label{fig:Model}The capillary bridge model. The hairs make contact
 with the substrate in three ways: a) \emph{In air}, where the adhesive
@@ -389,25 +382,25 @@ ventral view contact images of the beetle's pad are shown on the right.}
 
 We modelled the hairy pad as an array of $N$ cylindrical rods of length,
 $L$, and diameter, $D_{h}$, fixed to a flat circular pad of diameter,
-$D_{p}$ (Figure \ref{fig:Model}). The hairs and the pad are assumed
+$D_{p}$ (Figure \ref{fig:Model}). The hairs and the pad were assumed
 to be perfectly rigid, for simplicity. The tip of each hair has an
 adhesive fluid of volume, $V_{f}$, making contact with the substrate.
 The fluid is pinned to the circumference of the hair and forms a capillary
-bridge of height, $d$. Similar to our experiments, we consider three
+bridge of height, $d$. Similar to our experiments, we considered three
 types of contacts for the pad: 1) \emph{In air}, 2) \emph{Underwater:
 no bubble} and 3) \emph{Underwater: bubble}. In the third case, a
 bubble of volume, $V_{b}$, is trapped between the hairs and pinned
 to the pad circumference.
 
-To characterise the adhesive fluid and bubble volume we defined two
+To characterise the adhesive fluid and bubble volume, we defined two
 radii, $s_{f}$ and $s_{b}$, respectively, by $V_{f}=\frac{4}{3}\pi s_{f}^{3}$
 and $V_{b}=\frac{4}{3}\pi s_{b}^{3}$. Here, $s_{f}$ and $s_{b}$
 are the radii of spheres with equivalent volumes. Fluid and bubble
-radii are assumed to scale proportional to their corresponding pinned
+radii were assumed to scale proportional to their corresponding pinned
 contact diameter. We thus defined the size parameters, $\phi_{f}=D_{h}/\left(2s_{f}\right)$
 and $\phi_{b}=D_{p}/\left(2s_{b}\right)$ for the fluid and bubble
 respectively, to conveniently scale their volumes relative to the
-hair and pad diameters they were pinned to.
+hair and pad diameters they are pinned to.
 
 The net force for cases 1 and 2 can be calculated as:
 
@@ -432,15 +425,15 @@ due to the bubble meniscus alone at distance $d+L$.
 
 The capillary force, $f$, is the sum of two contributions: surface
 tension and Laplace pressure (equation \ref{eq:f_bridge}). Force
-versus distance for a single capillary bridge is calculated by Surface
-Evolver simulations\cite{RN206}, (described in \ref{subsec:Simulation-Method})
+versus distance for a single capillary bridge was calculated by Surface
+Evolver simulations\cite{RN206}  (described in \ref{subsec:Simulation-Method}),
 and used to obtain $F_{net}$ as a function of $d$ for each type
-of contact. The adhesion force of the complete hairy pad system is
+of contact. The adhesion force of the complete hairy pad system was
 then obtained from the minima of $F_{net}$, where negative force
 values represent attraction.
 
-We have considered $f_{air}$ and $f_{water}$ to be distinct terms
-because the capillary force by the adhesive fluid will be different
+We considered $f_{air}$ and $f_{water}$ to be distinct terms
+because the capillary force by the adhesive fluid would be different
 in air and underwater due to its different contact angle and interfacial
 tension in each case. Using the Young-Dupr\textcyr{\`\cyre} equations
 for each case of fluid-air, fluid-water and water-air interface, one
@@ -458,29 +451,30 @@ air, $\gamma_{fa}$ is the surface tension of the adhesive fluid,
 $\gamma_{wa}$ is the surface tension of water and $\gamma_{fw}$
 is the interfacial tension of the adhesive fluid with water.
 
-All lengths are normalised w.r.t. $s_{f}$ and forces are normalized
-w.r.t. $\gamma_{fa}s_{f}$. Interfacial tension values are fixed relative
-to $\gamma_{fa}$. Non dimensional bubble volume is expressed as,
+All lengths were normalised w.r.t. $s_{f}$ and forces were normalized
+w.r.t. $\gamma_{fa}s_{f}$. Interfacial tension values were fixed relative
+to $\gamma_{fa}$. Non dimensional bubble volume was expressed as,
 $\hat{V}_{b}=V_{b}/s_{f}^{3}$
 
-Geometric parameters and interfacial properties are kept fixed for
+Geometric parameters and interfacial properties were kept fixed for
 all model calculations (Table \ref{tab:Model-parameters}). Here,
-we assume the adhesive fluid to be an oil-lke substance and thus the
+we assumed the adhesive fluid to be an oil-lke substance and thus the
 interfacial tension ratios $\gamma_{wa}/\gamma_{fa}$ and $\gamma_{fw}/\gamma_{fa}$
-are taken corresponding to typical values of oil and water. We consider
+were taken corresponding to typical values for oil and water. We considered
 representative hydrophilic and hydrophobic substrates with $\theta_{fa}$
 and $\theta_{wa}$ values corresponding to a typical glass and fluorinated
 surface, respectively. Area fraction of the hairs relative to the
 pad, $\alpha=ND_{h}^{2}/D_{p}^{2}$, hair aspect ratio, $L/D_{h}$,
-and fluid size parameter, $\phi_{f}$, are fixed to values typical
+and fluid size parameter, $\phi_{f}$, were fixed to values typical
 for a ladybug's hairy pad. 
 
-We first calculated force-distance curves for a single pinned liquid
+First, we calculated force-distance curves for a single pinned liquid
 capillary bridge. Second, the effect of substrate on the force-distance
 curves of the hairy pad system was compared for each type of contact.
-Third, the effect of varying hair diameter, $D_{h}$, on net adhesion
-is studied. Finally, we look at the effect of changing the bubble
+Third, we looked at the effect of changing the bubble
 volume, $\hat{V}_{b}$, on the net underwater adhesion.
+Finally, the influence of varying the hair diameter, $D_{h}$, on adhesion
+was studied for each case.
 
 \begin{table}[H]
 \centering{}%
@@ -733,14 +727,14 @@ to a hydrophobic substrate even without a bubble trapped around its
 hairs. A previous study\cite{RN87} proposed that a bubble
 is necessary for underwater attachment in beetles. This is, however,
 only true for hydrophilic substrates, where a trapped bubble can facilitate
-underwater adhesion due to the hairs making contact in a dewetted
+underwater adhesion due to the hairs making contact in a de-wetted
 environment. For a hydrophobic substrate, the adhesion is similar
 regardless of whether the contact occurs in air or underwater conditions,
 with or without a trapped bubble. Our theoretical calculations further
 show that the bubble by itself has a negligible capillary contribution
 to the net underwater adhesion of the pad. Direct force measurement
 of a single similarly sized bubble making contact with a hydrophobic
-substrate shows a maximum adhesion less than 50 \textgreek{m}N, which
+substrate shows a maximum adhesion less than 50 \textmu N, which
 further validates that the bubble's contribution is insignificant
 (\ref{subsec:Capillary-force-due}).
 
@@ -778,13 +772,13 @@ in the same order of magnitude as experiments, and the qualitative
 trend is consistent for both hydrophilic and hydrophobic substrates
 in air and underwater.
 
-Our study provides further validation that capillary forces governs insect adhesion and van der Waals contribution,
+Our study provides further validation that capillary forces govern insect adhesion and van der Waals contribution,
 if any, must be negligible. Further, the capillary forces can even
 enable insect attachment underwater depending on the substrate chemistry.
 When underwater, without a trapped bubble, the pads adhere strongly
 to a hydrophobic substrate, but poorly to a hydrophilic substrate,
 even though it shows similarly strong adhesion to both substrates
-in air. This behavior can only be explained by capillary forces and the wetting properties of the fluid. Our
+in air. This behaviour can only be explained by capillary forces and the wetting properties of the fluid. Our
 preliminary FDMS results further provides validation to our assumption
 that the adhesive fluid can form capillary bridges with the substrate
 in water, instead of getting washed away (Table \ref{tab:Molecular-distribution-of}).
@@ -799,7 +793,7 @@ air\cite{RN199,RN15}. Geckos are thought to rely on van der Waals
 forces via dry contact with the substrate \cite{RN202}, although
 recent observations of phospholipid footprints left behind walking
 geckos \cite{RN205} could change that picture. Since geckos adhere
-poorly to PTFE (surface energy \textasciitilde{} 20 mN/m) one can
+poorly to PTFE (surface energy $\sim$ 20 mN/m) one can
 speculate that the phospholipid material has a higher surface energy,
 and consequently makes a higher contact angle with PTFE in air. Let
 us assume the phosopholipid substance to be a fluid similar to oil
@@ -818,14 +812,14 @@ glass, similar adhesion in air and underwater for PMMA/OTS-SAM and
 lower adhesion in air than underwater for PTFE. We, thus, propose
 that the underwater experiments performed on geckos \cite{RN199,RN15}
 indicate a capillary contribution to gecko adhesion. We suggest performing
-single seta adhesion force tests similar to Autumn et. al. \cite{RN202}
+single seta adhesion force tests similar to \citet{RN202}
 using a hydrophilic and fluorinated probe in air and underwater conditions
 to validate the role of capillary contributions to gecko adhesion.
 
 \begin{figure}[H]
 \includegraphics{Figure-9-Gecko_comparison}\caption{\label{fig:Comparison-with-model}Whole animal adhesion force of geckos
 on various substrates. Experimental shear adhesion values are reproduced
-from Stark et. al. \cite{RN15}. Normal adhesion forces for each gecko
+from \citet{RN15}. Normal adhesion forces for each gecko
 toe are theoretically estimated from the capillary bridge model, with
 hair diameter = 400 nm, toe diameter = 4 mm, adhesive fluid volume
 = 4.19x10\protect\textsuperscript{-3} fL and 10\% hair coverage.
@@ -838,7 +832,7 @@ respectively. PL contact angles with glass, PMMA, OTS-SAM and PTFE
 are assumed to be 6\textdegree , 10\textdegree , 20\textdegree{} and
 80\textdegree{} respectively. The corresponding water contact angles
 are 50\textdegree , 85\textdegree , 94\textdegree{} and 97\textdegree{}
-respectively, as reported in Stark et. al. \cite{RN15}.}
+respectively, as reported in \citet{RN15}.}
 \end{figure}
 
 We have so far limited our analysis to only smooth substrates. Of course insects
@@ -861,7 +855,7 @@ to surfaces in both air and underwater conditions. The beetles can
 attach underwater on a hydrophobic substrate even without a trapped
 air bubble within its hairy pad, although it loses this ability on
 a hydrophilic substrate. This is explained theoretically by the different
-contact angle and interfacial tension of the adhesive fluid in air
+contact angle and interfacial tension of the secreted fluid in air
 and underwater conditions. Further, the bubble itself has a negligible
 capillary contribution to the total force. The trapped bubble can
 promote adhesion only on a hydrophilic substrate by providing an air
@@ -882,14 +876,16 @@ fruitful discussions. This work was funded by the \emph{Deutsche Forschungsgemei
 \appendix
 
 \section{Appendix}
+%reset figure/table/equation numbers and include prefix
+\setcounter{figure}{0} \renewcommand{\thefigure}{A.\arabic{figure}} 
+\setcounter{table}{0} \renewcommand{\thetable}{A.\arabic{table}} 
+\setcounter{equation}{0} \renewcommand{\theequation}{A.\arabic{equation}}
 
 \subsection{Simulation method: Single capillary bridge \label{subsec:Simulation-Method}}
 
-\setcounter{figure}{0} \renewcommand{\thefigure}{A.\arabic{figure}} 
-\setcounter{equation}{0} \renewcommand{\theequation}{A.\arabic{equation}} Capillary
-force due to a single adhesive fluid or bubble meniscus (termed ``capillary
+ Capillary force due to a single adhesive fluid or bubble meniscus (termed ``capillary
 bridge'') is calculated by performing simulations in Surface Evolver
-\cite{RN206}, similar to the method described by De Souza et. al.\cite{RN93}.
+\cite{RN206}, similar to the method described by \citet{RN93}.
 A simple cubic geometry, mimicking the capillary bridge, of constant
 volume, $V$, is defined as the initial condition with an interfacial
 tension, $\gamma$, with the surrounding medium. Interfacial tension
@@ -1013,9 +1009,9 @@ Capillary force of a single bubble against a PFOTS surface are compared
 for two different volumes. The volumes correspond to the expected
 range in the case of the trapped bubble in a ladybug. Here, the bubble
 is pinned to a micropatterned PDMS substrate on the top. The maximum
-adhesion force of any of the bubble never exceeds 50 \textgreek{m}N,
+adhesion force of any of the bubble never exceeds 50 \textmu N,
 significantly lower than the beetle's underwater adhesion to the same
-substrate (> 400 \textgreek{m}N). Thus, the bubble's contribution
+substrate (> 400 \textmu N). Thus, the bubble's contribution
 to adhesion in the ``\emph{underwater: bubble}'' contact of a ladybug's
 pad should be negligible.
 
