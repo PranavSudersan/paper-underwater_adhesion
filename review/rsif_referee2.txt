@@ -20,17 +20,17 @@ Minor Comments
 Title - this suggests all insects, but not all were tested, only hairy pads of one species. I suggest adding something to the title like: "Wetting of the adhesive fluid controls underwater adhesion in insects with hairy pads" done
 Page 2, line 56 - is there a difference between glue-like substances and the adhesive fluid? done
 Page 3, line 19 - rephrase the sentence a bit, it is unclear and a little awkward. Perhaps something like: " However, it remains unclear if an air bubble is necessary for adhesion and what, if any, contribution it has to the adhesive force." done
-Page 4, line 51 - how were the claws fixed to the wire? This seems not only difficult to do but also could damage the pad or potentially fill it with glue. Do you have an image of this for clarity? -done. no image though
+Page 4, line 51 - how were the claws fixed to the wire? This seems not only difficult to do but also could damage the pad or potentially fill it with glue. Do you have an image of this for clarity? -done. no image though, added inset
 Page 5, like 31 - "The sensor was mounted..." This sentence is a bit difficult to read. Perhaps break up into more than one? done
 Page 5, line 49 - what is "epi-illumination"? This needs to be defined. done. changed to co-axial
 Page 6, line 17 - why was this speed used? random
 Page 6, line 29 - add "dry" to "brought into contact with the [dry] surface 10 times..." to clarify surface conditions done
 Page 9, line 50 - per my comment above on the confusing statistics, I don't think the table show that adhesion is stronger on PFOTS in the presence and absence of the trapped bubble? I'm having a hard time reading the table because I don't understand the analysis, but overall, there are only three statistically significant treatment combinations, and there is only one that involves PFOTS.
-Page 11, line 25 - missing period
-Pages 15 and 16 - section 3.3 discusses effect of substrate and contact angle is associated with this. In section 3.2, what is the contact angle associated with? The fluid?
+Page 11, line 25 - missing period done
+Pages 15 and 16 - section 3.3 discusses effect of substrate and contact angle is associated with this. In section 3.2, what is the contact angle associated with? The fluid? changed headings
 Page 18, line 38 - you note that all hairs are inside the bubble on the hydrophobic substrate, but the figure in Figure 5 shows hairs outside and this is discussed elsewhere. Please clarify. done
 Page 22, line 27 - change comma to period done
-Page 25, line 3 - several studies have suggested capillary contributions to gecko adhesion. Please note them and how this work may help rectify debates in the literature related to capillary adhesion in geckos.
+Page 25, line 3 - several studies have suggested capillary contributions to gecko adhesion. Please note them and how this work may help rectify debates in the literature related to capillary adhesion in geckos. done
 
 Sun, W., Neuzil, P., Kustandi, T. S., Oh, S., & Samper, V. D. (2005). The nature of the gecko lizard adhesive force. Biophysical journal, 89(2), L14-L17.
 
@@ -42,5 +42,5 @@ Mitchell, C. T., Dayan, C. B., Drotlef, D. M., Sitti, M., & Stark, A. Y. (2020).
 
 Page 25, line 5 - what would the proposed experiment do (i.e., single seta experiment)? What would it show us that is not already described? done
 Reference #11 is missing author names done
-Page 3 of the supplementary information has an odd line (mistake?) after Figure S1.1.
+Page 3 of the supplementary information has an odd line (mistake?) after Figure S1.1. done
 I do not see the video file mentioned in the supplementary information
