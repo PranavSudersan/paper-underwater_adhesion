@@ -1,0 +1,46 @@
+Referee: 2
+
+Comments to the Author
+Summary
+The purpose of this study was to investigate the role of capillary adhesion on insect (beetle) adhesion on wet and dry hydrophilic and hydrophobic substrates, paying particular attention to the natural bubble that is formed around the pads. Experiments and theoretical models show that beetles can adhere underwater on a hydrophobic substrate with or without the air bubble, but on a hydrophilic substrate adhesion is reduced regardless of the bubble. This study also includes some basic study of the adhesive fluid (composition and presence in water), as well as some ideas on how this model can be applied to other systems. This work is both interesting and important, however I have a few concerns that need to be addressed.  
+
+General Comments
+1. Why was the ladybug used in air/water? Is there biological relevance, or is this a good model system. If its a good model system, detail briefly why. Also, is the bubble always the native state for this beetle? It would be good to remind the readers of the biology in the introduction and discussion briefly.  
+2. What is the actual sample size used within and across treatments? On page 6 you say 30 beetles were used, but only 7 were bought (I thought?), and 5 were used in each contact/substrate. Please clarify how many were used (bought is less important) in each experiment. Also note if they were used repeatedly or only once in each experiment. If used repeatedly, did they have a break between trials? Was individual variation accounted for across treatments (see my notes on the statistics) if they were used repeatedly? etc.
+3. Very general question: what about buoyant force? Is this the background force noted on page 8?  
+4. I am very confused on the statistics. First, CLES is not often reported, add a short note about how this was used/what it means (i.e., what does a high vs. low value mean? and what do yours mean for the statistical interpretation?). Second, I may not fully understand your experimental design (i.e., samples sizes above and which animals were used for which test), but it is unclear to me why you conducted several t-tests when an ANOVA, which would directly match your figure, would be more appropriate. In this case you would have adhesion as dependent variable and the effects would be substrate (glass or PFOTS) and treatment (air, water w/bubble, water w/o bubble) and their interaction. If the model is significant, a post-hoc test would directly compare all combinations. The analysis you conducted is very hard to follow and seems more complicated than necessary. The post-hoc test would also account for multiple comparisons. It looks like normality and variance conform to the assumptions of a liner model, so I am unclear why this is not a simple ANOVA.
+5. Was the contact angle of the plasma treated substrate checked before and after experiments? It is possible that the hairs and/or treatment conditions wear away the CVD layer.
+6. Why was a different genus/species used for the mass spec? Please note why and mention that there could be differences between species. Common assumption is that all adhesive fluid is the same across insects, but this has never been experimentally determined to my knowledge. It is important to add this caveat to your work. On page 11, line 33, you state that you are "confident to assert" that the two species behave the same. Why/how are you confident?
+7. In the mass spec study the leg was in water for 15min. How long were live beetle legs in water during the experiment? Is this on the same timescale?
+8. By dipping the leg, not the tarsi alone, the extraction for the mass spec may include other cuticlar fluids that are not the adhesive fluid. There is not a good way to resolve this, collecting just the adhesive fluid is very difficult, but this limitation needs to be noted. It is possible other cuticlar fluids are dominating the analysis here, thus the experiment makes the assumption that all surface fluids are the same.  
+9. On page 24, line 21 you note adhesive performance of ants. In this sentence first clarify what is actually similar (this sentence just states similarity twice with no detail). Second, what would the adhesion of a flat ant pad using this model? Is there a bubble? Can this flat scenario be used to clarify the mechanics of underwater adhesion with capillary adhesion?
+10. In the reference to geckos, the model is made without the bubble, however the gecko shows the bubble on both hydrophilic and hydrophobic substrates. Does the model hold if the bubble is included? Also be careful to note and consider in the model that geckos so not appear to have a fluid, but more a soft layer that is worn away. Please note this and comment (i.e., it is very interesting if both the insect fluid and gecko layer behave the same theoretically in the model. Can the properties be changed in the model to test for similarities/differences in fluid types?).
+
+Minor Comments
+Title - this suggests all insects, but not all were tested, only hairy pads of one species. I suggest adding something to the title like: "Wetting of the adhesive fluid controls underwater adhesion in insects with hairy pads" done
+Page 2, line 56 - is there a difference between glue-like substances and the adhesive fluid? done
+Page 3, line 19 - rephrase the sentence a bit, it is unclear and a little awkward. Perhaps something like: " However, it remains unclear if an air bubble is necessary for adhesion and what, if any, contribution it has to the adhesive force." done
+Page 4, line 51 - how were the claws fixed to the wire? This seems not only difficult to do but also could damage the pad or potentially fill it with glue. Do you have an image of this for clarity? -done. no image though, added inset
+Page 5, like 31 - "The sensor was mounted..." This sentence is a bit difficult to read. Perhaps break up into more than one? done
+Page 5, line 49 - what is "epi-illumination"? This needs to be defined. done. changed to co-axial
+Page 6, line 17 - why was this speed used? random
+Page 6, line 29 - add "dry" to "brought into contact with the [dry] surface 10 times..." to clarify surface conditions done
+Page 9, line 50 - per my comment above on the confusing statistics, I don't think the table show that adhesion is stronger on PFOTS in the presence and absence of the trapped bubble? I'm having a hard time reading the table because I don't understand the analysis, but overall, there are only three statistically significant treatment combinations, and there is only one that involves PFOTS.
+Page 11, line 25 - missing period done
+Pages 15 and 16 - section 3.3 discusses effect of substrate and contact angle is associated with this. In section 3.2, what is the contact angle associated with? The fluid? changed headings
+Page 18, line 38 - you note that all hairs are inside the bubble on the hydrophobic substrate, but the figure in Figure 5 shows hairs outside and this is discussed elsewhere. Please clarify. done
+Page 22, line 27 - change comma to period done
+Page 25, line 3 - several studies have suggested capillary contributions to gecko adhesion. Please note them and how this work may help rectify debates in the literature related to capillary adhesion in geckos. done
+
+Sun, W., Neuzil, P., Kustandi, T. S., Oh, S., & Samper, V. D. (2005). The nature of the gecko lizard adhesive force. Biophysical journal, 89(2), L14-L17.
+
+Huber, G., Mantz, H., Spolenak, R., Mecke, K., Jacobs, K., Gorb, S. N., & Arzt, E. (2005). Evidence for capillarity contributions to gecko adhesion from single spatula nanomechanical measurements. Proceedings of the National Academy of Sciences, 102(45), 16293-16296.
+
+Kim, T. W., & Bhushan, B. (2008). The adhesion model considering capillarity for gecko attachment system. Journal of The Royal Society Interface, 5(20), 319-327.
+
+Mitchell, C. T., Dayan, C. B., Drotlef, D. M., Sitti, M., & Stark, A. Y. (2020). The effect of substrate wettability and modulus on gecko and gecko-inspired synthetic adhesion in variable temperature and humidity. Scientific reports, 10(1), 1-9.
+
+Page 25, line 5 - what would the proposed experiment do (i.e., single seta experiment)? What would it show us that is not already described? done
+Reference #11 is missing author names done
+Page 3 of the supplementary information has an odd line (mistake?) after Figure S1.1. done
+I do not see the video file mentioned in the supplementary information

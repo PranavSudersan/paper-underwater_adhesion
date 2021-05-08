@@ -35,7 +35,7 @@ Hooke,~R. \emph{Micrographia, or, Some physiological descriptions of minute
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
 \bibitem[Stork(1980)]{RN59}
-Stork,~N.~E. Experimental Analysis of Adhesion of Chrysolina Polita
+Stork,~N.~E. Experimental Analysis of Adhesion of \emph{Chrysolina Polita}
   (Chrysomelidae: Coleoptera) on a Variety of Surfaces. \emph{The Journal of
   Experimental Biology} \textbf{1980}, \emph{88}, 91\relax
 \mciteBstWouldAddEndPuncttrue
@@ -50,9 +50,9 @@ Gorb,~S.~N.; Beutel,~R.~G. Evolution of locomotory attachment pads of hexapods.
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
 \bibitem[Coddington and Levi(1991)Coddington, and Levi]{Coddington:1991}
-Coddington,~J.~A.; Levi,~H.~W. Systematics and evolution of spiders (Araneae).
-  \emph{Annual Review of Ecology and Systematics} \textbf{1991}, \emph{22},
-  565--592\relax
+Coddington,~J.~A.; Levi,~H.~W. Systematics and evolution of spiders
+  (\emph{Araneae}). \emph{Annual Review of Ecology and Systematics}
+  \textbf{1991}, \emph{22}, 565--592\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -107,10 +107,11 @@ Autumn,~K.; Sitti,~M.; Liang,~Y.~A.; Peattie,~A.~M.; Hansen,~W.~R.;
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Che(2014)]{Chen:2014}
-Underwater attachment using hairs: the functioning of spatula and sucker setae
-  from male diving beetles. \emph{Journal of The Royal Society Interface}
-  \textbf{2014}, \emph{11}\relax
+\bibitem[Chen \latin{et~al.}(2014)Chen, Shih, Wu, Yang, and Chi]{Chen:2014}
+Chen,~Y.; Shih,~M.-C.; Wu,~M.-H.; Yang,~E.-C.; Chi,~K.-J. Underwater attachment
+  using hairs: the functioning of spatula and sucker setae from male diving
+  beetles. \emph{Journal of The Royal Society Interface} \textbf{2014},
+  \emph{11}\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -141,8 +142,9 @@ Hosoda,~N.; Gorb,~S.~N. Underwater locomotion in a terrestrial beetle:
 \EndOfBibitem
 \bibitem[Peisker and Gorb(2012)Peisker, and Gorb]{RN108}
 Peisker,~H.; Gorb,~S.~N. Evaporation dynamics of tarsal liquid footprints in
-  flies (Calliphora vicina)and beetles (Coccinella septempunctata). \emph{The
-  Journal of Experimental Biology} \textbf{2012}, \emph{215}, 1266--1271\relax
+  flies (\emph{Calliphora vicina}) and beetles (\emph{Coccinella
+  septempunctata}). \emph{The Journal of Experimental Biology} \textbf{2012},
+  \emph{215}, 1266--1271\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -150,10 +152,10 @@ Peisker,~H.; Gorb,~S.~N. Evaporation dynamics of tarsal liquid footprints in
 \bibitem[Geiselhardt \latin{et~al.}(2009)Geiselhardt, Geiselhardt, and
   Peschke]{RN96}
 Geiselhardt,~S.~F.; Geiselhardt,~S.; Peschke,~K. Comparison of tarsal and
-  cuticular chemistry in the leaf beetle Gastrophysa viridula (Coleoptera:
-  Chrysomelidae) and an evaluation of solid-phase microextraction and solvent
-  extraction techniques. \emph{Chemoecology} \textbf{2009}, \emph{19},
-  185\relax
+  cuticular chemistry in the leaf beetle \emph{Gastrophysa viridula}
+  (Coleoptera: Chrysomelidae) and an evaluation of solid-phase microextraction
+  and solvent extraction techniques. \emph{Chemoecology} \textbf{2009},
+  \emph{19}, 185\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -161,25 +163,28 @@ Geiselhardt,~S.~F.; Geiselhardt,~S.; Peschke,~K. Comparison of tarsal and
 \bibitem[Attygalle \latin{et~al.}(2000)Attygalle, Aneshansley, Meinwald, and
   Eisner]{RN221}
 Attygalle,~A.~B.; Aneshansley,~D.~J.; Meinwald,~J.; Eisner,~T. Defense by foot
-  adhesion in a chrysomelid beetle (Hemisphaerota cyanea): characterization of
-  the adhesive oil. \emph{Zoology} \textbf{2000}, \emph{103}, 1--6\relax
+  adhesion in a chrysomelid beetle (\emph{Hemisphaerota cyanea}):
+  characterization of the adhesive oil. \emph{Zoology} \textbf{2000},
+  \emph{103}, 1--6\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
 \bibitem[Ishii(1987)]{RN222}
-Ishii,~S. Adhesion of a Leaf Feeding Ladybird Epilachna vigintioctomaculta
-  (Coleoptera : Coccinellidae) on a Virtically Smooth Surface. \emph{Applied
-  Entomology and Zoology} \textbf{1987}, \emph{22}, 222--228\relax
+Ishii,~S. Adhesion of a Leaf Feeding Ladybird \emph{Epilachna
+  vigintioctomaculta} (Coleoptera : Coccinellidae) on a Vertically Smooth
+  Surface. \emph{Applied Entomology and Zoology} \textbf{1987}, \emph{22},
+  222--228\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Peattie \latin{et~al.}(2011)Peattie, Dirks, Henriques, and
-  Federle]{RN223}
-Peattie,~A.~M.; Dirks,~J.-H.; Henriques,~S.; Federle,~W. Arachnids secrete a
-  fluid over their adhesive pads. \emph{PloS one} \textbf{2011}, \emph{6},
-  e20485--e20485\relax
+\bibitem[Heepe \latin{et~al.}(2016)Heepe, Petersen, Tölle, Wolff, and
+  Gorb]{RN145}
+Heepe,~L.; Petersen,~D.~S.; Tölle,~L.; Wolff,~J.~O.; Gorb,~S.~N. Sexual
+  dimorphism in the attachment ability of the ladybird beetle Coccinella
+  septempunctata on soft substrates. \emph{Applied Physics A} \textbf{2016},
+  \emph{123}, 34\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -210,8 +215,8 @@ Arzt,~E.; Gorb,~S.; Spolenak,~R. From micro to nano contacts in biological
 \EndOfBibitem
 \bibitem[Stark and Yanoviak(2018)Stark, and Yanoviak]{RN213}
 Stark,~A.~Y.; Yanoviak,~S.~P. Adhesion and running speed of a tropical arboreal
-  ant (Cephalotes atratus) on wet substrates. \emph{Royal Society open science}
-  \textbf{2018}, \emph{5}, 181540--181540\relax
+  ant (\emph{Cephalotes atratus}) on wet substrates. \emph{Royal Society open
+  science} \textbf{2018}, \emph{5}, 181540--181540\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
