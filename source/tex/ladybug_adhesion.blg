@@ -1,52 +1,49 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: ladybug_adhesion.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: achemso.bst
-Reallocating 'name_of_file' (item size: 1) to 21 items.
-Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: acs-ladybug_adhesion.bib
 Database file #2: references.bib
-achemso 2020-07-21 v3.13b
-You've used 28 entries,
+achemso 2019-02-14 v3.12a
+You've used 33 entries,
             2538 wiz_defined-function locations,
-            993 strings with 16572 characters,
-and the built_in function-call counts, 9512 in all, are:
-= -- 777
-> -- 526
-< -- 19
-+ -- 207
-- -- 179
-* -- 1032
-:= -- 1275
-add.period$ -- 53
-call.type$ -- 28
+            1041 strings with 22056 characters,
+and the built_in function-call counts, 11501 in all, are:
+= -- 938
+> -- 646
+< -- 20
++ -- 254
+- -- 221
+* -- 1259
+:= -- 1541
+add.period$ -- 63
+call.type$ -- 33
 change.case$ -- 4
 chr.to.int$ -- 2
-cite$ -- 28
-duplicate$ -- 531
-empty$ -- 662
-format.name$ -- 221
-if$ -- 1853
+cite$ -- 33
+duplicate$ -- 638
+empty$ -- 793
+format.name$ -- 270
+if$ -- 2237
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 190
-num.names$ -- 81
-pop$ -- 47
+newline$ -- 220
+num.names$ -- 96
+pop$ -- 56
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 28
+skip$ -- 33
 stack$ -- 0
-substring$ -- 510
-swap$ -- 537
-text.length$ -- 54
+substring$ -- 637
+swap$ -- 656
+text.length$ -- 64
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 190
+type$ -- 225
 warning$ -- 0
-while$ -- 100
+while$ -- 119
 width$ -- 0
-write$ -- 375
+write$ -- 440

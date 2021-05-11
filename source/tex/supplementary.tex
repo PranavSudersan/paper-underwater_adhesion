@@ -21,7 +21,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
 
 
-\title{Wetting of the tarsal adhesive fluid controls underwater adhesion in ladybug beetles: Supplementary information (S1)}
+\title{Wetting of the tarsal adhesive fluid controls underwater adhesion in ladybug beetles: Supplementary information}
 
 \author{Pranav Sudersan}
 
@@ -85,18 +85,18 @@ Mainz, Germany}
 
 \begin{document}
 %reset figure/table/equation numbers and include prefix
-\renewcommand{\thesection}{S1.\arabic{section}}
-\setcounter{figure}{0} \renewcommand{\thefigure}{S1.\arabic{figure}} 
-\setcounter{table}{0} \renewcommand{\thetable}{S1.\arabic{table}} 
-\setcounter{equation}{0} \renewcommand{\theequation}{S1.\arabic{equation}}
+\renewcommand{\thesection}{S\arabic{section}}
+\setcounter{figure}{0} \renewcommand{\thefigure}{S\arabic{figure}} 
+\setcounter{table}{0} \renewcommand{\thetable}{S\arabic{table}} 
+\setcounter{equation}{0} \renewcommand{\theequation}{S\arabic{equation}}
 
 \section{Simulation method: Single capillary bridge \label{subsec:Simulation-Method}}
 
 Capillary force due to a single adhesive fluid or bubble meniscus (termed ``capillary
-bridge'') is calculated by performing simulations in Surface Evolver
+bridge'') was calculated by performing simulations in Surface Evolver
 \cite{RN206}, similar to the method described by \citet{RN93}.
 A simple cubic geometry, mimicking the capillary bridge, of constant
-volume, $V$, is defined as the initial condition with an interfacial
+volume, $V$, was defined as the initial condition with an interfacial
 tension, $\gamma$, with the surrounding medium. Interfacial tension
 of the capillary bridge with the substrate is given by $\gamma\cos\theta$,
 where $\theta$ is the corresponding contact angle inside the bridge.
@@ -104,10 +104,10 @@ For the case of a bubble meniscus, $\theta$ is defined w.r.t. the
 surrounding water, since $\theta$ can also directly characterise
 the substrate wettability. The capillary bridge spans a gap distance
 $d$ between the top face and the substrate. The boundary conditions
-are set corresponding to a pinned contact line of diameter $D$ on
+were set corresponding to a pinned contact line of diameter $D$ on
 the top face and constant interfacial tension with the substrate on
-the bottom. All lengths are normalised relative to length $s=\left(3V/4\pi\right)^{1/3}$.
-An appropriate geometry refinement routine is chosen to evolve the
+the bottom. All lengths were normalised relative to length $s=\left(3V/4\pi\right)^{1/3}$.
+An appropriate geometry refinement routine was chosen to evolve the
 capillary bridge shape to its minimum energy state. The normalised
 total capillary force, $\hat{f}=f/\gamma s$, is the sum of the Laplace
 pressure and surface tension contributions , where:
@@ -122,61 +122,82 @@ bridge with the substrate at bottom and $R_{bottom}$ is the corresponding
 radius of contact, all obtained from the simulation output for the
 equilibrium surface.
 
-The gap distance $d$ is varied stepwise and the capillary force is
+The gap distance $d$ was varied stepwise and the capillary force was
 calculated each time to obtain force-distance curves for a particular
 choice of $D$ and $\theta$. 
 
-\section{Single capillary bridge: Effect of volume}
+%\section{Single capillary bridge: Effect of volume}
+%
+%Surface Evolver simulation results showing the effect of volume on
+%the maximum capillary force of a single fluid bridge. Since the fluid
+%is pinned at the top to the same diameter, D, a smaller volume would
+%result in high interfacial curvatures, which increases the capillary
+%force due to the negative Laplace pressure. In this case, small contact
+%angles lead to a greater increase in adhesion.
+%
+%\begin{figure}[H]
+%
+%\begin{centering}
+%\includegraphics{FigureS2-Effect_of_fluid_volume}\caption{Normalised maximum capillary force for a single bridge as a function
+%of fluid volume}
+%\par\end{centering}
+%\end{figure}
+%
+%
+%\section{Capillary Bridge Model: Effect of hair diameter at constant fluid
+%volume}
+%
+%Here, instead of scaling the fluid volume relative to the hair diameter,
+%we now assume a fixed total fluid volume distributed equally among
+%the $N$ hairs. Total fluid volume, $V_{total}=NV_{f}=2000$. Hair
+%diameter is varied while keeping the total hair contact area constant.
+%Length is in arbitrary units. Forces increase at a much smaller rate
+%on decreasing diameter when compared to the case with self-similar
+%scaling of fluid volume (Figure 8 in main text).
+%
+%\begin{figure}[H]
+%\includegraphics{FigureS3-Effect_of_hair_size(constant_vol)}
+%
+%\caption{Normalised adhesion force of hairy pad system on a hydrophilic and
+%hydrophobic substrate as a function of hair diameter ($D_{h}$), calculated
+%from the capillary bridge model. The total adhesive fluid volume is
+%fixed to 2000. Adhesion forces are calculated from minima of the respective
+%force-distance curves. Negative force value represents attraction.
+%The bubble's contribution to the net force for an \emph{underwater:
+%bubble} contact is denoted by plus symbols. Bubble volume and pad
+%diameter are kept fixed. All lengths are scaled relative to $D_{p}$.}
+%\end{figure}
 
-Surface Evolver simulation results showing the effect of volume on
-the maximum capillary force of a single fluid bridge. Since the fluid
-is pinned at the top to the same diameter, D, a smaller volume would
-result in high interfacial curvatures, which increases the capillary
-force due to the negative Laplace pressure. In this case, small contact
-angles lead to a greater increase in adhesion.
+\section{Substrate characterization}
 
-\begin{figure}[H]
-
-\begin{centering}
-\includegraphics{FigureS2-Effect_of_fluid_volume}\caption{Normalised maximum capillary force for a single bridge as a function
-of fluid volume}
-\par\end{centering}
-\end{figure}
-
-
-\section{Capillary Bridge Model: Effect of hair diameter at constant fluid
-volume}
-
-Here, instead of scaling the fluid volume relative to the hair diameter,
-we now assume a fixed total fluid volume distributed equally among
-the $N$ hairs. Total fluid volume, $V_{total}=NV_{f}=2000$. Hair
-diameter is varied while keeping the total hair contact area constant.
-Length is in arbitrary units. Forces increase at a much smaller rate
-on decreasing diameter when compared to the case with self-similar
-scaling of fluid volume (Figure 8 in main text).
-
-\begin{figure}[H]
-\includegraphics{FigureS3-Effect_of_hair_size(constant_vol)}
-
-\caption{Normalised adhesion force of hairy pad system on a hydrophilic and
-hydrophobic substrate as a function of hair diameter ($D_{h}$), calculated
-from the capillary bridge model. The total adhesive fluid volume is
-fixed to 2000. Adhesion forces are calculated from minima of the respective
-force-distance curves. Negative force value represents attraction.
-The bubble's contribution to the net force for an \emph{underwater:
-bubble} contact is denoted by plus symbols. Bubble volume and pad
-diameter are kept fixed. All lengths are scaled relative to $D_{p}$.}
-\end{figure}
+The surface chemistry of untreated glass (hydrophilic) and PFOTS-coated glass (hydrophobic) were characterized using dynamic contact angle measurements (Table \ref{tab:Contact-Angles}).
+\begin{table}[H]
+\centering{}%
+\begin{tabular}{|c|c|c|c|}
+\hline 
+Substrate & Liquid & \ensuremath{\theta}\textsubscript{A} & \ensuremath{\theta}\textsubscript{R}\tabularnewline
+\hline 
+\hline 
+\multirow{2}{*}{Glass} & Water & 63\ensuremath{\pm}5\textdegree{} & 20\ensuremath{\pm}2\textdegree{}\tabularnewline
+\cline{2-4} \cline{3-4} \cline{4-4} 
+ & n-Hexadecane & <10\textdegree{} & <10\textdegree{}\tabularnewline
+\hline 
+\multirow{2}{*}{PFOTS} & Water & 122\ensuremath{\pm}1\textdegree{} & 93\ensuremath{\pm}2\textdegree{}\tabularnewline
+\cline{2-4} \cline{3-4} \cline{4-4} 
+ & n-Hexadecane & 88\ensuremath{\pm}2\textdegree{} & 56\ensuremath{\pm}5\textdegree{}\tabularnewline
+\hline 
+\end{tabular}\caption{Dynamic contact angles (Mean \ensuremath{\pm} SD, n = 3) of Milli-Q water and n-hexadecane on the different test substrates. \label{tab:Contact-Angles}}
+\end{table}
 
 
 \section{Statistical comparison}
 
 Two-way ANOVA test showed a significant effect of the \emph{Contact mode} (p=0.001, F=9.596, degrees of freedom=2) 
 and \emph{Substrate} (p<0.001, F=36.231, degrees of freedom=1) categories on the single leg adhesion force measurements
-of the ladybug beetle (\emph{Coccinella septempuctata}). Signifanct interaction between the above two was seen (p=0.001, F=10.551, degrees of freedom=2). Post-hoc analysis results are shown below (Table \ref{tab:Statistical-analysis}).
-The uncorrected p-values and Common Language Effect Size (CLES) are
+of the ladybug beetle (\emph{Coccinella septempuctata}). Signifanct interaction between the above two categories was seen (p=0.001, F=10.551, degrees of freedom=2). Post-hoc analysis results are shown below (Table \ref{tab:Statistical-analysis}).
+The uncorrected p-values and Common Language Effect Size (CLES) were
 obtained from pair-wise Student t-test between A and B while
-keeping the third parameter fixed. p-values showing statistically
+keeping the third parameter fixed (degrees of freedom=8 for each pair). p-values showing statistically
 significant difference between A and B are in boldface. 
 CLES represents the statistical proportion of samples under A with higher adhesion than under B. The condition
 for statistical significance is based on the Bonferroni-corrected
@@ -209,27 +230,39 @@ Glass & Underwater: bubble & Underwater: no bubble & 2.086 & 0.07 & 0.84\tabular
 \hline 
 \end{tabular}
 \par\end{centering}
-\caption{\label{tab:Statistical-analysis}}
+\caption{Post-hoc t-test results for each combination of contact mode and substrate\label{tab:Statistical-analysis}}
 \end{table}
 
 
-\section{Capillary force due to a bubble\label{subsec:Capillary-force-due}}
+\section{Capillary force due to an air bubble\label{subsec:Capillary-force-due}}
 
-Capillary force of a single bubble against a PFOTS surface are compared
-for two different volumes. The volumes correspond to the expected
-range in the case of the trapped bubble in a ladybug. Here, the bubble
-is pinned to a micropatterned PDMS substrate on the top. The maximum
+Capillary force of a single air bubble against a PFOTS-coated glass surface are compared
+for two different volumes (Figure \ref{fig:Bubble_capillary_force}). The volumes correspond to the expected
+range for the case of the trapped air bubble in a ladybug's pad. Here, the bubble
+was pinned to a micropatterned PDMS substrate on the top. Approach-retract tests were performed
+at 62.5 \textmu m s\protect\textsuperscript{-1} speed. The maximum
 adhesion force of any of the bubble never exceeds 50 \textmu N,
 significantly lower than the beetle's underwater adhesion to the same
 substrate (> 400 \textmu N). Thus, the bubble's contribution
 to adhesion in the ``\emph{underwater: bubble}'' contact of a ladybug's
-pad should be negligible. Example measurement video is included in the supplementary data (S4).
+pad should be negligible. Example measurement video is included in the supplementary data (Movie3).
 
 \begin{figure}[H]
 \begin{centering}
-\includegraphics{FigureS4-Expt_bubble_force}\caption{Capillary force of the bubble}
+\includegraphics{FigureS4-Expt_bubble_force}\caption{Capillary force of the pinned bubble against a PFOTS-coated glass surface \label{fig:Bubble_capillary_force}}
 \par\end{centering}
 \end{figure}
+
+\section{Supplementary video files}
+
+\subsection*{Movie1}
+Adhesion test recordings showing the three contact modes: \emph{in air},  \emph{underwater: bubble} and  \emph{underwater: no bubble} on a hydrophobic PFOTS-coated glass substrate. The two top panels of the video show the synchronous raw bottom-view and side-view recordings of the pad making contact with the substrate. The lower-left panel shows contact area extraction of the hairs with the surface via image processing and lower-right panel shows the corresponding temporal contact force and area data plot, with the data cursor synchronized with the other panels.
+
+\subsection*{Movie2}
+Adhesion test recording corresponding to the case of \emph{bad contact}, which occurred underwater on the PFOTS-coated glass substrate
+
+\subsection*{Movie3}
+Adhesion test recording of an air bubble (2nL volume) pinned to a microstructured PDMS on the top and making contact with a smooth PFOTS-coated glass substrate on the bottom.
 
 \bibliography{references}
 
