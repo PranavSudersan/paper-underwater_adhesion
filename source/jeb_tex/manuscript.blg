@@ -4,43 +4,43 @@ The top-level auxiliary file: manuscript.aux
 The style file: jeb.bst
 Database file #1: references.bib
 You've used 32 entries,
-            2865 wiz_defined-function locations,
-            831 strings with 10737 characters,
-and the built_in function-call counts, 22235 in all, are:
-= -- 1730
-> -- 1296
-< -- 0
-+ -- 473
-- -- 434
-* -- 1904
-:= -- 3560
+            2815 wiz_defined-function locations,
+            828 strings with 10743 characters,
+and the built_in function-call counts, 20563 in all, are:
+= -- 1614
+> -- 936
+< -- 16
++ -- 367
+- -- 328
+* -- 1798
+:= -- 3138
 add.period$ -- 64
 call.type$ -- 32
-change.case$ -- 237
+change.case$ -- 268
 chr.to.int$ -- 33
 cite$ -- 32
-duplicate$ -- 1452
-empty$ -- 1475
-format.name$ -- 511
-if$ -- 4280
+duplicate$ -- 1490
+empty$ -- 1507
+format.name$ -- 431
+if$ -- 3990
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 329
 newline$ -- 100
 num.names$ -- 128
-pop$ -- 601
+pop$ -- 569
 preamble$ -- 1
 purify$ -- 237
 quote$ -- 0
-skip$ -- 628
+skip$ -- 500
 stack$ -- 0
 substring$ -- 976
-swap$ -- 921
+swap$ -- 910
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 285
 warning$ -- 0
-while$ -- 161
+while$ -- 129
 width$ -- 0
 write$ -- 353

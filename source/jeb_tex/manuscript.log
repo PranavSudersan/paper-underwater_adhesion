@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.6.9)  13 JUL 2021 21:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.6.9)  14 JUL 2021 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -667,7 +667,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8.5> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 80.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 81.
 
 (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
@@ -675,7 +675,7 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 <COB_Publisher_Logo.pdf, id=1, 64.24pt x 20.075pt>
 File: COB_Publisher_Logo.pdf Graphic file (type pdf)
 <use COB_Publisher_Logo.pdf>
-Package pdftex.def Info: COB_Publisher_Logo.pdf  used on input line 80.
+Package pdftex.def Info: COB_Publisher_Logo.pdf  used on input line 81.
 (pdftex.def)             Requested size: 64.23984pt x 20.07494pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -694,6 +694,9 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 145.
 (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
@@ -706,7 +709,9 @@ Package pdftex.def Info: Figure1-Setup_schematic.pdf  used on input line 170.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7.5> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 175.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 2469) in paragraph at lines 220--232
+\T1/ptm/m/n/9.5 Standard 20 mm wide glass cover-slips were used as the
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -716,10 +721,6 @@ Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
 [3 <./Figure1-Setup_schematic.pdf>]
-Underfull \hbox (badness 2469) in paragraph at lines 220--232
-\T1/ptm/m/n/9.5 Standard 20 mm wide glass cover-slips were used as the
- []
-
 <Figure2-Expt_effect_of_contact.pdf, id=107, 1094.0875pt x 898.35625pt>
 File: Figure2-Expt_effect_of_contact.pdf Graphic file (type pdf)
 <use Figure2-Expt_effect_of_contact.pdf>
@@ -758,9 +759,6 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.5> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.75> not available
 (Font)              size <5> substituted on input line 268.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 <Figure3-Model_schematic.pdf, id=108, 913.30933pt x 994.59819pt>
 File: Figure3-Model_schematic.pdf Graphic file (type pdf)
 <use Figure3-Model_schematic.pdf>
@@ -796,6 +794,9 @@ File: Figure4b-Single_bridge_force_contribution.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figure4b-Single_bridge_force_contribution.pdf  used on
  input line 467.
 (pdftex.def)             Requested size: 216.81pt x 181.44936pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
@@ -850,6 +851,9 @@ Underfull \hbox (badness 3895) in paragraph at lines 653--664
 []\T1/ptm/m/n/9.5 Adhesion force increases with decreas-ing $\OML/cmm/m/it/9 D[
 ]$ \T1/ptm/m/n/9.5 for both
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
@@ -907,31 +911,19 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
  (./manuscript.bbl
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
+)
 
-Underfull \hbox (badness 1226) in paragraph at lines 114--118
-\T1/ptm/b/n/8 and Arzt, E. \T1/ptm/m/n/8 (2005). Evi-dence for cap-il-lar-ity c
-on-tri-bu-tions to gecko
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (5.44592pt too high) has occurred while \output is active []
-
-
-[10]) 
 AED: lastpage setting LastPage
 - LAST -
-Extra skip:19.90405pt
-Left:68.0pt/1.63599pt
-Right:48.0pt/1.73193pt
-Output:68.0pt
+Extra skip:17.40416pt
+Left:645.5001pt/1.63599pt
+Right:628.0pt/1.73193pt
+Output:642.75005pt
 
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
-[11] (./manuscript.aux)
+[10] (./manuscript.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.25pt have occurred.
@@ -939,18 +931,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  7016 strings out of 492623
  97704 string characters out of 6133291
- 189782 words of memory out of 5000000
+ 213886 words of memory out of 5000000
  10706 multiletter control sequences out of 15000+600000
  105013 words of font info for 145 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 51i,19n,49p,1842b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,20n,52p,1842b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
@@ -966,10 +955,10 @@ pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texliv
 e/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on manuscript.pdf (11 pages, 2378594 bytes).
+Output written on manuscript.pdf (10 pages, 2376989 bytes).
 PDF statistics:
- 1649 PDF objects out of 1728 (max. 8388607)
- 1120 compressed objects within 12 object streams
+ 1646 PDF objects out of 1728 (max. 8388607)
+ 1118 compressed objects within 12 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
