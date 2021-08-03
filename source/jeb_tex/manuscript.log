@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.6.9)  2 AUG 2021 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.6.9)  3 AUG 2021 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -653,12 +653,6 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <9.5> not available
 (Font)              size <9> substituted on input line 64.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[]$[]$[]\T1/phv/m/n/7 Authors for cor-re-spon-dence: (endlein01@mpip-mainz.mpg.
-de;
- []
-
-
 LaTeX Font Warning: Font shape `T1/phv/m/m' undefined
 (Font)              using `T1/phv/m/n' instead on input line 66.
 
@@ -667,7 +661,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8.5> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 81.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 84.
 
 (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
@@ -675,7 +669,7 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 <COB_Publisher_Logo.pdf, id=1, 64.24pt x 20.075pt>
 File: COB_Publisher_Logo.pdf Graphic file (type pdf)
 <use COB_Publisher_Logo.pdf>
-Package pdftex.def Info: COB_Publisher_Logo.pdf  used on input line 81.
+Package pdftex.def Info: COB_Publisher_Logo.pdf  used on input line 84.
 (pdftex.def)             Requested size: 64.23984pt x 20.07494pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -688,15 +682,12 @@ Non-PDF special ignored!
 <special> papersize=8.5in,11in
 
  <./COB_Publisher_Logo.pdf>]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 145.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 124.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
@@ -704,68 +695,65 @@ Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 <Figure1-Setup_schematic.pdf, id=21, 561.59813pt x 421.575pt>
 File: Figure1-Setup_schematic.pdf Graphic file (type pdf)
 <use Figure1-Setup_schematic.pdf>
-Package pdftex.def Info: Figure1-Setup_schematic.pdf  used on input line 170.
+Package pdftex.def Info: Figure1-Setup_schematic.pdf  used on input line 174.
 (pdftex.def)             Requested size: 433.62pt x 325.50145pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7.5> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 175.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 179.
 
-Underfull \hbox (badness 2469) in paragraph at lines 220--232
+Underfull \hbox (badness 2469) in paragraph at lines 224--236
 \T1/ptm/m/n/9.5 Standard 20 mm wide glass cover-slips were used as the
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (5.44592pt too high) has occurred while \output is active []
-
-
-[3 <./Figure1-Setup_schematic.pdf>]
-<Figure2-Expt_effect_of_contact.pdf, id=107, 887.47435pt x 705.64961pt>
+<Figure2-Expt_effect_of_contact.pdf, id=22, 887.47435pt x 705.64961pt>
 File: Figure2-Expt_effect_of_contact.pdf Graphic file (type pdf)
 <use Figure2-Expt_effect_of_contact.pdf>
 Package pdftex.def Info: Figure2-Expt_effect_of_contact.pdf  used on input line
- 255.
+ 259.
 (pdftex.def)             Requested size: 252.94499pt x 201.11223pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 255--268
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 259--272
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7.5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 268.
-LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 268.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 272.
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 272.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 268.
+(Font)              size <7> substituted on input line 272.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.75> not available
-(Font)              size <5> substituted on input line 268.
+(Font)              size <5> substituted on input line 272.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.5> not available
-(Font)              size <7> substituted on input line 268.
+(Font)              size <7> substituted on input line 272.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.75> not available
-(Font)              size <5> substituted on input line 268.
+(Font)              size <5> substituted on input line 272.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 268.
+(Font)              size <7> substituted on input line 272.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.75> not available
-(Font)              size <5> substituted on input line 268.
+(Font)              size <5> substituted on input line 272.
 
-<Figure3-Model_schematic.pdf, id=108, 913.30933pt x 994.59819pt>
+
+Overfull \vbox (5.44592pt too high) has occurred while \output is active []
+
+
+[3]
+<Figure3-Model_schematic.pdf, id=28, 913.30933pt x 994.59819pt>
 File: Figure3-Model_schematic.pdf Graphic file (type pdf)
 <use Figure3-Model_schematic.pdf>
-Package pdftex.def Info: Figure3-Model_schematic.pdf  used on input line 302.
+Package pdftex.def Info: Figure3-Model_schematic.pdf  used on input line 307.
 (pdftex.def)             Requested size: 252.94499pt x 275.45033pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 302--309
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 307--314
 [][] 
  []
 
@@ -773,54 +761,60 @@ Overfull \hbox (2.05818pt too wide) in paragraph at lines 302--309
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
-[4 <./Figure2-Expt_effect_of_contact.pdf>]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 437.
+[4 <./Figure1-Setup_schematic.pdf>]
+Underfull \hbox (badness 1033) in paragraph at lines 388--395
+[]\T1/ptm/m/n/9.5 Geometric param-e-ters and inter-fa-cial prop-er-ties were ke
+pt
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 468.
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--468
 
  []
 
-<Figure4a-Single_bridge_fd.pdf, id=382, 609.27625pt x 519.9425pt>
+
+Overfull \vbox (5.44592pt too high) has occurred while \output is active []
+
+
+[5 <./Figure2-Expt_effect_of_contact.pdf> <./Figure3-Model_schematic.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figure3-Model_schematic.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>]
+<Figure4a-Single_bridge_fd.pdf, id=590, 609.27625pt x 519.9425pt>
 File: Figure4a-Single_bridge_fd.pdf Graphic file (type pdf)
 <use Figure4a-Single_bridge_fd.pdf>
-Package pdftex.def Info: Figure4a-Single_bridge_fd.pdf  used on input line 465.
+Package pdftex.def Info: Figure4a-Single_bridge_fd.pdf  used on input line 496.
 
 (pdftex.def)             Requested size: 216.81pt x 185.0212pt.
-<Figure4b-Single_bridge_force_contribution.pdf, id=383, 609.27625pt x 509.905pt
+<Figure4b-Single_bridge_force_contribution.pdf, id=591, 609.27625pt x 509.905pt
 >
 File: Figure4b-Single_bridge_force_contribution.pdf Graphic file (type pdf)
 <use Figure4b-Single_bridge_force_contribution.pdf>
 Package pdftex.def Info: Figure4b-Single_bridge_force_contribution.pdf  used on
- input line 467.
+ input line 498.
 (pdftex.def)             Requested size: 216.81pt x 181.44936pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (5.44592pt too high) has occurred while \output is active []
-
-
-[5 <./Figure3-Model_schematic.pdf>]
 <Figure5-Model_effect_of_substrate.pdf, id=592, 849.97034pt x 473.214pt>
 File: Figure5-Model_effect_of_substrate.pdf Graphic file (type pdf)
 <use Figure5-Model_effect_of_substrate.pdf>
 Package pdftex.def Info: Figure5-Model_effect_of_substrate.pdf  used on input l
-ine 533.
+ine 567.
 (pdftex.def)             Requested size: 433.62pt x 241.42259pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 <Figure-8-contact_angle_schematic.pdf, id=593, 569.0058pt x 182.72264pt>
 File: Figure-8-contact_angle_schematic.pdf Graphic file (type pdf)
 <use Figure-8-contact_angle_schematic.pdf>
 Package pdftex.def Info: Figure-8-contact_angle_schematic.pdf  used on input li
-ne 563.
+ne 597.
 (pdftex.def)             Requested size: 252.94499pt x 81.22627pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 563--567
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 597--601
 [][] 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -835,44 +829,26 @@ on.pdf
 pdfTeX warning: pdflatex.exe (file ./Figure4b-Single_bridge_force_contribution.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Figure7-Model_effect_of_bubble_volume.pdf, id=612, 718.474pt x 384.89172pt>
+<Figure7-Model_effect_of_bubble_volume.pdf, id=611, 718.474pt x 384.89172pt>
 File: Figure7-Model_effect_of_bubble_volume.pdf Graphic file (type pdf)
 <use Figure7-Model_effect_of_bubble_volume.pdf>
 Package pdftex.def Info: Figure7-Model_effect_of_bubble_volume.pdf  used on inp
-ut line 621.
+ut line 655.
 (pdftex.def)             Requested size: 252.94499pt x 135.5011pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 621--627
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 655--661
 [][] 
  []
 
-<Figure6-Model_effect_of_hair_size.pdf, id=613, 739.3705pt x 384.22923pt>
+<Figure6-Model_effect_of_hair_size.pdf, id=612, 739.3705pt x 384.22923pt>
 File: Figure6-Model_effect_of_hair_size.pdf Graphic file (type pdf)
 <use Figure6-Model_effect_of_hair_size.pdf>
 Package pdftex.def Info: Figure6-Model_effect_of_hair_size.pdf  used on input l
-ine 635.
+ine 669.
 (pdftex.def)             Requested size: 252.94499pt x 131.44528pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 635--643
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 669--677
 [][] 
- []
-
-
-Underfull \hbox (badness 3895) in paragraph at lines 654--665
-[]\T1/ptm/m/n/9.5 Adhesion force increases with decreas-ing $\OML/cmm/m/it/9 D[
-]$ \T1/ptm/m/n/9.5 for both
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 673--681
-[]\T1/ptm/m/n/9.5 The bub-ble's con-tri-bu-tion gets repul-sive as hair diam-e-
-ter
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 673--681
-\OML/cmm/m/it/9 L=D[]$ \T1/ptm/m/n/9.5 is fixed (Table 1[]), decreas-ing the ha
-ir diam-e-ter also
  []
 
 
@@ -889,50 +865,68 @@ pdfTeX warning: pdflatex.exe (file ./Figure-8-contact_angle_schematic.pdf): PDF
 pdfTeX warning: pdflatex.exe (file ./Figure7-Model_effect_of_bubble_volume.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
+Underfull \hbox (badness 3895) in paragraph at lines 688--699
+[]\T1/ptm/m/n/9.5 Adhesion force increases with decreas-ing $\OML/cmm/m/it/9 D[
+]$ \T1/ptm/m/n/9.5 for both
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 707--715
+[]\T1/ptm/m/n/9.5 The bub-ble's con-tri-bu-tion gets repul-sive as hair diam-e-
+ter
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 707--715
+\OML/cmm/m/it/9 L=D[]$ \T1/ptm/m/n/9.5 is fixed (Table 1[]), decreas-ing the ha
+ir diam-e-ter also
+ []
+
+
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
 [8 <./Figure6-Model_effect_of_hair_size.pdf>]
-<Figure-9-Gecko_comparison.pdf, id=2129, 796.94276pt x 338.76137pt>
+<Figure-9-Gecko_comparison.pdf, id=2128, 796.94276pt x 338.76137pt>
 File: Figure-9-Gecko_comparison.pdf Graphic file (type pdf)
 <use Figure-9-Gecko_comparison.pdf>
-Package pdftex.def Info: Figure-9-Gecko_comparison.pdf  used on input line 782.
+Package pdftex.def Info: Figure-9-Gecko_comparison.pdf  used on input line 819.
 
 (pdftex.def)             Requested size: 252.94499pt x 107.51675pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 782--797
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 819--834
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 846.
-
-(./manuscript.bbl
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
 
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
 [9 <./Figure-9-Gecko_comparison.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 883.
+ (./manuscript.bbl
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-
-AED: lastpage setting LastPage
-- LAST -
-Extra skip:11.56396pt
-Left:408.0pt/1.73193pt
-Right:396.43604pt/1.73193pt
-Output:408.21802pt
 
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
-[10] (./manuscript.aux)
+[10]) 
+AED: lastpage setting LastPage
+- LAST -
+Extra skip:19.73193pt
+Left:18.0pt/1.73193pt
+Right:0.0pt/0.0pt
+Output:9.0pt
+
+Overfull \vbox (5.44592pt too high) has occurred while \output is active []
+
+
+[11] (./manuscript.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.25pt have occurred.
@@ -942,13 +936,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 7016 strings out of 492623
- 97704 string characters out of 6133291
- 201773 words of memory out of 5000000
- 10706 multiletter control sequences out of 15000+600000
- 105013 words of font info for 145 fonts, out of 8000000 for 9000
+ 7024 strings out of 492623
+ 97801 string characters out of 6133291
+ 189923 words of memory out of 5000000
+ 10713 multiletter control sequences out of 15000+600000
+ 106167 words of font info for 146 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 55i,20n,49p,1842b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,19n,49p,1843b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
@@ -964,10 +958,10 @@ pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texliv
 e/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on manuscript.pdf (10 pages, 2448770 bytes).
+Output written on manuscript.pdf (11 pages, 2455281 bytes).
 PDF statistics:
- 2263 PDF objects out of 2487 (max. 8388607)
- 1528 compressed objects within 16 object streams
+ 2265 PDF objects out of 2487 (max. 8388607)
+ 1529 compressed objects within 16 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,12 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Arutinov et~al.(2015)Arutinov, Mastrangeli, Heck, Lambert, Toonder,
+  Dietzel and Smits}]{RN318}
+\textbf{Arutinov, G., Mastrangeli, M., Heck, G.~v., Lambert, P., Toonder, J. M.
+  J.~d., Dietzel, A. and Smits, E. C.~P.} (2015). Capillary gripping and
+  self-alignment: A route toward autonomous heterogeneous assembly \emph{IEEE
+  Transactions on Robotics} \textbf{31}(4), 1033--1043.
 
 \bibitem[{Arzt et~al.(2003)Arzt, Gorb and Spolenak}]{RN24}
 \textbf{Arzt, E., Gorb, S. and Spolenak, R.} (2003). From micro to nano
@@ -80,6 +87,10 @@
   viridula} (coleoptera: Chrysomelidae) and an evaluation of solid-phase
   microextraction and solvent extraction techniques \emph{Chemoecology}
   \textbf{19}(4), 185.
+
+\bibitem[{Goebel and Lunkenheimer(1997)}]{RN320}
+\textbf{Goebel, A. and Lunkenheimer, K.} (1997). Interfacial tension of the
+  water/n-alkane interface \emph{Langmuir} \textbf{13}(2), 369--372.
 
 \bibitem[{Gorb and Beutel(2001)}]{Gorb:2001b}
 \textbf{Gorb, S.~N. and Beutel, R.~G.} (2001). Evolution of locomotory
@@ -183,7 +194,7 @@
 
 \bibitem[{Williams and Peterson(1982)}]{Williams:1982}
 \textbf{Williams, E. and Peterson, J.} (1982). Convergent and alternative
-  disigns in the digital adhesive pads of scincid lizards \emph{Science}
+  designs in the digital adhesive pads of scincid lizards \emph{Science}
   \textbf{215}, 1509--1511.
 
 \end{thebibliography}
