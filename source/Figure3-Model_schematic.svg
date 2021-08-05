@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="320.99152mm"
    height="349.56128mm"
    viewBox="0 0 320.99152 349.5613"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    sodipodi:docname="Figure3-Model_schematic.svg"
    inkscape:export-filename="E:\Work\Diagrams\model schematic.png"
    inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300">
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
     <marker
@@ -820,7 +820,11 @@
     <filter
        style="color-interpolation-filters:sRGB"
        inkscape:label="Lightness-Contrast"
-       id="filter1276">
+       id="filter1276"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
       <feColorMatrix
          values="2.38 0 0 -0.062192 -0.69 0 2.38 0 -0.062192 -0.69 0 0 2.38 -0.062192 -0.69 0 0 0 1 0"
          id="feColorMatrix1274" />
@@ -833,18 +837,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="607.10442"
-     inkscape:cy="283.92142"
+     inkscape:zoom="0.25000001"
+     inkscape:cx="178"
+     inkscape:cy="1762"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1200"
-     inkscape:window-height="1577"
-     inkscape:window-x="1358"
+     inkscape:window-width="1024"
+     inkscape:window-height="1217"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -1083,8 +1088,8 @@
        id="path1110"
        style="opacity:0.916129;fill:url(#radialGradient1162);fill-opacity:1;stroke:#000000;stroke-width:0.60094489;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 127.52539,1044.3125 c -0.0216,6e-4 -0.0748,0.053 -0.16211,0.1582 h 0.13086 c 0.0406,-0.1033 0.0531,-0.1588 0.0312,-0.1582 z m 269.49805,0.1582 h -269.5293 c -1.20226,3.058 -28.651018,50.9245 -16.7793,103.0313 12.08033,32.2535 42.78895,64.9715 90.2168,88.0761 h 269.31641 m 0.25781,0 h 90.24219 c 141.85307,-67.7185 86.78089,-161.3786 73.57031,-191.1074 h -237.25"
-       transform="matrix(0.26458333,0,0,0.26458333,1.0332966,-45.835297)"
-       sodipodi:nodetypes="sccsccccccccc" />
+       sodipodi:nodetypes="sccsccccccccc"
+       transform="matrix(0.26458333,0,0,0.26458333,1.0332966,-45.835297)" />
     <rect
        style="opacity:0.916129;fill:url(#radialGradient1160);fill-opacity:1;stroke:none;stroke-width:0.343958;stroke-linecap:round;stroke-linejoin:round"
        id="rect1112"
@@ -1390,5 +1395,36 @@
          x="20.490519"
          y="140.20868"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583">L</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="6.39467"
+       y="22.529905"
+       id="text1107"><tspan
+         sodipodi:role="line"
+         id="tspan1105"
+         x="6.39467"
+         y="22.529905"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583">N hairs</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="181.03226"
+       y="159.94221"
+       id="text3367"><tspan
+         sodipodi:role="line"
+         id="tspan3365"
+         x="181.03226"
+         y="159.94221"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan3361">f</tspan><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';baseline-shift:sub"
+   id="tspan3363" /></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1604)"
+       d="m 178.61345,158.78279 -16.92098,6.50043"
+       id="path4939"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>

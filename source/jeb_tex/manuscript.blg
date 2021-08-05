@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: manuscript.aux
 The style file: jeb.bst
 Database file #1: references.bib
-You've used 34 entries,
+You've used 37 entries,
             2815 wiz_defined-function locations,
-            842 strings with 11112 characters,
-and the built_in function-call counts, 22015 in all, are:
-= -- 1725
-> -- 1012
-< -- 17
-+ -- 396
-- -- 355
-* -- 1931
-:= -- 3357
-add.period$ -- 68
-call.type$ -- 34
-change.case$ -- 287
-chr.to.int$ -- 35
-cite$ -- 34
-duplicate$ -- 1590
-empty$ -- 1608
-format.name$ -- 466
-if$ -- 4271
+            862 strings with 11769 characters,
+and the built_in function-call counts, 24094 in all, are:
+= -- 1887
+> -- 1114
+< -- 18
++ -- 435
+- -- 391
+* -- 2119
+:= -- 3672
+add.period$ -- 74
+call.type$ -- 37
+change.case$ -- 314
+chr.to.int$ -- 38
+cite$ -- 37
+duplicate$ -- 1735
+empty$ -- 1756
+format.name$ -- 513
+if$ -- 4674
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 352
-newline$ -- 106
-num.names$ -- 136
-pop$ -- 609
+missing$ -- 385
+newline$ -- 115
+num.names$ -- 148
+pop$ -- 667
 preamble$ -- 1
-purify$ -- 254
+purify$ -- 278
 quote$ -- 0
-skip$ -- 533
+skip$ -- 581
 stack$ -- 0
-substring$ -- 1046
-swap$ -- 975
+substring$ -- 1151
+swap$ -- 1065
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 303
+type$ -- 330
 warning$ -- 0
-while$ -- 137
+while$ -- 149
 width$ -- 0
-write$ -- 375
+write$ -- 408
