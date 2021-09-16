@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.6.9)  6 AUG 2021 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.6.9)  16 SEP 2021 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -772,109 +772,120 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
 [3]
-Underfull \hbox (badness 2469) in paragraph at lines 287--299
+Underfull \hbox (badness 2469) in paragraph at lines 286--298
 \T1/ptm/m/n/9.5 Standard 20 mm wide glass cover-slips were used as the
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <Figure2-Expt_effect_of_contact.pdf, id=154, 887.47435pt x 705.64961pt>
 File: Figure2-Expt_effect_of_contact.pdf Graphic file (type pdf)
 <use Figure2-Expt_effect_of_contact.pdf>
 Package pdftex.def Info: Figure2-Expt_effect_of_contact.pdf  used on input line
- 322.
+ 321.
 (pdftex.def)             Requested size: 252.94499pt x 201.11223pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 322--344
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 321--343
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7.5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 344.
-LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 344.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 343.
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 343.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 344.
+(Font)              size <7> substituted on input line 343.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.75> not available
-(Font)              size <5> substituted on input line 344.
+(Font)              size <5> substituted on input line 343.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.5> not available
-(Font)              size <7> substituted on input line 344.
+(Font)              size <7> substituted on input line 343.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.75> not available
-(Font)              size <5> substituted on input line 344.
+(Font)              size <5> substituted on input line 343.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 344.
+(Font)              size <7> substituted on input line 343.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.75> not available
-(Font)              size <5> substituted on input line 344.
+(Font)              size <5> substituted on input line 343.
 
 
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
 [4 <./Figure2-Expt_effect_of_contact.pdf>]
-<Figure3-Model_schematic.pdf, id=426, 913.30933pt x 994.59819pt>
+<Figure3-Model_schematic.pdf, id=424, 913.30933pt x 994.59819pt>
 File: Figure3-Model_schematic.pdf Graphic file (type pdf)
 <use Figure3-Model_schematic.pdf>
-Package pdftex.def Info: Figure3-Model_schematic.pdf  used on input line 380.
+Package pdftex.def Info: Figure3-Model_schematic.pdf  used on input line 379.
 (pdftex.def)             Requested size: 252.94499pt x 275.45033pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 380--387
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 379--386
 [][] 
  []
 
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 495.
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
+Underfull \hbox (badness 1629) in paragraph at lines 472--473
+|   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 496.
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
 
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 499--517
+Underfull \hbox (badness 1033) in paragraph at lines 500--518
 []\T1/ptm/m/n/9.5 Geometric param-e-ters and inter-fa-cial prop-er-ties were ke
 pt
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 499--517
+Underfull \hbox (badness 3954) in paragraph at lines 500--518
 \T1/ptm/m/n/9.5 the tarsal adhe-sive fluid to []|   []   |   []   |   []   |   
 []   |   []
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 499--517
+Underfull \hbox (badness 1874) in paragraph at lines 500--518
 |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
   |   []
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 499--517
+Underfull \hbox (badness 4144) in paragraph at lines 500--518
 |   []   |   []   |   []   |   []   |   []   |   []
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 499--517
+Underfull \hbox (badness 5563) in paragraph at lines 500--518
 |   []   |   []   [][]|   []   |   []   |   []   |   []   |   []   |   []
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 499--517
+Underfull \hbox (badness 3333) in paragraph at lines 500--518
 |   []   |   []   |   []   |   []
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 499--517
+Underfull \hbox (badness 3179) in paragraph at lines 500--518
 |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
@@ -883,10 +894,20 @@ Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
 [5 <./Figure3-Model_schematic.pdf>]
+Underfull \hbox (badness 1242) in paragraph at lines 563--606
+|   []   |   []   |   []   |   []   [][]|   [][][]|   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 563--606
+|   []   |   []   |   []   [][]|   [][][]|   []   |   []   |   []   |   []   | 
+  []
+ []
+
 <Figure4a-Single_bridge_fd.pdf, id=618, 609.27625pt x 519.9425pt>
 File: Figure4a-Single_bridge_fd.pdf Graphic file (type pdf)
 <use Figure4a-Single_bridge_fd.pdf>
-Package pdftex.def Info: Figure4a-Single_bridge_fd.pdf  used on input line 608.
+Package pdftex.def Info: Figure4a-Single_bridge_fd.pdf  used on input line 609.
 
 (pdftex.def)             Requested size: 216.81pt x 185.0212pt.
 <Figure4b-Single_bridge_force_contribution.pdf, id=619, 609.27625pt x 509.905pt
@@ -894,24 +915,22 @@ Package pdftex.def Info: Figure4a-Single_bridge_fd.pdf  used on input line 608.
 File: Figure4b-Single_bridge_force_contribution.pdf Graphic file (type pdf)
 <use Figure4b-Single_bridge_force_contribution.pdf>
 Package pdftex.def Info: Figure4b-Single_bridge_force_contribution.pdf  used on
- input line 610.
+ input line 611.
 (pdftex.def)             Requested size: 216.81pt x 181.44936pt.
+
+Underfull \hbox (badness 1231) in paragraph at lines 666--671
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []   |   []
+ []
+
 <Figure5-Model_effect_of_substrate.pdf, id=620, 849.97034pt x 473.214pt>
 File: Figure5-Model_effect_of_substrate.pdf Graphic file (type pdf)
 <use Figure5-Model_effect_of_substrate.pdf>
 Package pdftex.def Info: Figure5-Model_effect_of_substrate.pdf  used on input l
-ine 730.
+ine 731.
 (pdftex.def)             Requested size: 433.62pt x 241.42259pt.
-<Figure-8-contact_angle_schematic.pdf, id=621, 569.0058pt x 170.79811pt>
-File: Figure-8-contact_angle_schematic.pdf Graphic file (type pdf)
-<use Figure-8-contact_angle_schematic.pdf>
-Package pdftex.def Info: Figure-8-contact_angle_schematic.pdf  used on input li
-ne 763.
-(pdftex.def)             Requested size: 252.94499pt x 75.92542pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 763--767
-[][] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
@@ -919,6 +938,17 @@ Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<Figure-8-contact_angle_schematic.pdf, id=627, 569.0058pt x 170.79811pt>
+File: Figure-8-contact_angle_schematic.pdf Graphic file (type pdf)
+<use Figure-8-contact_angle_schematic.pdf>
+Package pdftex.def Info: Figure-8-contact_angle_schematic.pdf  used on input li
+ne 764.
+(pdftex.def)             Requested size: 252.94499pt x 75.92542pt.
+
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 764--768
+[][] 
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -941,10 +971,10 @@ F inclusion: multiple pdfs with page group included in a single page
 File: Figure7-Model_effect_of_bubble_volume.pdf Graphic file (type pdf)
 <use Figure7-Model_effect_of_bubble_volume.pdf>
 Package pdftex.def Info: Figure7-Model_effect_of_bubble_volume.pdf  used on inp
-ut line 823.
+ut line 824.
 (pdftex.def)             Requested size: 252.94499pt x 135.5011pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 823--829
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 824--830
 [][] 
  []
 
@@ -952,28 +982,17 @@ Overfull \hbox (2.05818pt too wide) in paragraph at lines 823--829
 File: Figure6-Model_effect_of_hair_size.pdf Graphic file (type pdf)
 <use Figure6-Model_effect_of_hair_size.pdf>
 Package pdftex.def Info: Figure6-Model_effect_of_hair_size.pdf  used on input l
-ine 838.
+ine 839.
 (pdftex.def)             Requested size: 252.94499pt x 131.44528pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 838--847
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 839--848
 [][] 
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 860--871
+Underfull \hbox (badness 3895) in paragraph at lines 861--872
 []\T1/ptm/m/n/9.5 Adhesion force increases with decreas-ing $\OML/cmm/m/it/9 D[
 ]$ \T1/ptm/m/n/9.5 for both
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 887--895
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 887--895
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []
  []
 
 
@@ -990,37 +1009,45 @@ pdfTeX warning: pdflatex.exe (file ./Figure7-Model_effect_of_bubble_volume.pdf)
 pdfTeX warning: pdflatex.exe (file ./Figure6-Model_effect_of_hair_size.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (18.71153pt too wide) in paragraph at lines 956--964
+Underfull \hbox (badness 1418) in paragraph at lines 888--896
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 888--896
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []
+ []
+
+
+Overfull \hbox (18.71153pt too wide) in paragraph at lines 957--965
 \T1/ptm/m/n/9.5 ern the lady-bug's adhe-sion and van der Waals []|   [][][]|   
 [][],
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 966--967
+Underfull \hbox (badness 1540) in paragraph at lines 967--968
 []|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
 ]
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 966--967
+Underfull \hbox (badness 2460) in paragraph at lines 967--968
 |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 966--967
+Underfull \hbox (badness 1024) in paragraph at lines 967--968
 |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 968--1009
+Underfull \hbox (badness 1102) in paragraph at lines 969--1010
 \T1/ptm/m/n/9.5 well to flu-o-ropoly-mer sub-strates (such as PTFE) []|   []
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 968--1009
+Underfull \hbox (badness 1454) in paragraph at lines 969--1010
 []\T1/ptm/m/n/9.5 . Geckos are thought to rely on van der Waals forces via
  []
 
@@ -1035,43 +1062,55 @@ Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 <Figure-9-Gecko_comparison.pdf, id=2160, 796.94276pt x 338.76137pt>
 File: Figure-9-Gecko_comparison.pdf Graphic file (type pdf)
 <use Figure-9-Gecko_comparison.pdf>
-Package pdftex.def Info: Figure-9-Gecko_comparison.pdf  used on input line 1012
+Package pdftex.def Info: Figure-9-Gecko_comparison.pdf  used on input line 1013
 .
 (pdftex.def)             Requested size: 252.94499pt x 107.51675pt.
 
-Overfull \hbox (2.05818pt too wide) in paragraph at lines 1012--1027
+Overfull \hbox (2.05818pt too wide) in paragraph at lines 1013--1028
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1078.
-
-(./manuscript_changed.bbl
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
 
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
 [10 <./Figure-9-Gecko_comparison.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1082.
+ (./manuscript_changed.bbl
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
+
+Underfull \hbox (badness 1365) in paragraph at lines 27--29
+\T1/ptm/b/n/8 Spon-berg, S., Kenny, T. W., Fear-ing, R., Israelachvili, J. N. a
+nd
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
 
-AED: lastpage setting LastPage
-- LAST -
-Extra skip:51.07196pt
-Left:558.0pt/1.43193pt
-Right:506.62804pt/1.73193pt
-Output:558.31401pt
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \vbox (5.44592pt too high) has occurred while \output is active []
 
 
-[11] (./manuscript_changed.aux)
+[11]) 
+AED: lastpage setting LastPage
+- LAST -
+Extra skip:0.0pt
+Left:18.0pt/1.73193pt
+Right:18.0pt/1.73193pt
+Output:19.0pt
+
+Overfull \vbox (5.44592pt too high) has occurred while \output is active []
+
+
+[12] (./manuscript_changed.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.25pt have occurred.
@@ -1083,11 +1122,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  8464 strings out of 492623
  117893 string characters out of 6133291
- 263085 words of memory out of 5000000
+ 274086 words of memory out of 5000000
  12136 multiletter control sequences out of 15000+600000
  106273 words of font info for 147 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 55i,19n,49p,1925b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,19n,49p,1925b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
@@ -1104,10 +1143,10 @@ tic/uhvb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
 19/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on manuscript_changed.pdf (11 pages, 3731445 bytes).
+Output written on manuscript_changed.pdf (12 pages, 3740103 bytes).
 PDF statistics:
- 2297 PDF objects out of 2487 (max. 8388607)
- 1549 compressed objects within 16 object streams
+ 2300 PDF objects out of 2487 (max. 8388607)
+ 1551 compressed objects within 16 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

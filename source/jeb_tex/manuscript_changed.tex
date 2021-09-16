@@ -1,7 +1,7 @@
 %% Author_tex.tex
 %DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL manuscript_old.tex   Fri Aug  6 01:53:02 2021
-%DIF ADD manuscript_new.tex   Fri Aug  6 01:46:14 2021
+%DIF DEL manuscript_old.tex    Fri Aug  6 01:53:02 2021
+%DIF ADD manuscript_new2.tex   Thu Sep 16 12:45:47 2021
 %% V1.0
 %% developed by Nova Techset
 %%
@@ -99,10 +99,10 @@
 
 \DIFdelbegin %DIFDELCMD < \corres{(\email{endlein01@mpip-mainz.mpg.de}; \email{xxxx@xxxx.xxx.xx})}
 %DIFDELCMD < %%%
-\DIFdelend \DIFaddbegin \corres{(\email{endlein01@mpip-mainz.mpg.de})}
+\DIFdelend \DIFaddbegin \corres{(\email{endlein@gmail.com})}
 \DIFaddend 
 
-\date{Received 11 May 2021; revised 11 May 2021} %CHECK DATE
+\date{Received 11 May 2021; revised \DIFdelbegin \DIFdel{11 May }\DIFdelend \DIFaddbegin \DIFadd{16 September }\DIFaddend 2021} %CHECK DATE
 
 \maketitle
 
@@ -186,7 +186,7 @@ another without removing any glue. It also had transparent side walls
 which allowed us to fill it with water for the underwater experiments
 as well as observe the contact. The force sensor was mounted on a stage
 consisting of a X-piezo element\DIFdelbegin \DIFdel{(}\emph{\DIFdel{Physik Instrumente, Germany}}%DIFAUXCMD
-\DIFdel{)}\DIFdelend , used for precise lateral movements. Additionally, a separate Z-piezo element \DIFdelbegin \DIFdel{, }\DIFdelend \DIFaddbegin \DIFadd{(P-629.1CD, }\emph{\DIFadd{Physik Instrumente, Germany}}\DIFadd{, resolution = 3 nm), }\DIFaddend fixed upright,
+\DIFdel{)}\DIFdelend , used for precise lateral movements \DIFaddbegin \DIFadd{(step size = 75 nm)}\DIFaddend . Additionally, a separate Z-piezo element \DIFdelbegin \DIFdel{, }\DIFdelend \DIFaddbegin \DIFadd{(P-629.1CD, }\emph{\DIFadd{Physik Instrumente, Germany}}\DIFadd{, resolution = 3 nm), }\DIFaddend fixed upright,
 was used for vertical up-down motion, bringing the insect in contact
 with the substrate from the top. Coarse movements of the bottom stage were done using the XYZ motors (\emph{OWIS GmbH, Germany}).
 A coaxial illuminated tube microscope
@@ -212,9 +212,8 @@ with the surface. Next, a short pause (1 s) \DIFdelbegin \DIFdel{removed }\DIFde
 viscoelastic effects before finally retracting the leg away from the
 substrate. All approach, retract and lateral slide motion \DIFdelbegin \DIFdel{was }\DIFdelend \DIFaddbegin \DIFadd{were }\DIFaddend done
 at a speed of 62.5 \textmu m s\protect\textsuperscript{-1}. Ventral view video recordings
-were used for contact area extraction while the side view imaging
-was used to visually aid orienting the pad with the substrate before
-a test.
+were used for contact area extraction while the side view imaging was used to \DIFdelbegin \DIFdel{visually aid }\DIFdelend \DIFaddbegin \DIFadd{aid in }\DIFaddend orienting the pad
+with the substrate before a test.
 
 For underwater experiments, 1 ml Milli-Q water was pipetted into the
 substrate holder (roughly 3 mm water level). The beetle \DIFaddbegin \DIFadd{(roughly 5 mm long) }\DIFaddend was then partially 
@@ -228,24 +227,24 @@ Five force measurements were subsequently performed, each on a fresh spot of the
 bubble}'' and ``\emph{underwater: no bubble}'') and substrate chemistry (hydrophilic and hydrophobic), \DIFaddbegin \DIFadd{using }\DIFaddend 5 beetles for each  combination. \DIFaddbegin \DIFadd{Thus, 30 distinct beetles were used in total. }\DIFaddend After an experiment, the beetle was marked on its elytra and released back into the box to ensure the same beetle was not used for any subsequent adhesion tests.
 
 
-%\DIFdelbegin %DIFDELCMD < \begin{figure*}[!t]
-%%DIFDELCMD < \centering
-%%DIFDELCMD < \includegraphics[width=6in]{Figure1-Setup_schematic}%%%
-%%DIF < 
-%%DIFDELCMD < \caption[]{%
-%{%DIFAUXCMD
-%\DIFdelFL{Adhesion test setup (see text for details). Top-left inset shows a magnified cartoon of the beetle's leg constrained to a solder wire (grey) using Blu Tack (blue) and epoxy glue (orange). The recorded force data and
-%contact area of a distal pad are shown in the bottom-right plot, in which, the shaded
-%regions from left to right represent the distinct movement sequence: approach, lateral pull, approach, pause and retract, respectively. Negative force values
-%represent attraction and the minimum force peak during the final retraction
-%step is the adhesion force used for further analysis. An animated version of a typical force recording is available in the supplementary material (see Movie1).}}
-%%DIFAUXCMD
-%%DIFDELCMD < \label{fig:Setup}
-%%DIFDELCMD < \end{figure*}
-%%DIFDELCMD < 
-%
-%%DIFDELCMD < %%%
-%\DIFdelend %\begin{figure}
+\DIFdelbegin %DIFDELCMD < \begin{figure*}[!t]
+%DIFDELCMD < \centering
+%DIFDELCMD < \includegraphics[width=6in]{Figure1-Setup_schematic}%%%
+%DIF < 
+%DIFDELCMD < \caption[]{%
+{%DIFAUXCMD
+\DIFdelFL{Adhesion test setup (see text for details). Top-left inset shows a magnified cartoon of the beetle's leg constrained to a solder wire (grey) using Blu Tack (blue) and epoxy glue (orange). The recorded force data and
+contact area of a distal pad are shown in the bottom-right plot, in which, the shaded
+regions from left to right represent the distinct movement sequence: approach, lateral pull, approach, pause and retract, respectively. Negative force values
+represent attraction and the minimum force peak during the final retraction
+step is the adhesion force used for further analysis. An animated version of a typical force recording is available in the supplementary material (see Movie1).}}
+%DIFAUXCMD
+%DIFDELCMD < \label{fig:Setup}
+%DIFDELCMD < \end{figure*}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend %\begin{figure}
 %\begin{centering}
 %\includegraphics[width=3in]{Figure1-Setup_schematic}
 %\par\end{centering}
@@ -374,7 +373,7 @@ bridge of height, $d$. Similar to our experiments, we considered three
 modes of contact for the pad: 1) \emph{In air}, 2) \emph{Underwater:
 no bubble} and 3) \emph{Underwater: bubble}. In the third case, a
 bubble of volume, $V_{b}$, is trapped between the hairs and pinned
-to the pad circumference.
+to the pad circumference \DIFaddbegin \DIFadd{(``Cassie state")}\DIFaddend .
 
 \begin{figure}
 \includegraphics[width=3.5in]{Figure3-Model_schematic}
@@ -467,7 +466,12 @@ is the interfacial tension of the tarsal adhesive fluid with water.
 %DIF > to $\gamma_{fa}$. Non dimensional bubble volume was expressed as,
 %DIF > $\hat{V}_{b}=V_{b}/s_{f}^{3}$
 
-\DIFdelbegin \DIFdel{All lengths (}\DIFdelend \DIFaddbegin \begin{table}[!t]
+\DIFdelbeginFL \DIFdelFL{All lengths ($d$) were normalised w.r.t. $s_{f}$ and forces were normalized
+w.r.t. $\gamma_{fa}s_{f}$. Interfacial tensionvalues were fixed relative
+to $\gamma_{fa}$. Non dimensional bubble volumewas expressed as, $\hat{V}_{b}=V_{b}/s_{f}^{3}$
+}\DIFdelendFL 
+
+\DIFaddbegin \begin{table}[!t]
 \processtable{Fixed parameters corresponding to the pad's geometry, 
 tarsal fluid and substrate wetting properties used in the capillary bridge model \label{tab:Model-parameters}}
 {\begin{tabular*}{3.5in}{@{\extracolsep{\fill}}lllll@{}}
@@ -480,10 +484,7 @@ tarsal fluid and substrate wetting properties used in the capillary bridge model
 \DIFaddFL{Hair length}\DIFaddendFL , $L$ \DIFaddbeginFL & \DIFaddFL{40 }\textmu \DIFaddFL{m}\\
 \DIFaddFL{Water surface tension, $\gamma_{wa}$ }& \DIFaddFL{72 mN m\textsuperscript{-1}}\\
 \DIFaddFL{Tarsal fluid-air surface tension}\DIFaddendFL , 
-%\DIFdelbeginFL \DIFdelFL{$d$) were normalised w.r.t. $s_{f}$ and forces were normalized
-%w.r.t. $\gamma_{fa}s_{f}$. Interfacial tensionvalues were fixed relative
-%to $\gamma_{fa}$. Non dimensional bubble volumewas expressed as, $\hat{V}_{b}=V_{b}/s_{f}^{3}$
-%}\DIFdelendFL 
+
 \DIFaddbeginFL \DIFaddFL{$\gamma_{fw}$ }& \DIFaddFL{27 mN m\textsuperscript{-1}}\\
 \DIFaddFL{Tarsal fluid-water interfacial tension, $\gamma_{fw}$ }& \DIFaddFL{55 mN m\textsuperscript{-1}}\\
 \DIFaddFL{Tarsal fluid volume, $V_{f}$ }& \DIFaddFL{4 fL}\\
@@ -551,40 +552,40 @@ was studied for each case\DIFaddbegin \DIFadd{, to illustrate the ``contact spli
 %tarsal fluid and substrate wetting properties used in the capillary bridge model}
 %\end{table}
 
-%\DIFdelbegin %DIFDELCMD < \begin{table}[!t]
-%%DIFDELCMD < \processtable{Fixed parameters corresponding to the pad's geometry, 
-%%DIFDELCMD < tarsal fluid and substrate wetting properties used in the capillary bridge model \label{tab:Model-parameters}}
-%%DIFDELCMD < {\begin{tabular*}{3.5in}{@{\extracolsep{\fill}}lllll@{}}
-%%DIFDELCMD < \hline
-%%DIFDELCMD < \TCH{Property} & \TCH{Value} \\
-%%DIFDELCMD < \hline
-%%DIFDELCMD < %%%
-%\DIFdelFL{Contact area fraction, $\alpha$ }%DIFDELCMD < & %%%
-%\DIFdelFL{0.1}%DIFDELCMD < \\
-%%DIFDELCMD < %%%
-%\DIFdelFL{Hair aspect ratio, $L/D_{h}$ }%DIFDELCMD < & %%%
-%\DIFdelFL{10}%DIFDELCMD < \\
-%%DIFDELCMD < %%%
-%\DIFdelFL{Water surface tension ratio, $\gamma_{wa}/\gamma_{fa}$ }%DIFDELCMD < & %%%
-%\DIFdelFL{3}%DIFDELCMD < \\
-%%DIFDELCMD < %%%
-%\DIFdelFL{Tarsal fluid-water interfacial tension ratio, $\gamma_{fw}/\gamma_{fa}$ }%DIFDELCMD < & %%%
-%\DIFdelFL{2}%DIFDELCMD < \\
-%%DIFDELCMD < %%%
-%\DIFdelFL{Tarsal fluid size parameter, $\phi_{f}$ }%DIFDELCMD < & %%%
-%\DIFdelFL{2}%DIFDELCMD < \\
-%%DIFDELCMD < \multirow{2}{*}{Hydrophilic substrate wetting} &  %%%
-%\DIFdelFL{$\theta_{fa}=6\lyxmathsym{\textdegree}$}%DIFDELCMD < \\
-%%DIFDELCMD <     & %%%
-%\DIFdelFL{$\theta_{wa}=24\lyxmathsym{\textdegree}$}%DIFDELCMD < \\
-%%DIFDELCMD < \multirow{2}{*}{Hydrophobic substrate wetting} &  %%%
-%\DIFdelFL{$\theta_{fa}=50\lyxmathsym{\textdegree}$}%DIFDELCMD < \\
-%%DIFDELCMD <     & %%%
-%\DIFdelFL{$\theta_{wa}=120\lyxmathsym{\textdegree}$
-%}%DIFDELCMD < \end{tabular*}}{}
-%%DIFDELCMD < \end{table}
-%%DIFDELCMD < %%%
-%\DIFdelend %DIF > \begin{table}[!t]
+\DIFdelbegin %DIFDELCMD < \begin{table}[!t]
+%DIFDELCMD < \processtable{Fixed parameters corresponding to the pad's geometry, 
+%DIFDELCMD < tarsal fluid and substrate wetting properties used in the capillary bridge model \label{tab:Model-parameters}}
+%DIFDELCMD < {\begin{tabular*}{3.5in}{@{\extracolsep{\fill}}lllll@{}}
+%DIFDELCMD < \hline
+%DIFDELCMD < \TCH{Property} & \TCH{Value} \\
+%DIFDELCMD < \hline
+%DIFDELCMD < %%%
+\DIFdelFL{Contact area fraction, $\alpha$ }%DIFDELCMD < & %%%
+\DIFdelFL{0.1}%DIFDELCMD < \\
+%DIFDELCMD < %%%
+\DIFdelFL{Hair aspect ratio, $L/D_{h}$ }%DIFDELCMD < & %%%
+\DIFdelFL{10}%DIFDELCMD < \\
+%DIFDELCMD < %%%
+\DIFdelFL{Water surface tension ratio, $\gamma_{wa}/\gamma_{fa}$ }%DIFDELCMD < & %%%
+\DIFdelFL{3}%DIFDELCMD < \\
+%DIFDELCMD < %%%
+\DIFdelFL{Tarsal fluid-water interfacial tension ratio, $\gamma_{fw}/\gamma_{fa}$ }%DIFDELCMD < & %%%
+\DIFdelFL{2}%DIFDELCMD < \\
+%DIFDELCMD < %%%
+\DIFdelFL{Tarsal fluid size parameter, $\phi_{f}$ }%DIFDELCMD < & %%%
+\DIFdelFL{2}%DIFDELCMD < \\
+%DIFDELCMD < \multirow{2}{*}{Hydrophilic substrate wetting} &  %%%
+\DIFdelFL{$\theta_{fa}=6\lyxmathsym{\textdegree}$}%DIFDELCMD < \\
+%DIFDELCMD <     & %%%
+\DIFdelFL{$\theta_{wa}=24\lyxmathsym{\textdegree}$}%DIFDELCMD < \\
+%DIFDELCMD < \multirow{2}{*}{Hydrophobic substrate wetting} &  %%%
+\DIFdelFL{$\theta_{fa}=50\lyxmathsym{\textdegree}$}%DIFDELCMD < \\
+%DIFDELCMD <     & %%%
+\DIFdelFL{$\theta_{wa}=120\lyxmathsym{\textdegree}$
+}%DIFDELCMD < \end{tabular*}}{}
+%DIFDELCMD < \end{table}
+%DIFDELCMD < %%%
+\DIFdelend %DIF > \begin{table}[!t]
 %DIF > \processtable{Fixed parameters corresponding to the pad's geometry, 
 %DIF > tarsal fluid and substrate wetting properties used in the capillary bridge model \label{tab:Model-parameters}}
 %DIF > {\begin{tabular*}{3.5in}{@{\extracolsep{\fill}}lllll@{}}
@@ -644,32 +645,32 @@ For contact angles greater than 150\textdegree , the net adhesion
 force approaches zero.
 
 
-%\DIFdelbegin %DIFDELCMD < \begin{figure*}[!t]
-%%DIFDELCMD < \centering
-%%DIFDELCMD < \subfloat[Force-distance curves]{\includegraphics[width=3in]{Figure4a-Single_bridge_fd}\label{fig_first_case}}%%%
-%%DIF < 
-%%DIFDELCMD < \hskip3pc
-%%DIFDELCMD < \subfloat[Force contributions]{\includegraphics[width=3in]{Figure4b-Single_bridge_force_contribution}\label{fig_second_case}}%%%
-%%DIF < 
-%%DIFDELCMD < \caption[]{%
-%{%DIFAUXCMD
-%\DIFdelFL{Simulation of normalised capillary force of a single liquid
-%bridge in contact with a substrate and pinned to a circular perimeter
-%on top. Fluid size parameter, $\phi_{f}=2$. Negative force values
-%represents attraction. a) Force-distance curves are shown for different
-%contact angles of the liquid with the substrate. b) Adhesion forces,
-%calculated from the minima of the corresponding force-distance curves,
-%are plotted as a function of contact angle with the substrate, together
-%with its Laplace and surface tension components (equation S1 in supplementary section).
-%Simulation snapshots of the liquid meniscus corresponding to angles
-%6\textdegree{} and 150\textdegree{} are depicted.}}
-%%DIFAUXCMD
-%%DIFDELCMD < \label{fig:Single-bridge}
-%%DIFDELCMD < \end{figure*}
-%%DIFDELCMD < 
-%
-%%DIFDELCMD < %%%
-%\DIFdelend %\begin{figure}
+\DIFdelbegin %DIFDELCMD < \begin{figure*}[!t]
+%DIFDELCMD < \centering
+%DIFDELCMD < \subfloat[Force-distance curves]{\includegraphics[width=3in]{Figure4a-Single_bridge_fd}\label{fig_first_case}}%%%
+%DIF < 
+%DIFDELCMD < \hskip3pc
+%DIFDELCMD < \subfloat[Force contributions]{\includegraphics[width=3in]{Figure4b-Single_bridge_force_contribution}\label{fig_second_case}}%%%
+%DIF < 
+%DIFDELCMD < \caption[]{%
+{%DIFAUXCMD
+\DIFdelFL{Simulation of normalised capillary force of a single liquid
+bridge in contact with a substrate and pinned to a circular perimeter
+on top. Fluid size parameter, $\phi_{f}=2$. Negative force values
+represents attraction. a) Force-distance curves are shown for different
+contact angles of the liquid with the substrate. b) Adhesion forces,
+calculated from the minima of the corresponding force-distance curves,
+are plotted as a function of contact angle with the substrate, together
+with its Laplace and surface tension components (equation S1 in supplementary section).
+Simulation snapshots of the liquid meniscus corresponding to angles
+6\textdegree{} and 150\textdegree{} are depicted.}}
+%DIFAUXCMD
+%DIFDELCMD < \label{fig:Single-bridge}
+%DIFDELCMD < \end{figure*}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend %\begin{figure}
 %%\begin{minipage}[t]{0.5\columnwidth}%
 %\includegraphics[scale=0.5]{Figure4a-Single_bridge_fd}
 %
@@ -904,8 +905,8 @@ underwater adhesion due to the hairs making contact in a de-wetted
 environment. For a hydrophobic substrate, the adhesion is similar
 regardless of whether the contact occurs in air or underwater conditions,
 with or without a trapped bubble. Our theoretical calculations further
-show that the bubble by itself has a negligible capillary contribution
-to the net underwater adhesion of the pad. Direct force measurement
+show that the bubble by itself has a negligible capillary contribution \DIFaddbegin \DIFadd{(less than 3\%)
+}\DIFaddend to the net underwater adhesion of the pad. Direct force measurement
 of a single similarly sized bubble making contact with a hydrophobic
 substrate shows a maximum adhesion less than 50 \textmu N, which
 further validates that the bubble's contribution is insignificant
@@ -1033,7 +1034,7 @@ respectively, as reported in \citet{RN15}.}
 have to cope with all kinds of surfaces including rough ones.
 Previous studies \citep{RN136} have shown that substrate roughness
 is a more dominant parameter than substrate chemistry in controlling
-ladybug beetle traction force\DIFaddbegin \DIFadd{. Here, the length scale of surface roughness relative to the tarsal fluid thickness would be important in the formation of stable capillary bridges. Further, the presence of air plastron between the roughness asperities can influence the nature of contact when underwater}\DIFaddend . Future work will explore how roughness can impact
+ladybug beetle traction force. \DIFaddbegin \DIFadd{Here, the length scale of surface roughness relative to the tarsal fluid thickness would be important in the formation of stable capillary bridges. Further, the presence of air plastron between the roughness asperities can influence the nature of contact when underwater. }\DIFaddend Future work will explore how roughness can impact
 the net capillary force also in wet and submerged conditions. In our study, we have only considered normal adhesive forces, but insects like beetles in general rely on friction or shear forces during locomotion. Friction force usually correlates directly with the normal force, which is probably why previously reported shear adhesion forces of the dock beetle \citep{RN87} follow a similar qualitative trend as our normal adhesion force measurements on the ladybug beetle in both air and underwater conditions. However, the details of the interplay between friction and normal adhesion forces in animals is an open question and is beyond the scope of this paper. 
 
 Our study can contribute to potential applications in the design of bio-inspired materials to achieve underwater adhesion
@@ -1052,7 +1053,7 @@ air bubble within its hairy pad, although it loses this ability on
 a hydrophilic substrate. This is explained theoretically by the different
 contact angle and interfacial tension of the secreted fluid in air
 and underwater conditions. Further, the bubble itself has a negligible
-capillary contribution to the total force. The trapped bubble can
+capillary contribution \DIFaddbegin \DIFadd{(less than 3\%) }\DIFaddend to the total force. The trapped bubble can
 promote adhesion only on a hydrophilic substrate by providing an air
 medium to the adhesive fluid bridges inside it. Oil wettability, thus,
 primarily controls the insect's adhesion in any given condition. 
@@ -1065,7 +1066,10 @@ to better understand the fundamental nature of an animal's adhesion.
 
 %\section{Acknowledgements}
 
-\ack{We are grateful to Prof. Dr. Eduard Arzt and Dr. Ren\' {e} Hensel (Leibniz Institute for New Materials, Saarbr\"{u}cken, Germany)  for fruitful discussions.} 
+\DIFdelbegin %DIFDELCMD < \ack{We are grateful to Prof. Dr. Eduard Arzt and Dr. Ren\' {e} Hensel (Leibniz Institute for New Materials, Saarbr\"{u}cken, Germany)  for fruitful discussions.} 
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \ack{We are grateful to Prof. Dr. Eduard Arzt and Dr. Ren\' {e} Hensel (Leibniz Institute for New Materials, Saarbr\"{u}cken, Germany)  for fruitful discussions. We further thank the referees for their valuable suggestions in improving the text.} 
+\DIFaddend 
 
 %\section{Competing interests}
 \competing{The authors declare no competing or financial interests.}
